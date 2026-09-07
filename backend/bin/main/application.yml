@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: cyber-risk-platform
+
+  profiles:
+    active: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    open-in-view: false
+
+---
+spring:
+  config:
+    activate:
+      on-profile: postgres
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/riskforge_ai
+    username: postgres
+    password: tanisha1
+    driver-class-name: org.postgresql.Driver
