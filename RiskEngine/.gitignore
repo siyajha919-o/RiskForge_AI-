@@ -1,0 +1,31 @@
+# Environments
+venv/
+.venv/
+env/
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Trained models and scalers (regenerate with: python main.py --mode full)
+models/
+*.keras
+*.pkl
+
+# Generated outputs
+outputs/
+logs/
+
+# Stray files from the old model-path bug — regenerated into models/ now
+modelsclassification_model.keras
+modelsregression_model.keras
+modelsscalers.pkl
+modelsbest_model_names.pkl
+
+# OS / editor
+.DS_Store
+.vscode/
+.run/

@@ -1,0 +1,432 @@
+/* Login screen styling.
+ *
+ * Shares the app-wide Ivory / Moss / Smoke / Garden / Midnight palette defined
+ * in src/index.css, rather than declaring its own colours — so the sign-in
+ * screen and the authenticated app cannot drift apart again. Only the layout
+ * (full-viewport stage, centred glass panel) stays specific to this screen.
+ *
+ * `#stage` scopes everything so it cannot leak into the Tailwind-styled app
+ * shell, and `html, body { overflow: hidden }` is applied by the component on
+ * mount and removed on unmount for the same reason. */
+
+#stage {
+  /* Derived from the central palette in index.css rather than redeclared, so
+     the login stage and the app shell cannot drift apart. */
+  --ink: var(--color-ink);
+  --steel: var(--color-muted);
+  --mist: var(--color-cream);
+  --sand: var(--color-warm);
+
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: var(--ink);
+  font-family: 'Segoe UI', -apple-system, sans-serif;
+}
+
+#stage *,
+#stage *::before,
+#stage *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* The renderer sizes its drawing buffer but not the element (updateStyle=false),
+   so the canvas is stretched to the stage here. */
+#stage .stage-canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#stage .grain {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(60, 62, 74, 0.05) 1px, transparent 1px);
+  background-size: 3px 3px;
+}
+
+#stage .topbar {
+  position: absolute;
+  top: 36px;
+  left: 48px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+/* The SVG mark inherits its colour through `currentColor`, so the whole logo
+   follows the palette from one declaration. */
+#stage .topbar .mark {
+  display: block;
+  flex: none;
+  color: var(--sand);
+}
+#stage .topbar .brand {
+  color: var(--mist);
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  font-weight: 600;
+}
+#stage .topbar .brand small {
+  display: block;
+  color: var(--steel);
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+/* Two columns on a wide viewport: what the product is on the left, the way in
+   on the right. Below 1080px the intro drops away rather than stacking — a
+   sign-in screen that scrolls to reach its own password field is worse than
+   one that simply says less. */
+#stage .stage-body {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(40px, 7vw, 110px);
+  padding: 0 clamp(24px, 6vw, 96px);
+}
+
+#stage .intro {
+  max-width: 480px;
+  justify-self: end;
+}
+
+#stage .intro-eyebrow {
+  color: var(--steel);
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+#stage .intro-title {
+  color: var(--mist);
+  font-size: clamp(30px, 3.6vw, 42px);
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  margin-bottom: 16px;
+}
+
+#stage .intro-lede {
+  color: rgba(60, 62, 74, 0.72);
+  font-size: 14.5px;
+  line-height: 1.65;
+  margin-bottom: 30px;
+}
+
+#stage .cap-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 30px;
+}
+#stage .cap-list li {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-left: 14px;
+  border-left: 2px solid rgba(60, 62, 74, 0.18);
+}
+#stage .cap-name {
+  color: var(--mist);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+#stage .cap-detail {
+  color: var(--steel);
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+#stage .frameworks {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-top: 18px;
+  border-top: 1px solid rgba(60, 62, 74, 0.14);
+}
+#stage .frameworks-label {
+  color: var(--steel);
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  flex: none;
+}
+#stage .frameworks-list {
+  color: rgba(60, 62, 74, 0.72);
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+
+#stage .panel-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#stage .panel {
+  width: 380px;
+  max-width: 90vw;
+  padding: 40px 34px 32px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.62);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(60, 62, 74, 0.14);
+  box-shadow: 0 1px 2px rgba(60, 62, 74, 0.06), 0 14px 40px rgba(60, 62, 74, 0.12);
+}
+#stage .panel .eyebrow {
+  color: var(--steel);
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#stage .panel h1 {
+  color: var(--sand);
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: 0.3px;
+}
+#stage .panel .sub {
+  color: rgba(60, 62, 74, 0.7);
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+#stage .field {
+  margin-bottom: 18px;
+}
+#stage .field label {
+  display: block;
+  color: var(--steel);
+  font-size: 10.5px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+#stage .field .input-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid rgba(60, 62, 74, 0.28);
+  padding-bottom: 10px;
+  transition: border-color 0.2s ease;
+}
+#stage .field .input-row:focus-within {
+  border-color: var(--sand);
+}
+#stage .field svg {
+  flex-shrink: 0;
+  opacity: 0.6;
+}
+#stage .field input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--mist);
+  font-size: 14.5px;
+  font-family: inherit;
+}
+#stage .field input::placeholder {
+  color: rgba(60, 62, 74, 0.42);
+}
+#stage .field .eye {
+  cursor: pointer;
+  opacity: 0.5;
+  background: none;
+  border: none;
+  display: flex;
+  transition: opacity 0.2s ease;
+}
+#stage .field .eye:hover {
+  opacity: 0.9;
+}
+
+#stage .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0 26px;
+  font-size: 12.5px;
+}
+#stage .row label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(60, 62, 74, 0.72);
+  cursor: pointer;
+}
+#stage .row input[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--steel);
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+  flex: none;
+}
+#stage .row input[type='checkbox']:checked {
+  background: var(--steel);
+}
+#stage .row input[type='checkbox']:checked::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 3px;
+  height: 7px;
+  border: solid var(--ink);
+  border-width: 0 1.5px 1.5px 0;
+  transform: rotate(45deg);
+}
+#stage .row a,
+#stage .row .link {
+  color: var(--steel);
+  text-decoration: none;
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+#stage .row a:hover,
+#stage .row .link:hover {
+  color: var(--sand);
+}
+
+#stage .submit {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 3px;
+  background: var(--sand);
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: transform 0.15s ease, background 0.2s ease, opacity 0.2s ease;
+}
+#stage .submit:hover {
+  background: #4c4f5d;
+  transform: translateY(-1px);
+}
+#stage .submit:disabled {
+  opacity: 0.6;
+  cursor: progress;
+  transform: none;
+  background: var(--sand);
+}
+
+/* Error surface — additive; the standalone design had nowhere to report a
+   failed sign-in. Drawn from the same palette. */
+#stage .alert {
+  margin-top: 18px;
+  border: 1px solid rgba(155, 51, 48, 0.35);
+  border-left: 2px solid #9b3330;
+  background: rgba(155, 51, 48, 0.07);
+  color: #9b3330;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 10px 12px;
+  border-radius: 3px;
+}
+
+/* Demo credentials. Deliberately quiet — a recessed Garden block rather than a
+   callout, so it reads as a footnote to the form and never competes with the
+   primary action above it. */
+#stage .demo {
+  margin-top: 24px;
+  padding: 14px 14px 12px;
+  border-radius: 4px;
+  border: 1px dashed rgba(60, 62, 74, 0.22);
+  background: rgba(224, 223, 210, 0.55);
+}
+#stage .demo-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+#stage .demo-label {
+  color: var(--steel);
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+#stage .demo-fill {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--sand);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+#stage .demo-fill:hover {
+  opacity: 0.7;
+}
+#stage .demo-creds {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 4px 12px;
+  font-size: 11.5px;
+  line-height: 1.5;
+}
+#stage .demo-creds dt {
+  color: var(--steel);
+}
+#stage .demo-creds dd {
+  color: var(--mist);
+  font-family: 'Consolas', monospace;
+  /* Long credentials wrap inside the panel instead of widening it. */
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 1080px) {
+  /* Single column: the form is the job, the pitch is optional. */
+  #stage .stage-body {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+  }
+  #stage .intro {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  #stage .stage-body {
+    padding: 0 20px;
+  }
+  #stage .topbar {
+    left: 20px;
+  }
+}

@@ -1,0 +1,3 @@
+asset_id,organization_id,business_unit_id,asset_name,asset_type,operating_system,environment,internet_exposed,data_classification,asset_criticality,confidentiality_score,integrity_score,availability_score,dependency_count,asset_age_days,current_risk_score,device_risk_score,open_port_count,firewall_enabled,disk_encrypted,pending_updates,last_seen
+DEV-Unknown_be:dd:80:54:d5:3f,ORG-001,BU-0001,Spare-Laptop-01,Managed Endpoint,Darwin 25.5.0,Production,False,Confidential,Critical,8,7,7,1,1,6.6,66.3,0,False,False,1,2026-09-08T13:20:57.144200+00:00
+DEV-SIYAs-Air,ORG-001,BU-0001,SIYAs-Air,Managed Endpoint,Darwin 25.5.0,Production,False,Confidential,High,8,7,7,1,1,5.3,53.0,1,False,False,1,2026-09-08T19:53:33.804151+00:00

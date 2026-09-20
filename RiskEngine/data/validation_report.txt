@@ -1,0 +1,47 @@
+=== FOREIGN KEY VALIDATION REPORT ===
+
+business_units.csv             organization_id      -> PASS
+assets.csv                     organization_id      -> PASS
+assets.csv                     business_unit_id     -> PASS
+vulnerabilities.csv            asset_id             -> PASS
+security_controls.csv          organization_id      -> PASS
+asset_controls.csv             asset_id             -> PASS
+asset_controls.csv             control_id           -> PASS
+security_incidents.csv         organization_id      -> PASS
+security_incidents.csv         asset_id             -> PASS
+security_incidents.csv         business_unit_id     -> PASS
+security_incidents.csv         threat_id            -> PASS
+business_impact.csv            asset_id             -> PASS
+iam_risk.csv                   asset_id             -> PASS
+edr_telemetry.csv              asset_id             -> PASS
+cloud_security.csv             asset_id             -> PASS
+compliance_mapping.csv         control_id           -> PASS
+remediation_actions.csv        vulnerability_id     -> PASS
+remediation_actions.csv        asset_id             -> PASS
+investment_options.csv         organization_id      -> PASS
+risk_calculations.csv          asset_id             -> PASS
+risk_calculations.csv          vulnerability_id     -> PASS
+risk_calculations.csv          threat_id            -> PASS
+optimization_results.csv       organization_id      -> PASS
+
+=== PRIMARY KEY UNIQUENESS ===
+
+organizations.csv              organization_id      -> PASS (25 rows)
+business_units.csv             business_unit_id     -> PASS (152 rows)
+assets.csv                     asset_id             -> PASS (10000 rows)
+vulnerabilities.csv            vulnerability_id     -> PASS (30000 rows)
+threat_intelligence.csv        threat_id            -> PASS (5000 rows)
+security_controls.csv          control_id           -> PASS (392 rows)
+asset_controls.csv             asset_control_id     -> PASS (55103 rows)
+security_incidents.csv         incident_id          -> PASS (20000 rows)
+business_impact.csv            impact_id            -> PASS (10000 rows)
+iam_risk.csv                   iam_event_id         -> PASS (10000 rows)
+edr_telemetry.csv              telemetry_id         -> PASS (10000 rows)
+cloud_security.csv             cloud_event_id       -> PASS (5977 rows)
+compliance_mapping.csv         mapping_id           -> PASS (1176 rows)
+remediation_actions.csv        remediation_id       -> PASS (30000 rows)
+investment_options.csv         investment_id        -> PASS (292 rows)
+risk_calculations.csv          risk_id              -> PASS (50000 rows)
+optimization_results.csv       scenario_id          -> PASS (150 rows)
+
+OVERALL RESULT: ALL CHECKS PASSED ✓

@@ -1,0 +1,16 @@
+# Test-only configuration. This secret is deliberately committed and is valid
+# ONLY for the test profile — the runtime reads JWT_SECRET from the environment
+# with no default, so this value can never leak into a real deployment.
+security:
+  jwt:
+    secret: 2HE35ynD9RxNwryLjSedCqH/yeuX5U8BxCcy3Z8zg8TWX4jJkdxmQwvsIapFnEG0kR9Q6sn6arSQ6rbsJ1AA3g==
+    expiration-minutes: 60
+  cors:
+    allowed-origins: http://localhost:5173
+  admin-bootstrap:
+    email: ""
+    password: ""
+
+risk-engine:
+  url: http://localhost:8000
+  shared-secret: ""

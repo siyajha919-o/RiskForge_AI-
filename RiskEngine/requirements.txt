@@ -1,0 +1,39 @@
+# Requires Python 3.10+ (scipy>=1.14). Verified on 3.12 — see requirements.lock.txt
+
+# Core Data Processing
+numpy>=1.26.4
+pandas>=2.2.0
+scipy>=1.14.0
+
+# Machine Learning
+tensorflow>=2.16.0
+scikit-learn>=1.5.0
+
+# Visualization
+matplotlib>=3.9.0
+seaborn>=0.13.2
+plotly>=5.24.0
+
+# Graph & Network Analysis
+networkx>=3.3
+
+# Optimization
+pulp>=2.8.0
+
+# Utilities
+joblib>=1.4.0
+tqdm>=4.66.5
+python-dotenv>=1.0.1
+pyyaml>=6.0.2
+
+# Report export (api/routers/reports.py) — PDF and spreadsheet renderers
+reportlab>=4.2.0
+openpyxl>=3.1.5
+
+# API layer (api/ package)
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic[email]>=2.9.0
+PyJWT>=2.9.0
+python-multipart>=0.0.12
+

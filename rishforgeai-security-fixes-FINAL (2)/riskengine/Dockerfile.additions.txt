@@ -1,0 +1,44 @@
+# Changes to apply to riskengine/Dockerfile
+#
+# Same root-user issue as the Java backend, plus ML-specific concerns:
+# training workloads can be memory/CPU hungry, so the container needs
+# resource ceilings enforced at the orchestrator level too (see notes below).
+
+# ... existing FROM python:3.x / pip install / COPY steps stay the same ...
+
+# --- add near the end, before CMD/ENTRYPOINT ---
+RUN addgroup --system appgroup && adduser --system --ingroup appgroup appuser
+
+# Model files should be owned by appuser and read-only where possible,
+# so a compromised process can't overwrite the trained model on disk.
+RUN mkdir -p /app/models && chown -R appuser:appgroup /app/models
+USER appuser
+
+# CMD ["uvicorn", "main:app", "--host", "127.0.0.1", "--port", "8000"]
+# (host stays 127.0.0.1 per main_py_changes.md — do not change to 0.0.0.0
+#  unless it's isolated on an internal Docker network with the port
+#  unpublished to the host, as already noted)
+
+# --- resource limits (enforced outside the Dockerfile) ---
+# In docker-compose.yml:
+#
+#   riskengine:
+#     build: ./riskengine
+#     deploy:
+#       resources:
+#         limits:
+#           cpus: "1.5"
+#           memory: 2G
+#
+# This caps how much damage a runaway/repeated training call can do even
+# if it gets past the auth + in-process rate limit in security.py.
+
+# --- .dockerignore (create if it doesn't exist) ---
+# .env
+# *.env
+# __pycache__/
+# *.pyc
+# .git
+#
+# Prevents secrets (RISK_ENGINE_SHARED_SECRET, any local .env) from
+# accidentally being baked into the image layer.

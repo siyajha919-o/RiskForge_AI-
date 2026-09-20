@@ -1,0 +1,1177 @@
+mapping_id,organization_id,control_id,framework,framework_function,framework_category,requirement_id,compliance_status,evidence_available,evidence_quality,gap_score
+CMAP-000001,ORG-001,CTRL-0001,RBI Cyber Security Framework,Incident,Incident Response,RBI -35,Partially Compliant,False,None,0.31
+CMAP-000002,ORG-001,CTRL-0001,ISO/IEC 27001,A.5,A.5 Policies,ISO/-4,Partially Compliant,True,Moderate,0.64
+CMAP-000003,ORG-001,CTRL-0002,NIST Cybersecurity Framework,Recover,Recover,NIST-49,Non-Compliant,False,None,0.88
+CMAP-000004,ORG-001,CTRL-0002,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -31,Non-Compliant,False,None,0.88
+CMAP-000005,ORG-001,CTRL-0003,NIST Cybersecurity Framework,Identify,Identify,NIST-35,Non-Compliant,False,None,0.72
+CMAP-000006,ORG-001,CTRL-0003,RBI Cyber Security Framework,Incident,Incident Response,RBI -50,Partially Compliant,True,Moderate,0.55
+CMAP-000007,ORG-001,CTRL-0003,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-39,Non-Compliant,False,None,0.31
+CMAP-000008,ORG-001,CTRL-0004,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-25,Compliant,True,Strong,0
+CMAP-000009,ORG-001,CTRL-0004,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -50,Compliant,True,Moderate,0
+CMAP-000010,ORG-001,CTRL-0004,NIST Cybersecurity Framework,Protect,Protect,NIST-38,Compliant,True,Strong,0
+CMAP-000011,ORG-001,CTRL-0005,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-24,Non-Compliant,False,None,0.77
+CMAP-000012,ORG-001,CTRL-0005,CIS Controls,CIS,CIS 8 Audit Logs,CIS -38,Partially Compliant,True,Weak,0.6
+CMAP-000013,ORG-001,CTRL-0006,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-22,Non-Compliant,False,None,0.27
+CMAP-000014,ORG-001,CTRL-0006,NIST Cybersecurity Framework,Protect,Protect,NIST-20,Partially Compliant,False,None,0.82
+CMAP-000015,ORG-001,CTRL-0007,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-3,Compliant,True,Weak,0
+CMAP-000016,ORG-001,CTRL-0007,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-24,Compliant,True,Strong,0
+CMAP-000017,ORG-001,CTRL-0007,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -26,Compliant,True,Strong,0
+CMAP-000018,ORG-001,CTRL-0008,NIST Cybersecurity Framework,Recover,Recover,NIST-47,Compliant,True,Moderate,0
+CMAP-000019,ORG-001,CTRL-0008,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-25,Compliant,True,Moderate,0
+CMAP-000020,ORG-001,CTRL-0008,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -25,Compliant,True,Strong,0
+CMAP-000021,ORG-001,CTRL-0009,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -21,Partially Compliant,True,Strong,0.46
+CMAP-000022,ORG-001,CTRL-0009,RBI Cyber Security Framework,Network,Network Security,RBI -16,Non-Compliant,False,None,0.24
+CMAP-000023,ORG-001,CTRL-0009,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-19,Non-Compliant,False,None,0.55
+CMAP-000024,ORG-001,CTRL-0009,NIST Cybersecurity Framework,Recover,Recover,NIST-43,Partially Compliant,True,Weak,0.43
+CMAP-000025,ORG-001,CTRL-0010,CIS Controls,CIS,CIS 11 Data Recovery,CIS -46,Non-Compliant,False,None,0.85
+CMAP-000026,ORG-001,CTRL-0010,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-36,Non-Compliant,False,None,0.65
+CMAP-000027,ORG-001,CTRL-0010,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-14,Partially Compliant,True,Weak,0.62
+CMAP-000028,ORG-001,CTRL-0011,CIS Controls,CIS,CIS 4 Secure Config,CIS -46,Partially Compliant,True,Weak,0.72
+CMAP-000029,ORG-001,CTRL-0011,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-8,Partially Compliant,False,None,0.73
+CMAP-000030,ORG-001,CTRL-0012,CIS Controls,CIS,CIS 4 Secure Config,CIS -22,Compliant,True,Strong,0
+CMAP-000031,ORG-001,CTRL-0012,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-46,Compliant,True,Strong,0
+CMAP-000032,ORG-001,CTRL-0012,NIST Cybersecurity Framework,Respond,Respond,NIST-25,Compliant,True,Moderate,0
+CMAP-000033,ORG-001,CTRL-0012,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -19,Compliant,True,Strong,0
+CMAP-000034,ORG-002,CTRL-0013,NIST Cybersecurity Framework,Protect,Protect,NIST-22,Non-Compliant,False,None,0.74
+CMAP-000035,ORG-002,CTRL-0013,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -38,Partially Compliant,True,Moderate,0.58
+CMAP-000036,ORG-002,CTRL-0014,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-28,Compliant,True,Weak,0
+CMAP-000037,ORG-002,CTRL-0014,RBI Cyber Security Framework,Incident,Incident Response,RBI -12,Compliant,True,Moderate,0
+CMAP-000038,ORG-002,CTRL-0015,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-44,Compliant,True,Strong,0
+CMAP-000039,ORG-002,CTRL-0015,ISO/IEC 27001,A.6,A.6 Organization,ISO/-3,Compliant,True,Moderate,0
+CMAP-000040,ORG-002,CTRL-0015,RBI Cyber Security Framework,Network,Network Security,RBI -43,Compliant,True,Weak,0
+CMAP-000041,ORG-002,CTRL-0015,NIST Cybersecurity Framework,Identify,Identify,NIST-40,Compliant,True,Strong,0
+CMAP-000042,ORG-002,CTRL-0016,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-28,Partially Compliant,True,Moderate,0.4
+CMAP-000043,ORG-002,CTRL-0016,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-22,Partially Compliant,True,Moderate,0.49
+CMAP-000044,ORG-002,CTRL-0016,RBI Cyber Security Framework,Network,Network Security,RBI -16,Partially Compliant,True,Moderate,0.66
+CMAP-000045,ORG-002,CTRL-0017,RBI Cyber Security Framework,Governance,Governance,RBI -19,Compliant,True,Strong,0
+CMAP-000046,ORG-002,CTRL-0017,ISO/IEC 27001,A.6,A.6 Organization,ISO/-29,Compliant,True,Weak,0
+CMAP-000047,ORG-002,CTRL-0017,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-10,Compliant,True,Strong,0
+CMAP-000048,ORG-002,CTRL-0017,NIST Cybersecurity Framework,Protect,Protect,NIST-12,Compliant,True,Strong,0
+CMAP-000049,ORG-002,CTRL-0018,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -38,Partially Compliant,True,Moderate,0.33
+CMAP-000050,ORG-002,CTRL-0018,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-24,Non-Compliant,False,None,0.48
+CMAP-000051,ORG-002,CTRL-0019,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-16,Compliant,True,Strong,0
+CMAP-000052,ORG-002,CTRL-0019,CIS Controls,CIS,CIS 6 Access Control,CIS -7,Compliant,True,Strong,0
+CMAP-000053,ORG-002,CTRL-0019,RBI Cyber Security Framework,Governance,Governance,RBI -12,Compliant,True,Weak,0
+CMAP-000054,ORG-002,CTRL-0020,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-23,Compliant,True,Moderate,0
+CMAP-000055,ORG-002,CTRL-0020,CIS Controls,CIS,CIS 11 Data Recovery,CIS -19,Compliant,True,Weak,0
+CMAP-000056,ORG-002,CTRL-0021,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-3,Non-Compliant,False,None,0.47
+CMAP-000057,ORG-002,CTRL-0021,NIST Cybersecurity Framework,Govern,Govern,NIST-13,Non-Compliant,False,None,0.74
+CMAP-000058,ORG-002,CTRL-0022,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-40,Non-Compliant,False,None,0.41
+CMAP-000059,ORG-002,CTRL-0022,RBI Cyber Security Framework,Network,Network Security,RBI -25,Non-Compliant,False,None,0.83
+CMAP-000060,ORG-002,CTRL-0022,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -4,Partially Compliant,True,Strong,0.42
+CMAP-000061,ORG-002,CTRL-0023,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -3,Partially Compliant,True,Strong,0.62
+CMAP-000062,ORG-002,CTRL-0023,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-9,Non-Compliant,False,None,0.45
+CMAP-000063,ORG-002,CTRL-0024,RBI Cyber Security Framework,Incident,Incident Response,RBI -33,Non-Compliant,False,None,0.86
+CMAP-000064,ORG-002,CTRL-0024,CIS Controls,CIS,CIS 4 Secure Config,CIS -7,Partially Compliant,False,None,0.67
+CMAP-000065,ORG-002,CTRL-0024,NIST Cybersecurity Framework,Detect,Detect,NIST-12,Non-Compliant,False,None,0.57
+CMAP-000066,ORG-002,CTRL-0024,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-12,Non-Compliant,False,None,0.71
+CMAP-000067,ORG-002,CTRL-0025,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -35,Non-Compliant,False,None,0.45
+CMAP-000068,ORG-002,CTRL-0025,NIST Cybersecurity Framework,Recover,Recover,NIST-33,Non-Compliant,False,None,0.73
+CMAP-000069,ORG-002,CTRL-0026,NIST Cybersecurity Framework,Recover,Recover,NIST-47,Compliant,True,Strong,0
+CMAP-000070,ORG-002,CTRL-0026,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-39,Compliant,True,Moderate,0
+CMAP-000071,ORG-002,CTRL-0026,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-36,Compliant,True,Moderate,0
+CMAP-000072,ORG-002,CTRL-0027,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-27,Partially Compliant,False,None,0.45
+CMAP-000073,ORG-002,CTRL-0027,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -8,Non-Compliant,False,None,0.74
+CMAP-000074,ORG-002,CTRL-0027,RBI Cyber Security Framework,Incident,Incident Response,RBI -31,Partially Compliant,True,Weak,0.76
+CMAP-000075,ORG-002,CTRL-0028,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-12,Non-Compliant,False,None,0.73
+CMAP-000076,ORG-002,CTRL-0028,RBI Cyber Security Framework,Access,Access Control,RBI -26,Partially Compliant,False,None,0.35
+CMAP-000077,ORG-002,CTRL-0028,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-8,Non-Compliant,False,None,0.31
+CMAP-000078,ORG-002,CTRL-0028,CIS Controls,CIS,CIS 8 Audit Logs,CIS -26,Non-Compliant,False,None,0.68
+CMAP-000079,ORG-003,CTRL-0029,NIST Cybersecurity Framework,Govern,Govern,NIST-46,Non-Compliant,False,None,0.43
+CMAP-000080,ORG-003,CTRL-0029,RBI Cyber Security Framework,Governance,Governance,RBI -49,Partially Compliant,True,Weak,0.75
+CMAP-000081,ORG-003,CTRL-0029,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-13,Partially Compliant,False,None,0.55
+CMAP-000082,ORG-003,CTRL-0029,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-44,Partially Compliant,False,None,0.42
+CMAP-000083,ORG-003,CTRL-0030,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -12,Partially Compliant,False,None,0.29
+CMAP-000084,ORG-003,CTRL-0030,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-11,Non-Compliant,False,None,0.61
+CMAP-000085,ORG-003,CTRL-0030,NIST Cybersecurity Framework,Respond,Respond,NIST-41,Non-Compliant,False,None,0.41
+CMAP-000086,ORG-003,CTRL-0031,RBI Cyber Security Framework,Governance,Governance,RBI -7,Non-Compliant,False,None,0.28
+CMAP-000087,ORG-003,CTRL-0031,NIST Cybersecurity Framework,Detect,Detect,NIST-34,Non-Compliant,False,None,0.76
+CMAP-000088,ORG-003,CTRL-0031,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-35,Non-Compliant,False,None,0.41
+CMAP-000089,ORG-003,CTRL-0032,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -32,Non-Compliant,False,None,0.3
+CMAP-000090,ORG-003,CTRL-0032,ISO/IEC 27001,A.17,A.17 BCM,ISO/-40,Partially Compliant,False,None,0.69
+CMAP-000091,ORG-003,CTRL-0032,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-2,Non-Compliant,False,None,0.46
+CMAP-000092,ORG-003,CTRL-0033,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-8,Compliant,True,Strong,0
+CMAP-000093,ORG-003,CTRL-0033,CIS Controls,CIS,CIS 11 Data Recovery,CIS -5,Compliant,True,Weak,0
+CMAP-000094,ORG-003,CTRL-0033,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-40,Compliant,True,Strong,0
+CMAP-000095,ORG-003,CTRL-0033,RBI Cyber Security Framework,Governance,Governance,RBI -28,Compliant,True,Weak,0
+CMAP-000096,ORG-003,CTRL-0034,ISO/IEC 27001,A.17,A.17 BCM,ISO/-14,Compliant,True,Weak,0
+CMAP-000097,ORG-003,CTRL-0034,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -6,Compliant,True,Weak,0
+CMAP-000098,ORG-003,CTRL-0034,CIS Controls,CIS,CIS 8 Audit Logs,CIS -15,Compliant,True,Moderate,0
+CMAP-000099,ORG-003,CTRL-0034,NIST Cybersecurity Framework,Respond,Respond,NIST-42,Compliant,True,Strong,0
+CMAP-000100,ORG-003,CTRL-0035,ISO/IEC 27001,A.5,A.5 Policies,ISO/-4,Compliant,True,Strong,0
+CMAP-000101,ORG-003,CTRL-0035,RBI Cyber Security Framework,Governance,Governance,RBI -35,Compliant,True,Strong,0
+CMAP-000102,ORG-003,CTRL-0036,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-14,Partially Compliant,False,None,0.81
+CMAP-000103,ORG-003,CTRL-0036,RBI Cyber Security Framework,Governance,Governance,RBI -6,Partially Compliant,False,None,0.29
+CMAP-000104,ORG-003,CTRL-0036,ISO/IEC 27001,A.5,A.5 Policies,ISO/-19,Non-Compliant,False,None,0.7
+CMAP-000105,ORG-003,CTRL-0037,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -17,Compliant,True,Weak,0
+CMAP-000106,ORG-003,CTRL-0037,NIST Cybersecurity Framework,Protect,Protect,NIST-42,Compliant,True,Moderate,0
+CMAP-000107,ORG-003,CTRL-0038,NIST Cybersecurity Framework,Detect,Detect,NIST-23,Non-Compliant,False,None,0.49
+CMAP-000108,ORG-003,CTRL-0038,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -42,Partially Compliant,True,Weak,0.38
+CMAP-000109,ORG-003,CTRL-0038,CIS Controls,CIS,CIS 4 Secure Config,CIS -11,Partially Compliant,False,None,0.49
+CMAP-000110,ORG-003,CTRL-0039,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-34,Compliant,True,Strong,0
+CMAP-000111,ORG-003,CTRL-0039,RBI Cyber Security Framework,Governance,Governance,RBI -43,Compliant,True,Moderate,0
+CMAP-000112,ORG-004,CTRL-0040,RBI Cyber Security Framework,Governance,Governance,RBI -42,Compliant,True,Strong,0
+CMAP-000113,ORG-004,CTRL-0040,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -7,Compliant,True,Strong,0
+CMAP-000114,ORG-004,CTRL-0040,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-21,Compliant,True,Moderate,0
+CMAP-000115,ORG-004,CTRL-0040,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-14,Compliant,True,Strong,0
+CMAP-000116,ORG-004,CTRL-0041,CIS Controls,CIS,CIS 6 Access Control,CIS -23,Compliant,True,Strong,0
+CMAP-000117,ORG-004,CTRL-0041,ISO/IEC 27001,A.5,A.5 Policies,ISO/-48,Compliant,True,Moderate,0
+CMAP-000118,ORG-004,CTRL-0042,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -42,Compliant,True,Weak,0
+CMAP-000119,ORG-004,CTRL-0042,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-21,Compliant,True,Strong,0
+CMAP-000120,ORG-004,CTRL-0042,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -21,Compliant,True,Moderate,0
+CMAP-000121,ORG-004,CTRL-0042,NIST Cybersecurity Framework,Identify,Identify,NIST-50,Compliant,True,Weak,0
+CMAP-000122,ORG-004,CTRL-0043,CIS Controls,CIS,CIS 6 Access Control,CIS -21,Compliant,True,Strong,0
+CMAP-000123,ORG-004,CTRL-0043,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-30,Compliant,True,Strong,0
+CMAP-000124,ORG-004,CTRL-0043,NIST Cybersecurity Framework,Detect,Detect,NIST-42,Compliant,True,Moderate,0
+CMAP-000125,ORG-004,CTRL-0044,NIST Cybersecurity Framework,Identify,Identify,NIST-33,Compliant,True,Strong,0
+CMAP-000126,ORG-004,CTRL-0044,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-20,Compliant,True,Weak,0
+CMAP-000127,ORG-004,CTRL-0044,RBI Cyber Security Framework,Governance,Governance,RBI -44,Compliant,True,Weak,0
+CMAP-000128,ORG-004,CTRL-0044,CIS Controls,CIS,CIS 6 Access Control,CIS -38,Compliant,True,Strong,0
+CMAP-000129,ORG-004,CTRL-0045,NIST Cybersecurity Framework,Govern,Govern,NIST-39,Non-Compliant,False,None,0.44
+CMAP-000130,ORG-004,CTRL-0045,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -50,Non-Compliant,False,None,0.36
+CMAP-000131,ORG-004,CTRL-0046,NIST Cybersecurity Framework,Protect,Protect,NIST-47,Non-Compliant,False,None,0.86
+CMAP-000132,ORG-004,CTRL-0046,CIS Controls,CIS,CIS 6 Access Control,CIS -12,Partially Compliant,True,Weak,0.81
+CMAP-000133,ORG-004,CTRL-0046,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-1,Partially Compliant,True,Strong,0.42
+CMAP-000134,ORG-004,CTRL-0047,NIST Cybersecurity Framework,Govern,Govern,NIST-18,Compliant,True,Moderate,0
+CMAP-000135,ORG-004,CTRL-0047,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-35,Compliant,True,Moderate,0
+CMAP-000136,ORG-004,CTRL-0048,NIST Cybersecurity Framework,Respond,Respond,NIST-20,Partially Compliant,True,Weak,0.27
+CMAP-000137,ORG-004,CTRL-0048,RBI Cyber Security Framework,Access,Access Control,RBI -30,Non-Compliant,False,None,0.89
+CMAP-000138,ORG-004,CTRL-0048,ISO/IEC 27001,A.17,A.17 BCM,ISO/-31,Partially Compliant,False,None,0.36
+CMAP-000139,ORG-004,CTRL-0049,NIST Cybersecurity Framework,Identify,Identify,NIST-25,Non-Compliant,False,None,0.3
+CMAP-000140,ORG-004,CTRL-0049,CIS Controls,CIS,CIS 8 Audit Logs,CIS -7,Partially Compliant,False,None,0.43
+CMAP-000141,ORG-005,CTRL-0050,RBI Cyber Security Framework,Access,Access Control,RBI -19,Non-Compliant,False,None,0.57
+CMAP-000142,ORG-005,CTRL-0050,NIST Cybersecurity Framework,Protect,Protect,NIST-13,Partially Compliant,True,Strong,0.3
+CMAP-000143,ORG-005,CTRL-0050,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -22,Non-Compliant,False,None,0.52
+CMAP-000144,ORG-005,CTRL-0051,CIS Controls,CIS,CIS 11 Data Recovery,CIS -46,Partially Compliant,True,Strong,0.62
+CMAP-000145,ORG-005,CTRL-0051,RBI Cyber Security Framework,Access,Access Control,RBI -9,Non-Compliant,False,None,0.36
+CMAP-000146,ORG-005,CTRL-0051,ISO/IEC 27001,A.5,A.5 Policies,ISO/-39,Non-Compliant,False,None,0.76
+CMAP-000147,ORG-005,CTRL-0052,RBI Cyber Security Framework,Governance,Governance,RBI -30,Partially Compliant,True,Strong,0.24
+CMAP-000148,ORG-005,CTRL-0052,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -40,Partially Compliant,True,Moderate,0.87
+CMAP-000149,ORG-005,CTRL-0052,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-2,Partially Compliant,False,None,0.38
+CMAP-000150,ORG-005,CTRL-0052,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-27,Non-Compliant,False,None,0.56
+CMAP-000151,ORG-005,CTRL-0053,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -17,Non-Compliant,False,None,0.81
+CMAP-000152,ORG-005,CTRL-0053,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-31,Partially Compliant,True,Moderate,0.25
+CMAP-000153,ORG-005,CTRL-0053,CIS Controls,CIS,CIS 6 Access Control,CIS -33,Non-Compliant,False,None,0.54
+CMAP-000154,ORG-005,CTRL-0054,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -36,Non-Compliant,False,None,0.41
+CMAP-000155,ORG-005,CTRL-0054,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-6,Non-Compliant,False,None,0.47
+CMAP-000156,ORG-005,CTRL-0054,CIS Controls,CIS,CIS 8 Audit Logs,CIS -15,Non-Compliant,False,None,0.52
+CMAP-000157,ORG-005,CTRL-0054,NIST Cybersecurity Framework,Govern,Govern,NIST-7,Non-Compliant,False,None,0.29
+CMAP-000158,ORG-005,CTRL-0055,RBI Cyber Security Framework,Access,Access Control,RBI -47,Compliant,True,Strong,0
+CMAP-000159,ORG-005,CTRL-0055,NIST Cybersecurity Framework,Respond,Respond,NIST-42,Compliant,True,Strong,0
+CMAP-000160,ORG-005,CTRL-0056,NIST Cybersecurity Framework,Respond,Respond,NIST-13,Partially Compliant,False,None,0.39
+CMAP-000161,ORG-005,CTRL-0056,CIS Controls,CIS,CIS 8 Audit Logs,CIS -4,Non-Compliant,False,None,0.51
+CMAP-000162,ORG-005,CTRL-0056,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-16,Non-Compliant,False,None,0.68
+CMAP-000163,ORG-005,CTRL-0057,NIST Cybersecurity Framework,Detect,Detect,NIST-11,Compliant,True,Weak,0
+CMAP-000164,ORG-005,CTRL-0057,ISO/IEC 27001,A.6,A.6 Organization,ISO/-48,Compliant,True,Moderate,0
+CMAP-000165,ORG-005,CTRL-0057,RBI Cyber Security Framework,Access,Access Control,RBI -9,Compliant,True,Strong,0
+CMAP-000166,ORG-005,CTRL-0057,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -27,Compliant,True,Moderate,0
+CMAP-000167,ORG-005,CTRL-0058,CIS Controls,CIS,CIS 8 Audit Logs,CIS -8,Non-Compliant,False,None,0.86
+CMAP-000168,ORG-005,CTRL-0058,NIST Cybersecurity Framework,Recover,Recover,NIST-1,Partially Compliant,True,Weak,0.74
+CMAP-000169,ORG-005,CTRL-0058,ISO/IEC 27001,A.5,A.5 Policies,ISO/-40,Non-Compliant,False,None,0.63
+CMAP-000170,ORG-005,CTRL-0059,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-41,Non-Compliant,False,None,0.31
+CMAP-000171,ORG-005,CTRL-0059,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -21,Partially Compliant,True,Weak,0.56
+CMAP-000172,ORG-005,CTRL-0059,NIST Cybersecurity Framework,Protect,Protect,NIST-25,Partially Compliant,False,None,0.27
+CMAP-000173,ORG-005,CTRL-0059,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-23,Non-Compliant,False,None,0.46
+CMAP-000174,ORG-005,CTRL-0060,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-32,Partially Compliant,True,Weak,0.49
+CMAP-000175,ORG-005,CTRL-0060,RBI Cyber Security Framework,Network,Network Security,RBI -10,Partially Compliant,True,Strong,0.33
+CMAP-000176,ORG-005,CTRL-0061,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-40,Non-Compliant,False,None,0.9
+CMAP-000177,ORG-005,CTRL-0061,NIST Cybersecurity Framework,Protect,Protect,NIST-15,Partially Compliant,True,Weak,0.4
+CMAP-000178,ORG-005,CTRL-0061,RBI Cyber Security Framework,Network,Network Security,RBI -29,Non-Compliant,False,None,0.66
+CMAP-000179,ORG-005,CTRL-0061,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-16,Non-Compliant,False,None,0.87
+CMAP-000180,ORG-005,CTRL-0062,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-33,Compliant,True,Weak,0
+CMAP-000181,ORG-005,CTRL-0062,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-32,Compliant,True,Strong,0
+CMAP-000182,ORG-005,CTRL-0062,RBI Cyber Security Framework,Network,Network Security,RBI -30,Compliant,True,Strong,0
+CMAP-000183,ORG-005,CTRL-0063,NIST Cybersecurity Framework,Respond,Respond,NIST-33,Compliant,True,Weak,0
+CMAP-000184,ORG-005,CTRL-0063,CIS Controls,CIS,CIS 6 Access Control,CIS -11,Compliant,True,Moderate,0
+CMAP-000185,ORG-005,CTRL-0063,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-44,Compliant,True,Moderate,0
+CMAP-000186,ORG-005,CTRL-0064,NIST Cybersecurity Framework,Recover,Recover,NIST-6,Partially Compliant,True,Moderate,0.73
+CMAP-000187,ORG-005,CTRL-0064,CIS Controls,CIS,CIS 6 Access Control,CIS -15,Non-Compliant,False,None,0.69
+CMAP-000188,ORG-005,CTRL-0064,ISO/IEC 27001,A.6,A.6 Organization,ISO/-6,Partially Compliant,False,None,0.44
+CMAP-000189,ORG-005,CTRL-0065,NIST Cybersecurity Framework,Protect,Protect,NIST-44,Non-Compliant,False,None,0.38
+CMAP-000190,ORG-005,CTRL-0065,ISO/IEC 27001,A.17,A.17 BCM,ISO/-45,Non-Compliant,False,None,0.64
+CMAP-000191,ORG-005,CTRL-0065,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-36,Non-Compliant,False,None,0.53
+CMAP-000192,ORG-006,CTRL-0066,CIS Controls,CIS,CIS 4 Secure Config,CIS -32,Non-Compliant,False,None,0.55
+CMAP-000193,ORG-006,CTRL-0066,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -1,Non-Compliant,False,None,0.29
+CMAP-000194,ORG-006,CTRL-0066,NIST Cybersecurity Framework,Detect,Detect,NIST-19,Non-Compliant,False,None,0.69
+CMAP-000195,ORG-006,CTRL-0067,NIST Cybersecurity Framework,Respond,Respond,NIST-33,Non-Compliant,False,None,0.75
+CMAP-000196,ORG-006,CTRL-0067,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-36,Partially Compliant,False,None,0.29
+CMAP-000197,ORG-006,CTRL-0067,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -14,Partially Compliant,True,Moderate,0.73
+CMAP-000198,ORG-006,CTRL-0068,RBI Cyber Security Framework,Governance,Governance,RBI -37,Partially Compliant,False,None,0.85
+CMAP-000199,ORG-006,CTRL-0068,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -49,Partially Compliant,True,Weak,0.63
+CMAP-000200,ORG-006,CTRL-0068,NIST Cybersecurity Framework,Identify,Identify,NIST-45,Partially Compliant,False,None,0.36
+CMAP-000201,ORG-006,CTRL-0069,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -30,Non-Compliant,False,None,0.68
+CMAP-000202,ORG-006,CTRL-0069,NIST Cybersecurity Framework,Govern,Govern,NIST-45,Partially Compliant,True,Weak,0.3
+CMAP-000203,ORG-006,CTRL-0069,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-12,Partially Compliant,False,None,0.8
+CMAP-000204,ORG-006,CTRL-0069,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-27,Partially Compliant,False,None,0.64
+CMAP-000205,ORG-006,CTRL-0070,NIST Cybersecurity Framework,Recover,Recover,NIST-26,Compliant,True,Strong,0
+CMAP-000206,ORG-006,CTRL-0070,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-47,Compliant,True,Strong,0
+CMAP-000207,ORG-006,CTRL-0070,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-4,Compliant,True,Strong,0
+CMAP-000208,ORG-006,CTRL-0070,RBI Cyber Security Framework,Governance,Governance,RBI -4,Compliant,True,Strong,0
+CMAP-000209,ORG-006,CTRL-0071,NIST Cybersecurity Framework,Respond,Respond,NIST-22,Partially Compliant,False,None,0.42
+CMAP-000210,ORG-006,CTRL-0071,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-37,Non-Compliant,False,None,0.3
+CMAP-000211,ORG-006,CTRL-0072,RBI Cyber Security Framework,Access,Access Control,RBI -43,Non-Compliant,False,None,0.45
+CMAP-000212,ORG-006,CTRL-0072,NIST Cybersecurity Framework,Identify,Identify,NIST-17,Partially Compliant,True,Moderate,0.78
+CMAP-000213,ORG-006,CTRL-0073,NIST Cybersecurity Framework,Protect,Protect,NIST-30,Non-Compliant,False,None,0.59
+CMAP-000214,ORG-006,CTRL-0073,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -3,Partially Compliant,False,None,0.67
+CMAP-000215,ORG-006,CTRL-0074,CIS Controls,CIS,CIS 8 Audit Logs,CIS -20,Compliant,True,Strong,0
+CMAP-000216,ORG-006,CTRL-0074,RBI Cyber Security Framework,Incident,Incident Response,RBI -38,Compliant,True,Weak,0
+CMAP-000217,ORG-006,CTRL-0074,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-49,Compliant,True,Weak,0
+CMAP-000218,ORG-006,CTRL-0075,NIST Cybersecurity Framework,Respond,Respond,NIST-48,Partially Compliant,False,None,0.34
+CMAP-000219,ORG-006,CTRL-0075,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-3,Partially Compliant,False,None,0.62
+CMAP-000220,ORG-006,CTRL-0075,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -44,Non-Compliant,False,None,0.76
+CMAP-000221,ORG-006,CTRL-0075,CIS Controls,CIS,CIS 8 Audit Logs,CIS -27,Non-Compliant,False,None,0.75
+CMAP-000222,ORG-006,CTRL-0076,NIST Cybersecurity Framework,Protect,Protect,NIST-38,Compliant,True,Strong,0
+CMAP-000223,ORG-006,CTRL-0076,CIS Controls,CIS,CIS 8 Audit Logs,CIS -19,Compliant,True,Strong,0
+CMAP-000224,ORG-006,CTRL-0076,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-50,Compliant,True,Weak,0
+CMAP-000225,ORG-006,CTRL-0077,NIST Cybersecurity Framework,Detect,Detect,NIST-31,Partially Compliant,True,Weak,0.78
+CMAP-000226,ORG-006,CTRL-0077,RBI Cyber Security Framework,Incident,Incident Response,RBI -18,Non-Compliant,False,None,0.37
+CMAP-000227,ORG-006,CTRL-0077,CIS Controls,CIS,CIS 6 Access Control,CIS -15,Partially Compliant,False,None,0.42
+CMAP-000228,ORG-006,CTRL-0077,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-42,Partially Compliant,True,Moderate,0.5
+CMAP-000229,ORG-006,CTRL-0078,NIST Cybersecurity Framework,Identify,Identify,NIST-1,Compliant,True,Strong,0
+CMAP-000230,ORG-006,CTRL-0078,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-22,Compliant,True,Moderate,0
+CMAP-000231,ORG-006,CTRL-0079,RBI Cyber Security Framework,Incident,Incident Response,RBI -15,Partially Compliant,False,None,0.24
+CMAP-000232,ORG-006,CTRL-0079,CIS Controls,CIS,CIS 4 Secure Config,CIS -38,Partially Compliant,True,Moderate,0.8
+CMAP-000233,ORG-006,CTRL-0080,CIS Controls,CIS,CIS 4 Secure Config,CIS -40,Non-Compliant,False,None,0.57
+CMAP-000234,ORG-006,CTRL-0080,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-48,Non-Compliant,False,None,0.42
+CMAP-000235,ORG-006,CTRL-0080,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-4,Non-Compliant,False,None,0.86
+CMAP-000236,ORG-006,CTRL-0080,NIST Cybersecurity Framework,Respond,Respond,NIST-28,Non-Compliant,False,None,0.29
+CMAP-000237,ORG-006,CTRL-0081,NIST Cybersecurity Framework,Respond,Respond,NIST-13,Partially Compliant,True,Strong,0.82
+CMAP-000238,ORG-006,CTRL-0081,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-50,Partially Compliant,False,None,0.21
+CMAP-000239,ORG-006,CTRL-0082,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-34,Partially Compliant,False,None,0.55
+CMAP-000240,ORG-006,CTRL-0082,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-38,Partially Compliant,False,None,0.81
+CMAP-000241,ORG-007,CTRL-0083,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -27,Partially Compliant,False,None,0.73
+CMAP-000242,ORG-007,CTRL-0083,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-5,Non-Compliant,False,None,0.42
+CMAP-000243,ORG-007,CTRL-0084,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -30,Partially Compliant,False,None,0.73
+CMAP-000244,ORG-007,CTRL-0084,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -13,Partially Compliant,True,Strong,0.7
+CMAP-000245,ORG-007,CTRL-0084,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-2,Partially Compliant,False,None,0.58
+CMAP-000246,ORG-007,CTRL-0085,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -3,Compliant,True,Weak,0
+CMAP-000247,ORG-007,CTRL-0085,NIST Cybersecurity Framework,Detect,Detect,NIST-41,Compliant,True,Moderate,0
+CMAP-000248,ORG-007,CTRL-0086,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -42,Compliant,True,Moderate,0
+CMAP-000249,ORG-007,CTRL-0086,RBI Cyber Security Framework,Incident,Incident Response,RBI -18,Compliant,True,Weak,0
+CMAP-000250,ORG-007,CTRL-0086,ISO/IEC 27001,A.5,A.5 Policies,ISO/-50,Compliant,True,Moderate,0
+CMAP-000251,ORG-007,CTRL-0086,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-16,Compliant,True,Strong,0
+CMAP-000252,ORG-007,CTRL-0087,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -48,Non-Compliant,False,None,0.83
+CMAP-000253,ORG-007,CTRL-0087,NIST Cybersecurity Framework,Protect,Protect,NIST-16,Partially Compliant,True,Strong,0.87
+CMAP-000254,ORG-007,CTRL-0088,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -40,Non-Compliant,False,None,0.49
+CMAP-000255,ORG-007,CTRL-0088,ISO/IEC 27001,A.6,A.6 Organization,ISO/-28,Partially Compliant,True,Moderate,0.35
+CMAP-000256,ORG-007,CTRL-0088,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-50,Partially Compliant,True,Weak,0.53
+CMAP-000257,ORG-007,CTRL-0089,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -42,Partially Compliant,False,None,0.2
+CMAP-000258,ORG-007,CTRL-0089,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-24,Partially Compliant,False,None,0.82
+CMAP-000259,ORG-007,CTRL-0089,RBI Cyber Security Framework,Network,Network Security,RBI -12,Partially Compliant,True,Strong,0.26
+CMAP-000260,ORG-007,CTRL-0090,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-11,Compliant,True,Moderate,0
+CMAP-000261,ORG-007,CTRL-0090,NIST Cybersecurity Framework,Detect,Detect,NIST-42,Compliant,True,Weak,0
+CMAP-000262,ORG-007,CTRL-0090,RBI Cyber Security Framework,Network,Network Security,RBI -7,Compliant,True,Strong,0
+CMAP-000263,ORG-007,CTRL-0091,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -23,Partially Compliant,True,Moderate,0.46
+CMAP-000264,ORG-007,CTRL-0091,ISO/IEC 27001,A.5,A.5 Policies,ISO/-15,Non-Compliant,False,None,0.35
+CMAP-000265,ORG-007,CTRL-0092,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-4,Partially Compliant,True,Strong,0.27
+CMAP-000266,ORG-007,CTRL-0092,CIS Controls,CIS,CIS 6 Access Control,CIS -15,Partially Compliant,True,Moderate,0.54
+CMAP-000267,ORG-007,CTRL-0092,NIST Cybersecurity Framework,Identify,Identify,NIST-4,Partially Compliant,True,Moderate,0.38
+CMAP-000268,ORG-007,CTRL-0092,RBI Cyber Security Framework,Incident,Incident Response,RBI -45,Partially Compliant,False,None,0.53
+CMAP-000269,ORG-007,CTRL-0093,RBI Cyber Security Framework,Incident,Incident Response,RBI -3,Compliant,True,Moderate,0
+CMAP-000270,ORG-007,CTRL-0093,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -2,Compliant,True,Strong,0
+CMAP-000271,ORG-007,CTRL-0093,ISO/IEC 27001,A.6,A.6 Organization,ISO/-16,Compliant,True,Moderate,0
+CMAP-000272,ORG-007,CTRL-0093,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-23,Compliant,True,Weak,0
+CMAP-000273,ORG-007,CTRL-0094,NIST Cybersecurity Framework,Detect,Detect,NIST-44,Partially Compliant,True,Moderate,0.53
+CMAP-000274,ORG-007,CTRL-0094,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -18,Non-Compliant,False,None,0.4
+CMAP-000275,ORG-007,CTRL-0094,RBI Cyber Security Framework,Incident,Incident Response,RBI -27,Partially Compliant,False,None,0.26
+CMAP-000276,ORG-008,CTRL-0095,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-8,Partially Compliant,True,Strong,0.81
+CMAP-000277,ORG-008,CTRL-0095,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -48,Partially Compliant,True,Strong,0.27
+CMAP-000278,ORG-008,CTRL-0095,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-31,Non-Compliant,False,None,0.24
+CMAP-000279,ORG-008,CTRL-0095,CIS Controls,CIS,CIS 4 Secure Config,CIS -25,Partially Compliant,False,None,0.4
+CMAP-000280,ORG-008,CTRL-0096,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-42,Compliant,True,Weak,0
+CMAP-000281,ORG-008,CTRL-0096,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-12,Compliant,True,Weak,0
+CMAP-000282,ORG-008,CTRL-0096,CIS Controls,CIS,CIS 4 Secure Config,CIS -39,Compliant,True,Weak,0
+CMAP-000283,ORG-008,CTRL-0096,NIST Cybersecurity Framework,Identify,Identify,NIST-39,Compliant,True,Moderate,0
+CMAP-000284,ORG-008,CTRL-0097,ISO/IEC 27001,A.5,A.5 Policies,ISO/-42,Non-Compliant,False,None,0.74
+CMAP-000285,ORG-008,CTRL-0097,NIST Cybersecurity Framework,Detect,Detect,NIST-10,Non-Compliant,False,None,0.31
+CMAP-000286,ORG-008,CTRL-0098,ISO/IEC 27001,A.6,A.6 Organization,ISO/-15,Compliant,True,Weak,0
+CMAP-000287,ORG-008,CTRL-0098,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -48,Compliant,True,Weak,0
+CMAP-000288,ORG-008,CTRL-0098,NIST Cybersecurity Framework,Detect,Detect,NIST-19,Compliant,True,Strong,0
+CMAP-000289,ORG-008,CTRL-0098,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -18,Compliant,True,Weak,0
+CMAP-000290,ORG-008,CTRL-0099,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-20,Non-Compliant,False,None,0.72
+CMAP-000291,ORG-008,CTRL-0099,NIST Cybersecurity Framework,Recover,Recover,NIST-45,Partially Compliant,False,None,0.43
+CMAP-000292,ORG-008,CTRL-0100,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-50,Non-Compliant,False,None,0.62
+CMAP-000293,ORG-008,CTRL-0100,CIS Controls,CIS,CIS 6 Access Control,CIS -10,Non-Compliant,False,None,0.57
+CMAP-000294,ORG-008,CTRL-0100,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-5,Partially Compliant,False,None,0.31
+CMAP-000295,ORG-008,CTRL-0101,NIST Cybersecurity Framework,Detect,Detect,NIST-13,Non-Compliant,False,None,0.89
+CMAP-000296,ORG-008,CTRL-0101,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -25,Partially Compliant,False,None,0.81
+CMAP-000297,ORG-008,CTRL-0102,CIS Controls,CIS,CIS 4 Secure Config,CIS -27,Partially Compliant,False,None,0.86
+CMAP-000298,ORG-008,CTRL-0102,NIST Cybersecurity Framework,Recover,Recover,NIST-26,Partially Compliant,True,Strong,0.43
+CMAP-000299,ORG-008,CTRL-0103,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -7,Compliant,True,Weak,0
+CMAP-000300,ORG-008,CTRL-0103,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-22,Compliant,True,Weak,0
+CMAP-000301,ORG-008,CTRL-0103,NIST Cybersecurity Framework,Detect,Detect,NIST-40,Compliant,True,Moderate,0
+CMAP-000302,ORG-008,CTRL-0103,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-28,Compliant,True,Strong,0
+CMAP-000303,ORG-008,CTRL-0104,CIS Controls,CIS,CIS 8 Audit Logs,CIS -19,Compliant,True,Weak,0
+CMAP-000304,ORG-008,CTRL-0104,NIST Cybersecurity Framework,Govern,Govern,NIST-15,Compliant,True,Moderate,0
+CMAP-000305,ORG-008,CTRL-0104,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-2,Compliant,True,Weak,0
+CMAP-000306,ORG-008,CTRL-0104,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-1,Compliant,True,Moderate,0
+CMAP-000307,ORG-008,CTRL-0105,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-32,Partially Compliant,False,None,0.23
+CMAP-000308,ORG-008,CTRL-0105,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-46,Partially Compliant,True,Strong,0.5
+CMAP-000309,ORG-008,CTRL-0105,CIS Controls,CIS,CIS 8 Audit Logs,CIS -30,Non-Compliant,False,None,0.58
+CMAP-000310,ORG-008,CTRL-0105,NIST Cybersecurity Framework,Identify,Identify,NIST-42,Non-Compliant,False,None,0.44
+CMAP-000311,ORG-008,CTRL-0106,NIST Cybersecurity Framework,Detect,Detect,NIST-12,Non-Compliant,False,None,0.3
+CMAP-000312,ORG-008,CTRL-0106,RBI Cyber Security Framework,Network,Network Security,RBI -13,Non-Compliant,False,None,0.21
+CMAP-000313,ORG-008,CTRL-0106,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-16,Non-Compliant,False,None,0.58
+CMAP-000314,ORG-008,CTRL-0106,CIS Controls,CIS,CIS 4 Secure Config,CIS -16,Non-Compliant,False,None,0.57
+CMAP-000315,ORG-008,CTRL-0107,NIST Cybersecurity Framework,Protect,Protect,NIST-15,Non-Compliant,False,None,0.26
+CMAP-000316,ORG-008,CTRL-0107,RBI Cyber Security Framework,Access,Access Control,RBI -41,Partially Compliant,False,None,0.24
+CMAP-000317,ORG-008,CTRL-0107,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-20,Partially Compliant,False,None,0.33
+CMAP-000318,ORG-008,CTRL-0107,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-15,Partially Compliant,False,None,0.67
+CMAP-000319,ORG-008,CTRL-0108,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-2,Non-Compliant,False,None,0.81
+CMAP-000320,ORG-008,CTRL-0108,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-26,Partially Compliant,False,None,0.86
+CMAP-000321,ORG-008,CTRL-0109,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -43,Compliant,True,Strong,0
+CMAP-000322,ORG-008,CTRL-0109,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-43,Compliant,True,Strong,0
+CMAP-000323,ORG-008,CTRL-0109,NIST Cybersecurity Framework,Identify,Identify,NIST-20,Compliant,True,Moderate,0
+CMAP-000324,ORG-008,CTRL-0109,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-38,Compliant,True,Strong,0
+CMAP-000325,ORG-008,CTRL-0110,CIS Controls,CIS,CIS 8 Audit Logs,CIS -23,Compliant,True,Weak,0
+CMAP-000326,ORG-008,CTRL-0110,NIST Cybersecurity Framework,Detect,Detect,NIST-21,Compliant,True,Weak,0
+CMAP-000327,ORG-008,CTRL-0110,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-5,Compliant,True,Weak,0
+CMAP-000328,ORG-008,CTRL-0111,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -2,Compliant,True,Moderate,0
+CMAP-000329,ORG-008,CTRL-0111,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-23,Compliant,True,Weak,0
+CMAP-000330,ORG-008,CTRL-0111,RBI Cyber Security Framework,Network,Network Security,RBI -8,Compliant,True,Strong,0
+CMAP-000331,ORG-008,CTRL-0112,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-21,Partially Compliant,False,None,0.69
+CMAP-000332,ORG-008,CTRL-0112,NIST Cybersecurity Framework,Protect,Protect,NIST-11,Non-Compliant,False,None,0.38
+CMAP-000333,ORG-008,CTRL-0112,CIS Controls,CIS,CIS 8 Audit Logs,CIS -11,Partially Compliant,True,Weak,0.53
+CMAP-000334,ORG-008,CTRL-0113,NIST Cybersecurity Framework,Respond,Respond,NIST-20,Non-Compliant,False,None,0.82
+CMAP-000335,ORG-008,CTRL-0113,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -18,Non-Compliant,False,None,0.29
+CMAP-000336,ORG-008,CTRL-0114,ISO/IEC 27001,A.6,A.6 Organization,ISO/-45,Non-Compliant,False,None,0.23
+CMAP-000337,ORG-008,CTRL-0114,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-3,Non-Compliant,False,None,0.48
+CMAP-000338,ORG-008,CTRL-0114,NIST Cybersecurity Framework,Respond,Respond,NIST-35,Partially Compliant,True,Weak,0.3
+CMAP-000339,ORG-008,CTRL-0115,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -45,Non-Compliant,False,None,0.53
+CMAP-000340,ORG-008,CTRL-0115,NIST Cybersecurity Framework,Recover,Recover,NIST-48,Non-Compliant,False,None,0.69
+CMAP-000341,ORG-008,CTRL-0116,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -18,Partially Compliant,False,None,0.27
+CMAP-000342,ORG-008,CTRL-0116,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -30,Non-Compliant,False,None,0.8
+CMAP-000343,ORG-009,CTRL-0117,RBI Cyber Security Framework,Incident,Incident Response,RBI -14,Non-Compliant,False,None,0.23
+CMAP-000344,ORG-009,CTRL-0117,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-24,Partially Compliant,False,None,0.33
+CMAP-000345,ORG-009,CTRL-0118,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -48,Partially Compliant,True,Strong,0.83
+CMAP-000346,ORG-009,CTRL-0118,CIS Controls,CIS,CIS 6 Access Control,CIS -1,Non-Compliant,False,None,0.44
+CMAP-000347,ORG-009,CTRL-0119,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -36,Partially Compliant,False,None,0.68
+CMAP-000348,ORG-009,CTRL-0119,NIST Cybersecurity Framework,Identify,Identify,NIST-18,Partially Compliant,True,Moderate,0.56
+CMAP-000349,ORG-009,CTRL-0120,CIS Controls,CIS,CIS 8 Audit Logs,CIS -24,Partially Compliant,True,Weak,0.48
+CMAP-000350,ORG-009,CTRL-0120,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-3,Non-Compliant,False,None,0.67
+CMAP-000351,ORG-009,CTRL-0121,CIS Controls,CIS,CIS 6 Access Control,CIS -24,Compliant,True,Strong,0
+CMAP-000352,ORG-009,CTRL-0121,ISO/IEC 27001,A.17,A.17 BCM,ISO/-5,Compliant,True,Strong,0
+CMAP-000353,ORG-009,CTRL-0122,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -8,Partially Compliant,False,None,0.57
+CMAP-000354,ORG-009,CTRL-0122,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -15,Non-Compliant,False,None,0.31
+CMAP-000355,ORG-009,CTRL-0122,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-3,Partially Compliant,True,Moderate,0.72
+CMAP-000356,ORG-009,CTRL-0123,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-50,Partially Compliant,False,None,0.63
+CMAP-000357,ORG-009,CTRL-0123,NIST Cybersecurity Framework,Identify,Identify,NIST-41,Non-Compliant,False,None,0.85
+CMAP-000358,ORG-009,CTRL-0124,NIST Cybersecurity Framework,Identify,Identify,NIST-3,Non-Compliant,False,None,0.71
+CMAP-000359,ORG-009,CTRL-0124,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-38,Partially Compliant,True,Moderate,0.67
+CMAP-000360,ORG-009,CTRL-0125,CIS Controls,CIS,CIS 6 Access Control,CIS -40,Non-Compliant,False,None,0.3
+CMAP-000361,ORG-009,CTRL-0125,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-36,Non-Compliant,False,None,0.43
+CMAP-000362,ORG-009,CTRL-0126,ISO/IEC 27001,A.6,A.6 Organization,ISO/-19,Non-Compliant,False,None,0.72
+CMAP-000363,ORG-009,CTRL-0126,NIST Cybersecurity Framework,Protect,Protect,NIST-16,Partially Compliant,False,None,0.31
+CMAP-000364,ORG-009,CTRL-0127,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -20,Compliant,True,Weak,0
+CMAP-000365,ORG-009,CTRL-0127,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-48,Compliant,True,Moderate,0
+CMAP-000366,ORG-009,CTRL-0127,NIST Cybersecurity Framework,Govern,Govern,NIST-35,Compliant,True,Strong,0
+CMAP-000367,ORG-009,CTRL-0128,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-2,Partially Compliant,False,None,0.78
+CMAP-000368,ORG-009,CTRL-0128,RBI Cyber Security Framework,Network,Network Security,RBI -39,Partially Compliant,True,Weak,0.32
+CMAP-000369,ORG-009,CTRL-0129,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -40,Non-Compliant,False,None,0.55
+CMAP-000370,ORG-009,CTRL-0129,NIST Cybersecurity Framework,Respond,Respond,NIST-48,Partially Compliant,True,Weak,0.76
+CMAP-000371,ORG-009,CTRL-0129,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-38,Non-Compliant,False,None,0.73
+CMAP-000372,ORG-009,CTRL-0129,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -33,Non-Compliant,False,None,0.33
+CMAP-000373,ORG-010,CTRL-0130,RBI Cyber Security Framework,Governance,Governance,RBI -39,Partially Compliant,True,Strong,0.4
+CMAP-000374,ORG-010,CTRL-0130,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-45,Non-Compliant,False,None,0.54
+CMAP-000375,ORG-010,CTRL-0130,NIST Cybersecurity Framework,Recover,Recover,NIST-8,Non-Compliant,False,None,0.21
+CMAP-000376,ORG-010,CTRL-0131,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -48,Non-Compliant,False,None,0.23
+CMAP-000377,ORG-010,CTRL-0131,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -14,Partially Compliant,True,Strong,0.74
+CMAP-000378,ORG-010,CTRL-0131,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-9,Non-Compliant,False,None,0.4
+CMAP-000379,ORG-010,CTRL-0131,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-17,Partially Compliant,False,None,0.84
+CMAP-000380,ORG-010,CTRL-0132,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-33,Partially Compliant,True,Moderate,0.61
+CMAP-000381,ORG-010,CTRL-0132,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-26,Non-Compliant,False,None,0.27
+CMAP-000382,ORG-010,CTRL-0132,RBI Cyber Security Framework,Network,Network Security,RBI -5,Non-Compliant,False,None,0.21
+CMAP-000383,ORG-010,CTRL-0132,NIST Cybersecurity Framework,Respond,Respond,NIST-26,Partially Compliant,True,Weak,0.58
+CMAP-000384,ORG-010,CTRL-0133,ISO/IEC 27001,A.17,A.17 BCM,ISO/-39,Compliant,True,Weak,0
+CMAP-000385,ORG-010,CTRL-0133,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-46,Compliant,True,Strong,0
+CMAP-000386,ORG-010,CTRL-0133,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -5,Compliant,True,Moderate,0
+CMAP-000387,ORG-010,CTRL-0134,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-5,Partially Compliant,True,Weak,0.48
+CMAP-000388,ORG-010,CTRL-0134,NIST Cybersecurity Framework,Detect,Detect,NIST-3,Non-Compliant,False,None,0.57
+CMAP-000389,ORG-010,CTRL-0134,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-3,Non-Compliant,False,None,0.21
+CMAP-000390,ORG-010,CTRL-0134,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -1,Non-Compliant,False,None,0.63
+CMAP-000391,ORG-010,CTRL-0135,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-17,Non-Compliant,False,None,0.28
+CMAP-000392,ORG-010,CTRL-0135,NIST Cybersecurity Framework,Detect,Detect,NIST-26,Partially Compliant,False,None,0.8
+CMAP-000393,ORG-010,CTRL-0135,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-7,Non-Compliant,False,None,0.79
+CMAP-000394,ORG-010,CTRL-0136,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-45,Partially Compliant,False,None,0.52
+CMAP-000395,ORG-010,CTRL-0136,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -7,Non-Compliant,False,None,0.4
+CMAP-000396,ORG-010,CTRL-0137,NIST Cybersecurity Framework,Detect,Detect,NIST-41,Partially Compliant,False,None,0.54
+CMAP-000397,ORG-010,CTRL-0137,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -22,Non-Compliant,False,None,0.6
+CMAP-000398,ORG-010,CTRL-0137,RBI Cyber Security Framework,Incident,Incident Response,RBI -10,Partially Compliant,True,Moderate,0.82
+CMAP-000399,ORG-010,CTRL-0138,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -3,Compliant,True,Weak,0
+CMAP-000400,ORG-010,CTRL-0138,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-49,Compliant,True,Strong,0
+CMAP-000401,ORG-010,CTRL-0138,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-46,Compliant,True,Moderate,0
+CMAP-000402,ORG-010,CTRL-0138,NIST Cybersecurity Framework,Protect,Protect,NIST-23,Compliant,True,Weak,0
+CMAP-000403,ORG-010,CTRL-0139,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-36,Compliant,True,Weak,0
+CMAP-000404,ORG-010,CTRL-0139,ISO/IEC 27001,A.6,A.6 Organization,ISO/-35,Compliant,True,Moderate,0
+CMAP-000405,ORG-010,CTRL-0139,RBI Cyber Security Framework,Access,Access Control,RBI -48,Compliant,True,Moderate,0
+CMAP-000406,ORG-010,CTRL-0140,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-2,Compliant,True,Strong,0
+CMAP-000407,ORG-010,CTRL-0140,CIS Controls,CIS,CIS 8 Audit Logs,CIS -25,Compliant,True,Weak,0
+CMAP-000408,ORG-010,CTRL-0141,NIST Cybersecurity Framework,Govern,Govern,NIST-8,Compliant,True,Weak,0
+CMAP-000409,ORG-010,CTRL-0141,RBI Cyber Security Framework,Incident,Incident Response,RBI -14,Compliant,True,Weak,0
+CMAP-000410,ORG-010,CTRL-0142,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -27,Compliant,True,Moderate,0
+CMAP-000411,ORG-010,CTRL-0142,CIS Controls,CIS,CIS 6 Access Control,CIS -34,Compliant,True,Weak,0
+CMAP-000412,ORG-010,CTRL-0142,NIST Cybersecurity Framework,Identify,Identify,NIST-31,Compliant,True,Moderate,0
+CMAP-000413,ORG-010,CTRL-0142,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-42,Compliant,True,Weak,0
+CMAP-000414,ORG-010,CTRL-0143,CIS Controls,CIS,CIS 4 Secure Config,CIS -5,Partially Compliant,True,Weak,0.55
+CMAP-000415,ORG-010,CTRL-0143,NIST Cybersecurity Framework,Govern,Govern,NIST-34,Non-Compliant,False,None,0.67
+CMAP-000416,ORG-010,CTRL-0144,ISO/IEC 27001,A.5,A.5 Policies,ISO/-7,Non-Compliant,False,None,0.2
+CMAP-000417,ORG-010,CTRL-0144,NIST Cybersecurity Framework,Recover,Recover,NIST-29,Partially Compliant,True,Strong,0.88
+CMAP-000418,ORG-010,CTRL-0144,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-38,Non-Compliant,False,None,0.37
+CMAP-000419,ORG-010,CTRL-0145,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-37,Compliant,True,Weak,0
+CMAP-000420,ORG-010,CTRL-0145,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -9,Compliant,True,Strong,0
+CMAP-000421,ORG-010,CTRL-0145,NIST Cybersecurity Framework,Protect,Protect,NIST-47,Compliant,True,Strong,0
+CMAP-000422,ORG-011,CTRL-0146,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -3,Partially Compliant,False,None,0.47
+CMAP-000423,ORG-011,CTRL-0146,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-36,Partially Compliant,False,None,0.5
+CMAP-000424,ORG-011,CTRL-0146,NIST Cybersecurity Framework,Identify,Identify,NIST-2,Partially Compliant,True,Weak,0.36
+CMAP-000425,ORG-011,CTRL-0146,CIS Controls,CIS,CIS 4 Secure Config,CIS -4,Partially Compliant,True,Strong,0.77
+CMAP-000426,ORG-011,CTRL-0147,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -2,Compliant,True,Strong,0
+CMAP-000427,ORG-011,CTRL-0147,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-4,Compliant,True,Weak,0
+CMAP-000428,ORG-011,CTRL-0147,NIST Cybersecurity Framework,Identify,Identify,NIST-8,Compliant,True,Strong,0
+CMAP-000429,ORG-011,CTRL-0148,NIST Cybersecurity Framework,Recover,Recover,NIST-31,Compliant,True,Strong,0
+CMAP-000430,ORG-011,CTRL-0148,ISO/IEC 27001,A.6,A.6 Organization,ISO/-6,Compliant,True,Weak,0
+CMAP-000431,ORG-011,CTRL-0148,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-47,Compliant,True,Weak,0
+CMAP-000432,ORG-011,CTRL-0148,CIS Controls,CIS,CIS 4 Secure Config,CIS -41,Compliant,True,Strong,0
+CMAP-000433,ORG-011,CTRL-0149,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-30,Partially Compliant,False,None,0.59
+CMAP-000434,ORG-011,CTRL-0149,NIST Cybersecurity Framework,Recover,Recover,NIST-28,Partially Compliant,False,None,0.37
+CMAP-000435,ORG-011,CTRL-0149,RBI Cyber Security Framework,Incident,Incident Response,RBI -38,Partially Compliant,False,None,0.27
+CMAP-000436,ORG-011,CTRL-0150,NIST Cybersecurity Framework,Recover,Recover,NIST-29,Partially Compliant,True,Weak,0.58
+CMAP-000437,ORG-011,CTRL-0150,RBI Cyber Security Framework,Network,Network Security,RBI -34,Non-Compliant,False,None,0.48
+CMAP-000438,ORG-011,CTRL-0150,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-26,Partially Compliant,True,Weak,0.65
+CMAP-000439,ORG-011,CTRL-0150,CIS Controls,CIS,CIS 8 Audit Logs,CIS -17,Partially Compliant,False,None,0.57
+CMAP-000440,ORG-011,CTRL-0151,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-13,Partially Compliant,True,Strong,0.68
+CMAP-000441,ORG-011,CTRL-0151,CIS Controls,CIS,CIS 8 Audit Logs,CIS -41,Non-Compliant,False,None,0.86
+CMAP-000442,ORG-011,CTRL-0151,RBI Cyber Security Framework,Incident,Incident Response,RBI -1,Partially Compliant,False,None,0.65
+CMAP-000443,ORG-011,CTRL-0151,NIST Cybersecurity Framework,Respond,Respond,NIST-14,Non-Compliant,False,None,0.69
+CMAP-000444,ORG-011,CTRL-0152,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-40,Non-Compliant,False,None,0.41
+CMAP-000445,ORG-011,CTRL-0152,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -31,Non-Compliant,False,None,0.25
+CMAP-000446,ORG-011,CTRL-0152,CIS Controls,CIS,CIS 4 Secure Config,CIS -20,Partially Compliant,False,None,0.84
+CMAP-000447,ORG-011,CTRL-0152,NIST Cybersecurity Framework,Govern,Govern,NIST-5,Non-Compliant,False,None,0.89
+CMAP-000448,ORG-011,CTRL-0153,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-40,Compliant,True,Weak,0
+CMAP-000449,ORG-011,CTRL-0153,NIST Cybersecurity Framework,Identify,Identify,NIST-33,Compliant,True,Moderate,0
+CMAP-000450,ORG-011,CTRL-0153,RBI Cyber Security Framework,Network,Network Security,RBI -1,Compliant,True,Strong,0
+CMAP-000451,ORG-011,CTRL-0154,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-2,Partially Compliant,False,None,0.23
+CMAP-000452,ORG-011,CTRL-0154,CIS Controls,CIS,CIS 8 Audit Logs,CIS -12,Non-Compliant,False,None,0.62
+CMAP-000453,ORG-011,CTRL-0154,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-49,Non-Compliant,False,None,0.44
+CMAP-000454,ORG-011,CTRL-0154,RBI Cyber Security Framework,Access,Access Control,RBI -17,Non-Compliant,False,None,0.3
+CMAP-000455,ORG-011,CTRL-0155,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -44,Compliant,True,Moderate,0
+CMAP-000456,ORG-011,CTRL-0155,NIST Cybersecurity Framework,Govern,Govern,NIST-7,Compliant,True,Moderate,0
+CMAP-000457,ORG-011,CTRL-0156,NIST Cybersecurity Framework,Recover,Recover,NIST-6,Partially Compliant,False,None,0.53
+CMAP-000458,ORG-011,CTRL-0156,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-33,Partially Compliant,True,Weak,0.33
+CMAP-000459,ORG-011,CTRL-0156,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -43,Non-Compliant,False,None,0.76
+CMAP-000460,ORG-011,CTRL-0157,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -47,Partially Compliant,True,Moderate,0.59
+CMAP-000461,ORG-011,CTRL-0157,NIST Cybersecurity Framework,Identify,Identify,NIST-38,Non-Compliant,False,None,0.67
+CMAP-000462,ORG-011,CTRL-0158,CIS Controls,CIS,CIS 8 Audit Logs,CIS -13,Non-Compliant,False,None,0.45
+CMAP-000463,ORG-011,CTRL-0158,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-13,Non-Compliant,False,None,0.75
+CMAP-000464,ORG-011,CTRL-0158,NIST Cybersecurity Framework,Identify,Identify,NIST-47,Non-Compliant,False,None,0.55
+CMAP-000465,ORG-011,CTRL-0158,RBI Cyber Security Framework,Incident,Incident Response,RBI -26,Non-Compliant,False,None,0.67
+CMAP-000466,ORG-011,CTRL-0159,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -15,Partially Compliant,False,None,0.86
+CMAP-000467,ORG-011,CTRL-0159,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-50,Partially Compliant,False,None,0.43
+CMAP-000468,ORG-011,CTRL-0159,NIST Cybersecurity Framework,Respond,Respond,NIST-43,Non-Compliant,False,None,0.23
+CMAP-000469,ORG-011,CTRL-0159,RBI Cyber Security Framework,Governance,Governance,RBI -2,Partially Compliant,True,Strong,0.89
+CMAP-000470,ORG-011,CTRL-0160,RBI Cyber Security Framework,Access,Access Control,RBI -46,Partially Compliant,False,None,0.61
+CMAP-000471,ORG-011,CTRL-0160,NIST Cybersecurity Framework,Identify,Identify,NIST-40,Partially Compliant,True,Weak,0.61
+CMAP-000472,ORG-011,CTRL-0160,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-18,Partially Compliant,True,Strong,0.66
+CMAP-000473,ORG-011,CTRL-0160,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-8,Partially Compliant,True,Moderate,0.83
+CMAP-000474,ORG-011,CTRL-0161,RBI Cyber Security Framework,Governance,Governance,RBI -6,Non-Compliant,False,None,0.26
+CMAP-000475,ORG-011,CTRL-0161,CIS Controls,CIS,CIS 8 Audit Logs,CIS -2,Non-Compliant,False,None,0.32
+CMAP-000476,ORG-011,CTRL-0161,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-22,Non-Compliant,False,None,0.46
+CMAP-000477,ORG-011,CTRL-0161,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-36,Partially Compliant,False,None,0.34
+CMAP-000478,ORG-011,CTRL-0162,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -39,Compliant,True,Strong,0
+CMAP-000479,ORG-011,CTRL-0162,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-40,Compliant,True,Weak,0
+CMAP-000480,ORG-011,CTRL-0162,RBI Cyber Security Framework,Network,Network Security,RBI -42,Compliant,True,Weak,0
+CMAP-000481,ORG-012,CTRL-0163,NIST Cybersecurity Framework,Identify,Identify,NIST-1,Partially Compliant,False,None,0.3
+CMAP-000482,ORG-012,CTRL-0163,RBI Cyber Security Framework,Incident,Incident Response,RBI -27,Partially Compliant,False,None,0.44
+CMAP-000483,ORG-012,CTRL-0164,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-41,Non-Compliant,False,None,0.65
+CMAP-000484,ORG-012,CTRL-0164,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -22,Non-Compliant,False,None,0.3
+CMAP-000485,ORG-012,CTRL-0165,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-49,Non-Compliant,False,None,0.63
+CMAP-000486,ORG-012,CTRL-0165,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-43,Non-Compliant,False,None,0.28
+CMAP-000487,ORG-012,CTRL-0165,RBI Cyber Security Framework,Network,Network Security,RBI -25,Partially Compliant,False,None,0.4
+CMAP-000488,ORG-012,CTRL-0165,CIS Controls,CIS,CIS 4 Secure Config,CIS -46,Non-Compliant,False,None,0.34
+CMAP-000489,ORG-012,CTRL-0166,CIS Controls,CIS,CIS 11 Data Recovery,CIS -4,Compliant,True,Strong,0
+CMAP-000490,ORG-012,CTRL-0166,RBI Cyber Security Framework,Incident,Incident Response,RBI -33,Compliant,True,Moderate,0
+CMAP-000491,ORG-012,CTRL-0167,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -15,Partially Compliant,False,None,0.29
+CMAP-000492,ORG-012,CTRL-0167,RBI Cyber Security Framework,Incident,Incident Response,RBI -32,Partially Compliant,False,None,0.26
+CMAP-000493,ORG-012,CTRL-0167,ISO/IEC 27001,A.17,A.17 BCM,ISO/-25,Non-Compliant,False,None,0.7
+CMAP-000494,ORG-012,CTRL-0167,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-39,Non-Compliant,False,None,0.28
+CMAP-000495,ORG-012,CTRL-0168,RBI Cyber Security Framework,Network,Network Security,RBI -25,Partially Compliant,False,None,0.5
+CMAP-000496,ORG-012,CTRL-0168,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-40,Partially Compliant,True,Strong,0.86
+CMAP-000497,ORG-012,CTRL-0168,NIST Cybersecurity Framework,Identify,Identify,NIST-30,Partially Compliant,False,None,0.35
+CMAP-000498,ORG-012,CTRL-0168,CIS Controls,CIS,CIS 8 Audit Logs,CIS -38,Partially Compliant,True,Strong,0.22
+CMAP-000499,ORG-012,CTRL-0169,RBI Cyber Security Framework,Access,Access Control,RBI -41,Compliant,True,Moderate,0
+CMAP-000500,ORG-012,CTRL-0169,NIST Cybersecurity Framework,Respond,Respond,NIST-38,Compliant,True,Weak,0
+CMAP-000501,ORG-012,CTRL-0169,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -44,Compliant,True,Moderate,0
+CMAP-000502,ORG-012,CTRL-0170,ISO/IEC 27001,A.17,A.17 BCM,ISO/-12,Non-Compliant,False,None,0.38
+CMAP-000503,ORG-012,CTRL-0170,NIST Cybersecurity Framework,Respond,Respond,NIST-1,Non-Compliant,False,None,0.81
+CMAP-000504,ORG-012,CTRL-0170,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -20,Partially Compliant,True,Moderate,0.83
+CMAP-000505,ORG-012,CTRL-0171,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-3,Non-Compliant,False,None,0.26
+CMAP-000506,ORG-012,CTRL-0171,NIST Cybersecurity Framework,Recover,Recover,NIST-12,Partially Compliant,False,None,0.6
+CMAP-000507,ORG-012,CTRL-0172,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-32,Compliant,True,Weak,0
+CMAP-000508,ORG-012,CTRL-0172,RBI Cyber Security Framework,Network,Network Security,RBI -38,Compliant,True,Weak,0
+CMAP-000509,ORG-012,CTRL-0172,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-44,Compliant,True,Strong,0
+CMAP-000510,ORG-012,CTRL-0172,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -24,Compliant,True,Moderate,0
+CMAP-000511,ORG-012,CTRL-0173,RBI Cyber Security Framework,Governance,Governance,RBI -41,Compliant,True,Strong,0
+CMAP-000512,ORG-012,CTRL-0173,NIST Cybersecurity Framework,Identify,Identify,NIST-11,Compliant,True,Weak,0
+CMAP-000513,ORG-012,CTRL-0173,CIS Controls,CIS,CIS 11 Data Recovery,CIS -35,Compliant,True,Weak,0
+CMAP-000514,ORG-012,CTRL-0173,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-5,Compliant,True,Weak,0
+CMAP-000515,ORG-012,CTRL-0174,NIST Cybersecurity Framework,Protect,Protect,NIST-17,Compliant,True,Weak,0
+CMAP-000516,ORG-012,CTRL-0174,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -29,Compliant,True,Moderate,0
+CMAP-000517,ORG-012,CTRL-0175,CIS Controls,CIS,CIS 8 Audit Logs,CIS -12,Non-Compliant,False,None,0.72
+CMAP-000518,ORG-012,CTRL-0175,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-6,Partially Compliant,False,None,0.37
+CMAP-000519,ORG-012,CTRL-0176,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-46,Non-Compliant,False,None,0.72
+CMAP-000520,ORG-012,CTRL-0176,NIST Cybersecurity Framework,Respond,Respond,NIST-10,Non-Compliant,False,None,0.3
+CMAP-000521,ORG-012,CTRL-0177,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-9,Compliant,True,Moderate,0
+CMAP-000522,ORG-012,CTRL-0177,RBI Cyber Security Framework,Incident,Incident Response,RBI -23,Compliant,True,Strong,0
+CMAP-000523,ORG-012,CTRL-0178,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-26,Partially Compliant,False,None,0.59
+CMAP-000524,ORG-012,CTRL-0178,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-31,Non-Compliant,False,None,0.24
+CMAP-000525,ORG-013,CTRL-0179,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-33,Compliant,True,Weak,0
+CMAP-000526,ORG-013,CTRL-0179,ISO/IEC 27001,A.6,A.6 Organization,ISO/-19,Compliant,True,Moderate,0
+CMAP-000527,ORG-013,CTRL-0180,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-31,Non-Compliant,False,None,0.3
+CMAP-000528,ORG-013,CTRL-0180,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -24,Partially Compliant,True,Strong,0.51
+CMAP-000529,ORG-013,CTRL-0180,NIST Cybersecurity Framework,Govern,Govern,NIST-36,Non-Compliant,False,None,0.68
+CMAP-000530,ORG-013,CTRL-0181,CIS Controls,CIS,CIS 6 Access Control,CIS -3,Partially Compliant,False,None,0.39
+CMAP-000531,ORG-013,CTRL-0181,RBI Cyber Security Framework,Access,Access Control,RBI -36,Partially Compliant,True,Strong,0.79
+CMAP-000532,ORG-013,CTRL-0181,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-15,Partially Compliant,True,Strong,0.61
+CMAP-000533,ORG-013,CTRL-0182,ISO/IEC 27001,A.17,A.17 BCM,ISO/-1,Non-Compliant,False,None,0.76
+CMAP-000534,ORG-013,CTRL-0182,RBI Cyber Security Framework,Governance,Governance,RBI -7,Partially Compliant,False,None,0.79
+CMAP-000535,ORG-013,CTRL-0182,NIST Cybersecurity Framework,Detect,Detect,NIST-21,Partially Compliant,False,None,0.27
+CMAP-000536,ORG-013,CTRL-0183,CIS Controls,CIS,CIS 6 Access Control,CIS -35,Non-Compliant,False,None,0.34
+CMAP-000537,ORG-013,CTRL-0183,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-43,Non-Compliant,False,None,0.83
+CMAP-000538,ORG-013,CTRL-0183,NIST Cybersecurity Framework,Detect,Detect,NIST-4,Non-Compliant,False,None,0.65
+CMAP-000539,ORG-013,CTRL-0184,NIST Cybersecurity Framework,Detect,Detect,NIST-47,Non-Compliant,False,None,0.69
+CMAP-000540,ORG-013,CTRL-0184,CIS Controls,CIS,CIS 11 Data Recovery,CIS -11,Partially Compliant,True,Weak,0.5
+CMAP-000541,ORG-013,CTRL-0185,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-44,Partially Compliant,False,None,0.49
+CMAP-000542,ORG-013,CTRL-0185,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-37,Non-Compliant,False,None,0.23
+CMAP-000543,ORG-013,CTRL-0186,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-22,Compliant,True,Strong,0
+CMAP-000544,ORG-013,CTRL-0186,CIS Controls,CIS,CIS 4 Secure Config,CIS -35,Compliant,True,Weak,0
+CMAP-000545,ORG-014,CTRL-0187,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-3,Partially Compliant,False,None,0.46
+CMAP-000546,ORG-014,CTRL-0187,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -7,Partially Compliant,True,Weak,0.37
+CMAP-000547,ORG-014,CTRL-0187,NIST Cybersecurity Framework,Protect,Protect,NIST-19,Non-Compliant,False,None,0.71
+CMAP-000548,ORG-014,CTRL-0187,RBI Cyber Security Framework,Access,Access Control,RBI -46,Partially Compliant,False,None,0.6
+CMAP-000549,ORG-014,CTRL-0188,RBI Cyber Security Framework,Governance,Governance,RBI -2,Compliant,True,Strong,0
+CMAP-000550,ORG-014,CTRL-0188,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-20,Compliant,True,Moderate,0
+CMAP-000551,ORG-014,CTRL-0188,NIST Cybersecurity Framework,Recover,Recover,NIST-25,Compliant,True,Strong,0
+CMAP-000552,ORG-014,CTRL-0188,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-28,Compliant,True,Moderate,0
+CMAP-000553,ORG-014,CTRL-0189,CIS Controls,CIS,CIS 11 Data Recovery,CIS -3,Compliant,True,Moderate,0
+CMAP-000554,ORG-014,CTRL-0189,NIST Cybersecurity Framework,Identify,Identify,NIST-49,Compliant,True,Strong,0
+CMAP-000555,ORG-014,CTRL-0189,ISO/IEC 27001,A.17,A.17 BCM,ISO/-49,Compliant,True,Strong,0
+CMAP-000556,ORG-014,CTRL-0190,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -16,Compliant,True,Strong,0
+CMAP-000557,ORG-014,CTRL-0190,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -8,Compliant,True,Moderate,0
+CMAP-000558,ORG-014,CTRL-0190,NIST Cybersecurity Framework,Govern,Govern,NIST-8,Compliant,True,Moderate,0
+CMAP-000559,ORG-014,CTRL-0190,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-17,Compliant,True,Weak,0
+CMAP-000560,ORG-014,CTRL-0191,ISO/IEC 27001,A.5,A.5 Policies,ISO/-34,Compliant,True,Strong,0
+CMAP-000561,ORG-014,CTRL-0191,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-9,Compliant,True,Moderate,0
+CMAP-000562,ORG-014,CTRL-0191,CIS Controls,CIS,CIS 8 Audit Logs,CIS -13,Compliant,True,Moderate,0
+CMAP-000563,ORG-014,CTRL-0191,RBI Cyber Security Framework,Access,Access Control,RBI -49,Compliant,True,Weak,0
+CMAP-000564,ORG-014,CTRL-0192,NIST Cybersecurity Framework,Protect,Protect,NIST-47,Partially Compliant,False,None,0.3
+CMAP-000565,ORG-014,CTRL-0192,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-9,Non-Compliant,False,None,0.65
+CMAP-000566,ORG-014,CTRL-0192,RBI Cyber Security Framework,Access,Access Control,RBI -31,Non-Compliant,False,None,0.3
+CMAP-000567,ORG-014,CTRL-0193,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -36,Partially Compliant,True,Weak,0.84
+CMAP-000568,ORG-014,CTRL-0193,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -25,Partially Compliant,False,None,0.58
+CMAP-000569,ORG-014,CTRL-0193,NIST Cybersecurity Framework,Recover,Recover,NIST-8,Non-Compliant,False,None,0.68
+CMAP-000570,ORG-014,CTRL-0194,RBI Cyber Security Framework,Incident,Incident Response,RBI -33,Compliant,True,Weak,0
+CMAP-000571,ORG-014,CTRL-0194,NIST Cybersecurity Framework,Detect,Detect,NIST-24,Compliant,True,Moderate,0
+CMAP-000572,ORG-014,CTRL-0194,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -36,Compliant,True,Weak,0
+CMAP-000573,ORG-014,CTRL-0194,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-46,Compliant,True,Moderate,0
+CMAP-000574,ORG-014,CTRL-0195,ISO/IEC 27001,A.5,A.5 Policies,ISO/-18,Non-Compliant,False,None,0.87
+CMAP-000575,ORG-014,CTRL-0195,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-29,Partially Compliant,False,None,0.33
+CMAP-000576,ORG-014,CTRL-0195,NIST Cybersecurity Framework,Protect,Protect,NIST-41,Partially Compliant,False,None,0.6
+CMAP-000577,ORG-014,CTRL-0195,CIS Controls,CIS,CIS 4 Secure Config,CIS -4,Partially Compliant,False,None,0.38
+CMAP-000578,ORG-014,CTRL-0196,NIST Cybersecurity Framework,Protect,Protect,NIST-26,Partially Compliant,True,Weak,0.77
+CMAP-000579,ORG-014,CTRL-0196,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -11,Non-Compliant,False,None,0.7
+CMAP-000580,ORG-014,CTRL-0197,NIST Cybersecurity Framework,Respond,Respond,NIST-23,Non-Compliant,False,None,0.25
+CMAP-000581,ORG-014,CTRL-0197,ISO/IEC 27001,A.6,A.6 Organization,ISO/-41,Partially Compliant,True,Moderate,0.4
+CMAP-000582,ORG-014,CTRL-0197,RBI Cyber Security Framework,Network,Network Security,RBI -28,Non-Compliant,False,None,0.57
+CMAP-000583,ORG-014,CTRL-0197,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -20,Partially Compliant,False,None,0.47
+CMAP-000584,ORG-014,CTRL-0198,RBI Cyber Security Framework,Governance,Governance,RBI -46,Non-Compliant,False,None,0.58
+CMAP-000585,ORG-014,CTRL-0198,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-18,Partially Compliant,True,Strong,0.67
+CMAP-000586,ORG-014,CTRL-0198,CIS Controls,CIS,CIS 8 Audit Logs,CIS -40,Non-Compliant,False,None,0.59
+CMAP-000587,ORG-014,CTRL-0199,ISO/IEC 27001,A.5,A.5 Policies,ISO/-47,Compliant,True,Strong,0
+CMAP-000588,ORG-014,CTRL-0199,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-24,Compliant,True,Moderate,0
+CMAP-000589,ORG-014,CTRL-0199,CIS Controls,CIS,CIS 4 Secure Config,CIS -19,Compliant,True,Moderate,0
+CMAP-000590,ORG-014,CTRL-0199,NIST Cybersecurity Framework,Respond,Respond,NIST-47,Compliant,True,Weak,0
+CMAP-000591,ORG-014,CTRL-0200,RBI Cyber Security Framework,Network,Network Security,RBI -40,Compliant,True,Moderate,0
+CMAP-000592,ORG-014,CTRL-0200,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-40,Compliant,True,Weak,0
+CMAP-000593,ORG-014,CTRL-0200,CIS Controls,CIS,CIS 11 Data Recovery,CIS -47,Compliant,True,Weak,0
+CMAP-000594,ORG-014,CTRL-0200,ISO/IEC 27001,A.17,A.17 BCM,ISO/-31,Compliant,True,Strong,0
+CMAP-000595,ORG-014,CTRL-0201,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-37,Non-Compliant,False,None,0.24
+CMAP-000596,ORG-014,CTRL-0201,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-11,Non-Compliant,False,None,0.71
+CMAP-000597,ORG-014,CTRL-0201,RBI Cyber Security Framework,Governance,Governance,RBI -2,Non-Compliant,False,None,0.65
+CMAP-000598,ORG-014,CTRL-0202,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-32,Compliant,True,Weak,0
+CMAP-000599,ORG-014,CTRL-0202,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -20,Compliant,True,Strong,0
+CMAP-000600,ORG-014,CTRL-0203,NIST Cybersecurity Framework,Identify,Identify,NIST-4,Compliant,True,Weak,0
+CMAP-000601,ORG-014,CTRL-0203,ISO/IEC 27001,A.6,A.6 Organization,ISO/-49,Compliant,True,Moderate,0
+CMAP-000602,ORG-014,CTRL-0203,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -33,Compliant,True,Weak,0
+CMAP-000603,ORG-014,CTRL-0204,NIST Cybersecurity Framework,Respond,Respond,NIST-48,Non-Compliant,False,None,0.37
+CMAP-000604,ORG-014,CTRL-0204,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -34,Partially Compliant,True,Weak,0.48
+CMAP-000605,ORG-014,CTRL-0204,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-41,Partially Compliant,True,Weak,0.8
+CMAP-000606,ORG-014,CTRL-0204,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -50,Non-Compliant,False,None,0.74
+CMAP-000607,ORG-014,CTRL-0205,ISO/IEC 27001,A.6,A.6 Organization,ISO/-30,Compliant,True,Moderate,0
+CMAP-000608,ORG-014,CTRL-0205,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-11,Compliant,True,Strong,0
+CMAP-000609,ORG-014,CTRL-0205,NIST Cybersecurity Framework,Respond,Respond,NIST-35,Compliant,True,Strong,0
+CMAP-000610,ORG-014,CTRL-0205,CIS Controls,CIS,CIS 4 Secure Config,CIS -8,Compliant,True,Moderate,0
+CMAP-000611,ORG-014,CTRL-0206,NIST Cybersecurity Framework,Identify,Identify,NIST-26,Compliant,True,Strong,0
+CMAP-000612,ORG-014,CTRL-0206,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-5,Compliant,True,Moderate,0
+CMAP-000613,ORG-015,CTRL-0207,CIS Controls,CIS,CIS 8 Audit Logs,CIS -31,Compliant,True,Moderate,0
+CMAP-000614,ORG-015,CTRL-0207,ISO/IEC 27001,A.6,A.6 Organization,ISO/-13,Compliant,True,Strong,0
+CMAP-000615,ORG-015,CTRL-0208,CIS Controls,CIS,CIS 4 Secure Config,CIS -9,Non-Compliant,False,None,0.57
+CMAP-000616,ORG-015,CTRL-0208,NIST Cybersecurity Framework,Identify,Identify,NIST-27,Partially Compliant,False,None,0.27
+CMAP-000617,ORG-015,CTRL-0208,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-37,Non-Compliant,False,None,0.23
+CMAP-000618,ORG-015,CTRL-0209,NIST Cybersecurity Framework,Protect,Protect,NIST-15,Non-Compliant,False,None,0.82
+CMAP-000619,ORG-015,CTRL-0209,RBI Cyber Security Framework,Network,Network Security,RBI -45,Partially Compliant,True,Moderate,0.28
+CMAP-000620,ORG-015,CTRL-0210,NIST Cybersecurity Framework,Respond,Respond,NIST-41,Compliant,True,Moderate,0
+CMAP-000621,ORG-015,CTRL-0210,RBI Cyber Security Framework,Governance,Governance,RBI -27,Compliant,True,Moderate,0
+CMAP-000622,ORG-015,CTRL-0210,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-31,Compliant,True,Weak,0
+CMAP-000623,ORG-015,CTRL-0211,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -48,Partially Compliant,True,Weak,0.83
+CMAP-000624,ORG-015,CTRL-0211,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -46,Partially Compliant,True,Moderate,0.84
+CMAP-000625,ORG-015,CTRL-0211,NIST Cybersecurity Framework,Govern,Govern,NIST-12,Non-Compliant,False,None,0.48
+CMAP-000626,ORG-015,CTRL-0212,CIS Controls,CIS,CIS 11 Data Recovery,CIS -14,Non-Compliant,False,None,0.52
+CMAP-000627,ORG-015,CTRL-0212,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-32,Non-Compliant,False,None,0.36
+CMAP-000628,ORG-015,CTRL-0213,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-20,Partially Compliant,False,None,0.7
+CMAP-000629,ORG-015,CTRL-0213,ISO/IEC 27001,A.6,A.6 Organization,ISO/-44,Non-Compliant,False,None,0.28
+CMAP-000630,ORG-015,CTRL-0214,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-32,Partially Compliant,True,Moderate,0.82
+CMAP-000631,ORG-015,CTRL-0214,CIS Controls,CIS,CIS 11 Data Recovery,CIS -8,Non-Compliant,False,None,0.55
+CMAP-000632,ORG-015,CTRL-0215,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -42,Partially Compliant,True,Moderate,0.81
+CMAP-000633,ORG-015,CTRL-0215,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-49,Partially Compliant,False,None,0.81
+CMAP-000634,ORG-015,CTRL-0215,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-50,Non-Compliant,False,None,0.25
+CMAP-000635,ORG-015,CTRL-0215,NIST Cybersecurity Framework,Govern,Govern,NIST-33,Non-Compliant,False,None,0.89
+CMAP-000636,ORG-015,CTRL-0216,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-11,Non-Compliant,False,None,0.25
+CMAP-000637,ORG-015,CTRL-0216,ISO/IEC 27001,A.6,A.6 Organization,ISO/-5,Non-Compliant,False,None,0.68
+CMAP-000638,ORG-015,CTRL-0217,RBI Cyber Security Framework,Incident,Incident Response,RBI -37,Partially Compliant,True,Moderate,0.86
+CMAP-000639,ORG-015,CTRL-0217,NIST Cybersecurity Framework,Respond,Respond,NIST-18,Non-Compliant,False,None,0.22
+CMAP-000640,ORG-015,CTRL-0217,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-7,Non-Compliant,False,None,0.33
+CMAP-000641,ORG-015,CTRL-0218,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -2,Non-Compliant,False,None,0.76
+CMAP-000642,ORG-015,CTRL-0218,NIST Cybersecurity Framework,Identify,Identify,NIST-39,Non-Compliant,False,None,0.8
+CMAP-000643,ORG-015,CTRL-0218,ISO/IEC 27001,A.6,A.6 Organization,ISO/-30,Non-Compliant,False,None,0.74
+CMAP-000644,ORG-015,CTRL-0219,NIST Cybersecurity Framework,Identify,Identify,NIST-22,Partially Compliant,False,None,0.59
+CMAP-000645,ORG-015,CTRL-0219,ISO/IEC 27001,A.5,A.5 Policies,ISO/-24,Partially Compliant,False,None,0.64
+CMAP-000646,ORG-015,CTRL-0219,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-15,Partially Compliant,False,None,0.68
+CMAP-000647,ORG-015,CTRL-0220,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-24,Compliant,True,Weak,0
+CMAP-000648,ORG-015,CTRL-0220,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-22,Compliant,True,Moderate,0
+CMAP-000649,ORG-016,CTRL-0221,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-2,Non-Compliant,False,None,0.76
+CMAP-000650,ORG-016,CTRL-0221,CIS Controls,CIS,CIS 4 Secure Config,CIS -46,Partially Compliant,True,Moderate,0.51
+CMAP-000651,ORG-016,CTRL-0222,NIST Cybersecurity Framework,Govern,Govern,NIST-46,Non-Compliant,False,None,0.69
+CMAP-000652,ORG-016,CTRL-0222,RBI Cyber Security Framework,Network,Network Security,RBI -13,Non-Compliant,False,None,0.42
+CMAP-000653,ORG-016,CTRL-0222,CIS Controls,CIS,CIS 11 Data Recovery,CIS -6,Non-Compliant,False,None,0.83
+CMAP-000654,ORG-016,CTRL-0222,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-20,Non-Compliant,False,None,0.85
+CMAP-000655,ORG-016,CTRL-0223,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-40,Partially Compliant,True,Strong,0.35
+CMAP-000656,ORG-016,CTRL-0223,RBI Cyber Security Framework,Governance,Governance,RBI -28,Non-Compliant,False,None,0.83
+CMAP-000657,ORG-016,CTRL-0224,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-43,Non-Compliant,False,None,0.38
+CMAP-000658,ORG-016,CTRL-0224,NIST Cybersecurity Framework,Protect,Protect,NIST-49,Non-Compliant,False,None,0.76
+CMAP-000659,ORG-016,CTRL-0224,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -2,Non-Compliant,False,None,0.86
+CMAP-000660,ORG-016,CTRL-0224,CIS Controls,CIS,CIS 8 Audit Logs,CIS -16,Non-Compliant,False,None,0.42
+CMAP-000661,ORG-016,CTRL-0225,RBI Cyber Security Framework,Governance,Governance,RBI -41,Non-Compliant,False,None,0.79
+CMAP-000662,ORG-016,CTRL-0225,NIST Cybersecurity Framework,Recover,Recover,NIST-10,Partially Compliant,False,None,0.29
+CMAP-000663,ORG-016,CTRL-0225,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-5,Non-Compliant,False,None,0.58
+CMAP-000664,ORG-016,CTRL-0226,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-26,Compliant,True,Strong,0
+CMAP-000665,ORG-016,CTRL-0226,CIS Controls,CIS,CIS 6 Access Control,CIS -49,Compliant,True,Weak,0
+CMAP-000666,ORG-016,CTRL-0226,RBI Cyber Security Framework,Incident,Incident Response,RBI -46,Compliant,True,Moderate,0
+CMAP-000667,ORG-016,CTRL-0227,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-17,Compliant,True,Strong,0
+CMAP-000668,ORG-016,CTRL-0227,NIST Cybersecurity Framework,Detect,Detect,NIST-20,Compliant,True,Moderate,0
+CMAP-000669,ORG-016,CTRL-0228,NIST Cybersecurity Framework,Detect,Detect,NIST-28,Partially Compliant,True,Weak,0.36
+CMAP-000670,ORG-016,CTRL-0228,ISO/IEC 27001,A.6,A.6 Organization,ISO/-2,Non-Compliant,False,None,0.46
+CMAP-000671,ORG-016,CTRL-0229,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-46,Non-Compliant,False,None,0.26
+CMAP-000672,ORG-016,CTRL-0229,RBI Cyber Security Framework,Governance,Governance,RBI -35,Partially Compliant,True,Weak,0.86
+CMAP-000673,ORG-016,CTRL-0229,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-3,Partially Compliant,False,None,0.42
+CMAP-000674,ORG-016,CTRL-0230,NIST Cybersecurity Framework,Protect,Protect,NIST-4,Non-Compliant,False,None,0.66
+CMAP-000675,ORG-016,CTRL-0230,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-42,Partially Compliant,True,Weak,0.38
+CMAP-000676,ORG-016,CTRL-0230,CIS Controls,CIS,CIS 8 Audit Logs,CIS -29,Non-Compliant,False,None,0.23
+CMAP-000677,ORG-016,CTRL-0230,RBI Cyber Security Framework,Governance,Governance,RBI -35,Non-Compliant,False,None,0.65
+CMAP-000678,ORG-016,CTRL-0231,NIST Cybersecurity Framework,Govern,Govern,NIST-19,Non-Compliant,False,None,0.23
+CMAP-000679,ORG-016,CTRL-0231,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-19,Partially Compliant,False,None,0.5
+CMAP-000680,ORG-016,CTRL-0232,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-41,Non-Compliant,False,None,0.55
+CMAP-000681,ORG-016,CTRL-0232,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -19,Partially Compliant,True,Weak,0.84
+CMAP-000682,ORG-016,CTRL-0232,RBI Cyber Security Framework,Incident,Incident Response,RBI -24,Non-Compliant,False,None,0.51
+CMAP-000683,ORG-016,CTRL-0233,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-19,Partially Compliant,False,None,0.52
+CMAP-000684,ORG-016,CTRL-0233,RBI Cyber Security Framework,Access,Access Control,RBI -4,Non-Compliant,False,None,0.5
+CMAP-000685,ORG-016,CTRL-0234,NIST Cybersecurity Framework,Identify,Identify,NIST-35,Compliant,True,Weak,0
+CMAP-000686,ORG-016,CTRL-0234,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -29,Compliant,True,Strong,0
+CMAP-000687,ORG-016,CTRL-0235,NIST Cybersecurity Framework,Identify,Identify,NIST-5,Compliant,True,Strong,0
+CMAP-000688,ORG-016,CTRL-0235,CIS Controls,CIS,CIS 11 Data Recovery,CIS -18,Compliant,True,Weak,0
+CMAP-000689,ORG-016,CTRL-0236,NIST Cybersecurity Framework,Detect,Detect,NIST-7,Non-Compliant,False,None,0.34
+CMAP-000690,ORG-016,CTRL-0236,RBI Cyber Security Framework,Incident,Incident Response,RBI -43,Partially Compliant,False,None,0.46
+CMAP-000691,ORG-016,CTRL-0237,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-24,Partially Compliant,True,Moderate,0.44
+CMAP-000692,ORG-016,CTRL-0237,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-46,Partially Compliant,True,Moderate,0.64
+CMAP-000693,ORG-016,CTRL-0237,CIS Controls,CIS,CIS 8 Audit Logs,CIS -3,Non-Compliant,False,None,0.7
+CMAP-000694,ORG-017,CTRL-0238,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-31,Compliant,True,Moderate,0
+CMAP-000695,ORG-017,CTRL-0238,NIST Cybersecurity Framework,Recover,Recover,NIST-22,Compliant,True,Weak,0
+CMAP-000696,ORG-017,CTRL-0239,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -28,Compliant,True,Moderate,0
+CMAP-000697,ORG-017,CTRL-0239,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-10,Compliant,True,Weak,0
+CMAP-000698,ORG-017,CTRL-0239,RBI Cyber Security Framework,Access,Access Control,RBI -9,Compliant,True,Weak,0
+CMAP-000699,ORG-017,CTRL-0240,RBI Cyber Security Framework,Governance,Governance,RBI -8,Compliant,True,Strong,0
+CMAP-000700,ORG-017,CTRL-0240,NIST Cybersecurity Framework,Respond,Respond,NIST-22,Compliant,True,Weak,0
+CMAP-000701,ORG-017,CTRL-0240,CIS Controls,CIS,CIS 8 Audit Logs,CIS -2,Compliant,True,Weak,0
+CMAP-000702,ORG-017,CTRL-0240,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-27,Compliant,True,Strong,0
+CMAP-000703,ORG-017,CTRL-0241,RBI Cyber Security Framework,Governance,Governance,RBI -21,Non-Compliant,False,None,0.25
+CMAP-000704,ORG-017,CTRL-0241,NIST Cybersecurity Framework,Protect,Protect,NIST-5,Partially Compliant,False,None,0.73
+CMAP-000705,ORG-017,CTRL-0242,NIST Cybersecurity Framework,Protect,Protect,NIST-34,Partially Compliant,True,Strong,0.22
+CMAP-000706,ORG-017,CTRL-0242,ISO/IEC 27001,A.5,A.5 Policies,ISO/-18,Partially Compliant,True,Strong,0.62
+CMAP-000707,ORG-017,CTRL-0242,RBI Cyber Security Framework,Incident,Incident Response,RBI -26,Partially Compliant,True,Strong,0.86
+CMAP-000708,ORG-017,CTRL-0242,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-15,Partially Compliant,True,Strong,0.68
+CMAP-000709,ORG-017,CTRL-0243,CIS Controls,CIS,CIS 4 Secure Config,CIS -5,Non-Compliant,False,None,0.33
+CMAP-000710,ORG-017,CTRL-0243,NIST Cybersecurity Framework,Recover,Recover,NIST-6,Partially Compliant,False,None,0.61
+CMAP-000711,ORG-017,CTRL-0243,RBI Cyber Security Framework,Incident,Incident Response,RBI -5,Non-Compliant,False,None,0.32
+CMAP-000712,ORG-017,CTRL-0244,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-43,Partially Compliant,False,None,0.71
+CMAP-000713,ORG-017,CTRL-0244,NIST Cybersecurity Framework,Detect,Detect,NIST-20,Partially Compliant,True,Moderate,0.52
+CMAP-000714,ORG-017,CTRL-0244,CIS Controls,CIS,CIS 11 Data Recovery,CIS -1,Non-Compliant,False,None,0.81
+CMAP-000715,ORG-017,CTRL-0244,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -44,Non-Compliant,False,None,0.53
+CMAP-000716,ORG-017,CTRL-0245,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -5,Compliant,True,Weak,0
+CMAP-000717,ORG-017,CTRL-0245,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -24,Compliant,True,Moderate,0
+CMAP-000718,ORG-017,CTRL-0246,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -28,Partially Compliant,True,Weak,0.84
+CMAP-000719,ORG-017,CTRL-0246,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-22,Partially Compliant,False,None,0.63
+CMAP-000720,ORG-017,CTRL-0246,RBI Cyber Security Framework,Network,Network Security,RBI -22,Non-Compliant,False,None,0.81
+CMAP-000721,ORG-017,CTRL-0247,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-30,Non-Compliant,False,None,0.22
+CMAP-000722,ORG-017,CTRL-0247,NIST Cybersecurity Framework,Detect,Detect,NIST-14,Partially Compliant,False,None,0.63
+CMAP-000723,ORG-017,CTRL-0247,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -22,Partially Compliant,False,None,0.39
+CMAP-000724,ORG-017,CTRL-0248,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-47,Partially Compliant,False,None,0.24
+CMAP-000725,ORG-017,CTRL-0248,RBI Cyber Security Framework,Network,Network Security,RBI -32,Partially Compliant,False,None,0.29
+CMAP-000726,ORG-017,CTRL-0249,CIS Controls,CIS,CIS 4 Secure Config,CIS -49,Non-Compliant,False,None,0.22
+CMAP-000727,ORG-017,CTRL-0249,ISO/IEC 27001,A.5,A.5 Policies,ISO/-18,Non-Compliant,False,None,0.9
+CMAP-000728,ORG-017,CTRL-0249,NIST Cybersecurity Framework,Protect,Protect,NIST-13,Partially Compliant,False,None,0.76
+CMAP-000729,ORG-017,CTRL-0249,RBI Cyber Security Framework,Network,Network Security,RBI -37,Non-Compliant,False,None,0.52
+CMAP-000730,ORG-017,CTRL-0250,CIS Controls,CIS,CIS 8 Audit Logs,CIS -46,Compliant,True,Weak,0
+CMAP-000731,ORG-017,CTRL-0250,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -10,Compliant,True,Moderate,0
+CMAP-000732,ORG-017,CTRL-0250,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-49,Compliant,True,Strong,0
+CMAP-000733,ORG-017,CTRL-0251,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-49,Compliant,True,Strong,0
+CMAP-000734,ORG-017,CTRL-0251,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-28,Compliant,True,Strong,0
+CMAP-000735,ORG-017,CTRL-0251,NIST Cybersecurity Framework,Govern,Govern,NIST-6,Compliant,True,Moderate,0
+CMAP-000736,ORG-017,CTRL-0251,RBI Cyber Security Framework,Incident,Incident Response,RBI -6,Compliant,True,Moderate,0
+CMAP-000737,ORG-017,CTRL-0252,NIST Cybersecurity Framework,Govern,Govern,NIST-10,Compliant,True,Moderate,0
+CMAP-000738,ORG-017,CTRL-0252,RBI Cyber Security Framework,Access,Access Control,RBI -23,Compliant,True,Strong,0
+CMAP-000739,ORG-017,CTRL-0252,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-10,Compliant,True,Strong,0
+CMAP-000740,ORG-017,CTRL-0252,CIS Controls,CIS,CIS 8 Audit Logs,CIS -17,Compliant,True,Moderate,0
+CMAP-000741,ORG-017,CTRL-0253,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-38,Partially Compliant,True,Strong,0.53
+CMAP-000742,ORG-017,CTRL-0253,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-33,Partially Compliant,False,None,0.33
+CMAP-000743,ORG-017,CTRL-0253,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -46,Non-Compliant,False,None,0.51
+CMAP-000744,ORG-017,CTRL-0253,NIST Cybersecurity Framework,Protect,Protect,NIST-46,Non-Compliant,False,None,0.62
+CMAP-000745,ORG-017,CTRL-0254,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-8,Partially Compliant,True,Moderate,0.44
+CMAP-000746,ORG-017,CTRL-0254,NIST Cybersecurity Framework,Recover,Recover,NIST-13,Non-Compliant,False,None,0.89
+CMAP-000747,ORG-017,CTRL-0254,RBI Cyber Security Framework,Incident,Incident Response,RBI -16,Non-Compliant,False,None,0.74
+CMAP-000748,ORG-017,CTRL-0255,ISO/IEC 27001,A.6,A.6 Organization,ISO/-2,Partially Compliant,False,None,0.43
+CMAP-000749,ORG-017,CTRL-0255,NIST Cybersecurity Framework,Protect,Protect,NIST-6,Partially Compliant,False,None,0.8
+CMAP-000750,ORG-017,CTRL-0256,NIST Cybersecurity Framework,Govern,Govern,NIST-49,Partially Compliant,False,None,0.89
+CMAP-000751,ORG-017,CTRL-0256,RBI Cyber Security Framework,Access,Access Control,RBI -32,Partially Compliant,False,None,0.89
+CMAP-000752,ORG-017,CTRL-0256,CIS Controls,CIS,CIS 6 Access Control,CIS -31,Partially Compliant,True,Moderate,0.68
+CMAP-000753,ORG-017,CTRL-0256,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-2,Partially Compliant,False,None,0.56
+CMAP-000754,ORG-017,CTRL-0257,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-20,Compliant,True,Strong,0
+CMAP-000755,ORG-017,CTRL-0257,NIST Cybersecurity Framework,Identify,Identify,NIST-32,Compliant,True,Weak,0
+CMAP-000756,ORG-017,CTRL-0258,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-47,Partially Compliant,True,Weak,0.69
+CMAP-000757,ORG-017,CTRL-0258,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-15,Partially Compliant,True,Moderate,0.27
+CMAP-000758,ORG-017,CTRL-0258,NIST Cybersecurity Framework,Detect,Detect,NIST-38,Partially Compliant,False,None,0.35
+CMAP-000759,ORG-017,CTRL-0259,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -31,Compliant,True,Weak,0
+CMAP-000760,ORG-017,CTRL-0259,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-31,Compliant,True,Strong,0
+CMAP-000761,ORG-017,CTRL-0259,NIST Cybersecurity Framework,Respond,Respond,NIST-30,Compliant,True,Moderate,0
+CMAP-000762,ORG-017,CTRL-0260,NIST Cybersecurity Framework,Recover,Recover,NIST-18,Compliant,True,Strong,0
+CMAP-000763,ORG-017,CTRL-0260,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-28,Compliant,True,Weak,0
+CMAP-000764,ORG-017,CTRL-0261,NIST Cybersecurity Framework,Respond,Respond,NIST-23,Non-Compliant,False,None,0.89
+CMAP-000765,ORG-017,CTRL-0261,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-12,Non-Compliant,False,None,0.3
+CMAP-000766,ORG-017,CTRL-0261,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-14,Partially Compliant,False,None,0.25
+CMAP-000767,ORG-017,CTRL-0261,RBI Cyber Security Framework,Access,Access Control,RBI -13,Partially Compliant,False,None,0.63
+CMAP-000768,ORG-017,CTRL-0262,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -29,Partially Compliant,True,Moderate,0.5
+CMAP-000769,ORG-017,CTRL-0262,RBI Cyber Security Framework,Governance,Governance,RBI -3,Non-Compliant,False,None,0.3
+CMAP-000770,ORG-017,CTRL-0262,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-37,Partially Compliant,False,None,0.43
+CMAP-000771,ORG-018,CTRL-0263,RBI Cyber Security Framework,Network,Network Security,RBI -18,Non-Compliant,False,None,0.78
+CMAP-000772,ORG-018,CTRL-0263,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -40,Non-Compliant,False,None,0.33
+CMAP-000773,ORG-018,CTRL-0263,NIST Cybersecurity Framework,Govern,Govern,NIST-16,Non-Compliant,False,None,0.81
+CMAP-000774,ORG-018,CTRL-0264,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-33,Partially Compliant,False,None,0.23
+CMAP-000775,ORG-018,CTRL-0264,CIS Controls,CIS,CIS 4 Secure Config,CIS -44,Non-Compliant,False,None,0.67
+CMAP-000776,ORG-018,CTRL-0265,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-38,Compliant,True,Strong,0
+CMAP-000777,ORG-018,CTRL-0265,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -9,Compliant,True,Strong,0
+CMAP-000778,ORG-018,CTRL-0266,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-12,Non-Compliant,False,None,0.48
+CMAP-000779,ORG-018,CTRL-0266,NIST Cybersecurity Framework,Respond,Respond,NIST-9,Non-Compliant,False,None,0.66
+CMAP-000780,ORG-018,CTRL-0266,RBI Cyber Security Framework,Access,Access Control,RBI -35,Non-Compliant,False,None,0.59
+CMAP-000781,ORG-018,CTRL-0267,RBI Cyber Security Framework,Incident,Incident Response,RBI -4,Non-Compliant,False,None,0.33
+CMAP-000782,ORG-018,CTRL-0267,NIST Cybersecurity Framework,Protect,Protect,NIST-29,Non-Compliant,False,None,0.63
+CMAP-000783,ORG-018,CTRL-0267,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-14,Partially Compliant,True,Strong,0.83
+CMAP-000784,ORG-018,CTRL-0267,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-19,Partially Compliant,True,Strong,0.5
+CMAP-000785,ORG-018,CTRL-0268,NIST Cybersecurity Framework,Identify,Identify,NIST-40,Compliant,True,Weak,0
+CMAP-000786,ORG-018,CTRL-0268,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-4,Compliant,True,Strong,0
+CMAP-000787,ORG-018,CTRL-0268,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-42,Compliant,True,Strong,0
+CMAP-000788,ORG-018,CTRL-0269,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -1,Partially Compliant,False,None,0.86
+CMAP-000789,ORG-018,CTRL-0269,NIST Cybersecurity Framework,Respond,Respond,NIST-46,Partially Compliant,False,None,0.76
+CMAP-000790,ORG-018,CTRL-0269,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-4,Non-Compliant,False,None,0.22
+CMAP-000791,ORG-018,CTRL-0270,NIST Cybersecurity Framework,Govern,Govern,NIST-12,Compliant,True,Moderate,0
+CMAP-000792,ORG-018,CTRL-0270,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -17,Compliant,True,Strong,0
+CMAP-000793,ORG-018,CTRL-0270,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-4,Compliant,True,Moderate,0
+CMAP-000794,ORG-018,CTRL-0270,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -19,Compliant,True,Strong,0
+CMAP-000795,ORG-018,CTRL-0271,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -24,Compliant,True,Weak,0
+CMAP-000796,ORG-018,CTRL-0271,ISO/IEC 27001,A.5,A.5 Policies,ISO/-18,Compliant,True,Moderate,0
+CMAP-000797,ORG-018,CTRL-0271,NIST Cybersecurity Framework,Detect,Detect,NIST-13,Compliant,True,Strong,0
+CMAP-000798,ORG-019,CTRL-0272,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-18,Non-Compliant,False,None,0.68
+CMAP-000799,ORG-019,CTRL-0272,ISO/IEC 27001,A.17,A.17 BCM,ISO/-43,Partially Compliant,True,Weak,0.27
+CMAP-000800,ORG-019,CTRL-0272,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -12,Partially Compliant,True,Weak,0.2
+CMAP-000801,ORG-019,CTRL-0272,NIST Cybersecurity Framework,Protect,Protect,NIST-20,Partially Compliant,False,None,0.45
+CMAP-000802,ORG-019,CTRL-0273,NIST Cybersecurity Framework,Recover,Recover,NIST-28,Compliant,True,Weak,0
+CMAP-000803,ORG-019,CTRL-0273,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-20,Compliant,True,Weak,0
+CMAP-000804,ORG-019,CTRL-0273,CIS Controls,CIS,CIS 11 Data Recovery,CIS -41,Compliant,True,Weak,0
+CMAP-000805,ORG-019,CTRL-0274,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-4,Non-Compliant,False,None,0.75
+CMAP-000806,ORG-019,CTRL-0274,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -12,Partially Compliant,False,None,0.48
+CMAP-000807,ORG-019,CTRL-0275,CIS Controls,CIS,CIS 8 Audit Logs,CIS -46,Compliant,True,Moderate,0
+CMAP-000808,ORG-019,CTRL-0275,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-16,Compliant,True,Moderate,0
+CMAP-000809,ORG-019,CTRL-0275,NIST Cybersecurity Framework,Recover,Recover,NIST-4,Compliant,True,Strong,0
+CMAP-000810,ORG-019,CTRL-0275,RBI Cyber Security Framework,Governance,Governance,RBI -39,Compliant,True,Weak,0
+CMAP-000811,ORG-019,CTRL-0276,RBI Cyber Security Framework,Network,Network Security,RBI -41,Compliant,True,Moderate,0
+CMAP-000812,ORG-019,CTRL-0276,CIS Controls,CIS,CIS 6 Access Control,CIS -31,Compliant,True,Strong,0
+CMAP-000813,ORG-019,CTRL-0276,NIST Cybersecurity Framework,Protect,Protect,NIST-8,Compliant,True,Moderate,0
+CMAP-000814,ORG-019,CTRL-0276,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-29,Compliant,True,Moderate,0
+CMAP-000815,ORG-019,CTRL-0277,CIS Controls,CIS,CIS 11 Data Recovery,CIS -21,Non-Compliant,False,None,0.75
+CMAP-000816,ORG-019,CTRL-0277,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-46,Partially Compliant,True,Moderate,0.38
+CMAP-000817,ORG-019,CTRL-0277,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -21,Non-Compliant,False,None,0.7
+CMAP-000818,ORG-019,CTRL-0277,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-25,Non-Compliant,False,None,0.51
+CMAP-000819,ORG-019,CTRL-0278,CIS Controls,CIS,CIS 11 Data Recovery,CIS -3,Partially Compliant,True,Weak,0.62
+CMAP-000820,ORG-019,CTRL-0278,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-45,Partially Compliant,False,None,0.85
+CMAP-000821,ORG-019,CTRL-0278,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-34,Partially Compliant,False,None,0.83
+CMAP-000822,ORG-019,CTRL-0279,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-14,Non-Compliant,False,None,0.71
+CMAP-000823,ORG-019,CTRL-0279,CIS Controls,CIS,CIS 8 Audit Logs,CIS -18,Non-Compliant,False,None,0.21
+CMAP-000824,ORG-019,CTRL-0280,ISO/IEC 27001,A.5,A.5 Policies,ISO/-41,Compliant,True,Strong,0
+CMAP-000825,ORG-019,CTRL-0280,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -22,Compliant,True,Moderate,0
+CMAP-000826,ORG-019,CTRL-0281,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -32,Partially Compliant,False,None,0.35
+CMAP-000827,ORG-019,CTRL-0281,NIST Cybersecurity Framework,Detect,Detect,NIST-16,Non-Compliant,False,None,0.56
+CMAP-000828,ORG-019,CTRL-0281,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-14,Partially Compliant,False,None,0.7
+CMAP-000829,ORG-019,CTRL-0281,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-13,Non-Compliant,False,None,0.72
+CMAP-000830,ORG-019,CTRL-0282,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-32,Non-Compliant,False,None,0.42
+CMAP-000831,ORG-019,CTRL-0282,NIST Cybersecurity Framework,Govern,Govern,NIST-50,Partially Compliant,False,None,0.25
+CMAP-000832,ORG-019,CTRL-0282,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-2,Non-Compliant,False,None,0.81
+CMAP-000833,ORG-019,CTRL-0283,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -50,Non-Compliant,False,None,0.79
+CMAP-000834,ORG-019,CTRL-0283,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-27,Partially Compliant,True,Weak,0.9
+CMAP-000835,ORG-019,CTRL-0284,CIS Controls,CIS,CIS 11 Data Recovery,CIS -46,Partially Compliant,True,Strong,0.31
+CMAP-000836,ORG-019,CTRL-0284,RBI Cyber Security Framework,Incident,Incident Response,RBI -7,Non-Compliant,False,None,0.46
+CMAP-000837,ORG-019,CTRL-0284,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-7,Partially Compliant,True,Strong,0.9
+CMAP-000838,ORG-019,CTRL-0285,NIST Cybersecurity Framework,Recover,Recover,NIST-22,Partially Compliant,True,Weak,0.26
+CMAP-000839,ORG-019,CTRL-0285,RBI Cyber Security Framework,Access,Access Control,RBI -12,Non-Compliant,False,None,0.59
+CMAP-000840,ORG-019,CTRL-0285,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -18,Partially Compliant,True,Strong,0.39
+CMAP-000841,ORG-019,CTRL-0285,ISO/IEC 27001,A.6,A.6 Organization,ISO/-29,Non-Compliant,False,None,0.46
+CMAP-000842,ORG-019,CTRL-0286,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -3,Partially Compliant,True,Strong,0.64
+CMAP-000843,ORG-019,CTRL-0286,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-20,Non-Compliant,False,None,0.46
+CMAP-000844,ORG-019,CTRL-0286,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -6,Partially Compliant,True,Weak,0.7
+CMAP-000845,ORG-019,CTRL-0286,NIST Cybersecurity Framework,Protect,Protect,NIST-29,Partially Compliant,False,None,0.44
+CMAP-000846,ORG-019,CTRL-0287,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-16,Compliant,True,Moderate,0
+CMAP-000847,ORG-019,CTRL-0287,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-47,Compliant,True,Strong,0
+CMAP-000848,ORG-019,CTRL-0287,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -50,Compliant,True,Weak,0
+CMAP-000849,ORG-019,CTRL-0288,RBI Cyber Security Framework,Access,Access Control,RBI -46,Compliant,True,Strong,0
+CMAP-000850,ORG-019,CTRL-0288,NIST Cybersecurity Framework,Recover,Recover,NIST-24,Compliant,True,Moderate,0
+CMAP-000851,ORG-019,CTRL-0288,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-43,Compliant,True,Moderate,0
+CMAP-000852,ORG-019,CTRL-0289,NIST Cybersecurity Framework,Identify,Identify,NIST-5,Compliant,True,Moderate,0
+CMAP-000853,ORG-019,CTRL-0289,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -49,Compliant,True,Moderate,0
+CMAP-000854,ORG-019,CTRL-0290,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-44,Partially Compliant,False,None,0.5
+CMAP-000855,ORG-019,CTRL-0290,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-40,Non-Compliant,False,None,0.54
+CMAP-000856,ORG-019,CTRL-0290,RBI Cyber Security Framework,Network,Network Security,RBI -37,Partially Compliant,True,Moderate,0.62
+CMAP-000857,ORG-019,CTRL-0291,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -11,Non-Compliant,False,None,0.75
+CMAP-000858,ORG-019,CTRL-0291,NIST Cybersecurity Framework,Identify,Identify,NIST-38,Partially Compliant,False,None,0.73
+CMAP-000859,ORG-019,CTRL-0291,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-47,Partially Compliant,False,None,0.87
+CMAP-000860,ORG-019,CTRL-0291,RBI Cyber Security Framework,Access,Access Control,RBI -12,Non-Compliant,False,None,0.54
+CMAP-000861,ORG-019,CTRL-0292,CIS Controls,CIS,CIS 6 Access Control,CIS -1,Compliant,True,Strong,0
+CMAP-000862,ORG-019,CTRL-0292,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-27,Compliant,True,Moderate,0
+CMAP-000863,ORG-019,CTRL-0292,RBI Cyber Security Framework,Network,Network Security,RBI -34,Compliant,True,Weak,0
+CMAP-000864,ORG-019,CTRL-0292,NIST Cybersecurity Framework,Govern,Govern,NIST-21,Compliant,True,Strong,0
+CMAP-000865,ORG-019,CTRL-0293,RBI Cyber Security Framework,Governance,Governance,RBI -8,Compliant,True,Strong,0
+CMAP-000866,ORG-019,CTRL-0293,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-45,Compliant,True,Weak,0
+CMAP-000867,ORG-020,CTRL-0294,RBI Cyber Security Framework,Network,Network Security,RBI -7,Partially Compliant,False,None,0.24
+CMAP-000868,ORG-020,CTRL-0294,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-11,Non-Compliant,False,None,0.22
+CMAP-000869,ORG-020,CTRL-0294,NIST Cybersecurity Framework,Identify,Identify,NIST-14,Partially Compliant,False,None,0.28
+CMAP-000870,ORG-020,CTRL-0294,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-37,Non-Compliant,False,None,0.83
+CMAP-000871,ORG-020,CTRL-0295,CIS Controls,CIS,CIS 8 Audit Logs,CIS -39,Non-Compliant,False,None,0.28
+CMAP-000872,ORG-020,CTRL-0295,NIST Cybersecurity Framework,Recover,Recover,NIST-27,Partially Compliant,True,Weak,0.35
+CMAP-000873,ORG-020,CTRL-0295,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-25,Partially Compliant,False,None,0.69
+CMAP-000874,ORG-020,CTRL-0296,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-31,Compliant,True,Weak,0
+CMAP-000875,ORG-020,CTRL-0296,RBI Cyber Security Framework,Network,Network Security,RBI -49,Compliant,True,Moderate,0
+CMAP-000876,ORG-020,CTRL-0296,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -7,Compliant,True,Strong,0
+CMAP-000877,ORG-020,CTRL-0296,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-28,Compliant,True,Weak,0
+CMAP-000878,ORG-020,CTRL-0297,CIS Controls,CIS,CIS 4 Secure Config,CIS -20,Compliant,True,Moderate,0
+CMAP-000879,ORG-020,CTRL-0297,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -49,Compliant,True,Weak,0
+CMAP-000880,ORG-020,CTRL-0297,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-24,Compliant,True,Weak,0
+CMAP-000881,ORG-020,CTRL-0297,ISO/IEC 27001,A.17,A.17 BCM,ISO/-7,Compliant,True,Moderate,0
+CMAP-000882,ORG-020,CTRL-0298,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-48,Non-Compliant,False,None,0.38
+CMAP-000883,ORG-020,CTRL-0298,RBI Cyber Security Framework,Incident,Incident Response,RBI -15,Partially Compliant,True,Moderate,0.39
+CMAP-000884,ORG-020,CTRL-0299,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -20,Non-Compliant,False,None,0.82
+CMAP-000885,ORG-020,CTRL-0299,NIST Cybersecurity Framework,Recover,Recover,NIST-39,Non-Compliant,False,None,0.48
+CMAP-000886,ORG-020,CTRL-0299,ISO/IEC 27001,A.5,A.5 Policies,ISO/-7,Partially Compliant,True,Strong,0.47
+CMAP-000887,ORG-020,CTRL-0300,NIST Cybersecurity Framework,Protect,Protect,NIST-40,Compliant,True,Strong,0
+CMAP-000888,ORG-020,CTRL-0300,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-31,Compliant,True,Weak,0
+CMAP-000889,ORG-020,CTRL-0300,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-30,Compliant,True,Weak,0
+CMAP-000890,ORG-020,CTRL-0300,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -30,Compliant,True,Strong,0
+CMAP-000891,ORG-020,CTRL-0301,ISO/IEC 27001,A.5,A.5 Policies,ISO/-11,Non-Compliant,False,None,0.38
+CMAP-000892,ORG-020,CTRL-0301,NIST Cybersecurity Framework,Identify,Identify,NIST-12,Non-Compliant,False,None,0.7
+CMAP-000893,ORG-020,CTRL-0301,RBI Cyber Security Framework,Network,Network Security,RBI -35,Partially Compliant,True,Moderate,0.7
+CMAP-000894,ORG-021,CTRL-0302,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -23,Compliant,True,Moderate,0
+CMAP-000895,ORG-021,CTRL-0302,NIST Cybersecurity Framework,Identify,Identify,NIST-37,Compliant,True,Moderate,0
+CMAP-000896,ORG-021,CTRL-0302,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-48,Compliant,True,Weak,0
+CMAP-000897,ORG-021,CTRL-0302,RBI Cyber Security Framework,Incident,Incident Response,RBI -38,Compliant,True,Strong,0
+CMAP-000898,ORG-021,CTRL-0303,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-14,Compliant,True,Moderate,0
+CMAP-000899,ORG-021,CTRL-0303,RBI Cyber Security Framework,Governance,Governance,RBI -8,Compliant,True,Strong,0
+CMAP-000900,ORG-021,CTRL-0303,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-37,Compliant,True,Weak,0
+CMAP-000901,ORG-021,CTRL-0304,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-6,Non-Compliant,False,None,0.8
+CMAP-000902,ORG-021,CTRL-0304,NIST Cybersecurity Framework,Govern,Govern,NIST-6,Non-Compliant,False,None,0.25
+CMAP-000903,ORG-021,CTRL-0304,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -24,Partially Compliant,False,None,0.56
+CMAP-000904,ORG-021,CTRL-0305,NIST Cybersecurity Framework,Identify,Identify,NIST-45,Non-Compliant,False,None,0.65
+CMAP-000905,ORG-021,CTRL-0305,CIS Controls,CIS,CIS 11 Data Recovery,CIS -39,Non-Compliant,False,None,0.89
+CMAP-000906,ORG-021,CTRL-0305,ISO/IEC 27001,A.5,A.5 Policies,ISO/-24,Non-Compliant,False,None,0.73
+CMAP-000907,ORG-021,CTRL-0305,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-10,Non-Compliant,False,None,0.66
+CMAP-000908,ORG-021,CTRL-0306,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -6,Partially Compliant,False,None,0.75
+CMAP-000909,ORG-021,CTRL-0306,ISO/IEC 27001,A.5,A.5 Policies,ISO/-38,Non-Compliant,False,None,0.46
+CMAP-000910,ORG-021,CTRL-0306,NIST Cybersecurity Framework,Protect,Protect,NIST-27,Partially Compliant,False,None,0.61
+CMAP-000911,ORG-021,CTRL-0307,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-46,Partially Compliant,True,Weak,0.73
+CMAP-000912,ORG-021,CTRL-0307,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-14,Partially Compliant,True,Strong,0.56
+CMAP-000913,ORG-021,CTRL-0307,CIS Controls,CIS,CIS 6 Access Control,CIS -27,Non-Compliant,False,None,0.5
+CMAP-000914,ORG-021,CTRL-0308,NIST Cybersecurity Framework,Recover,Recover,NIST-28,Non-Compliant,False,None,0.47
+CMAP-000915,ORG-021,CTRL-0308,RBI Cyber Security Framework,Governance,Governance,RBI -19,Non-Compliant,False,None,0.68
+CMAP-000916,ORG-021,CTRL-0309,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-41,Non-Compliant,False,None,0.62
+CMAP-000917,ORG-021,CTRL-0309,RBI Cyber Security Framework,Incident,Incident Response,RBI -19,Partially Compliant,True,Strong,0.67
+CMAP-000918,ORG-021,CTRL-0309,NIST Cybersecurity Framework,Protect,Protect,NIST-35,Partially Compliant,True,Moderate,0.21
+CMAP-000919,ORG-021,CTRL-0310,CIS Controls,CIS,CIS 11 Data Recovery,CIS -3,Compliant,True,Moderate,0
+CMAP-000920,ORG-021,CTRL-0310,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-11,Compliant,True,Weak,0
+CMAP-000921,ORG-021,CTRL-0310,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-4,Compliant,True,Moderate,0
+CMAP-000922,ORG-021,CTRL-0311,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-27,Non-Compliant,False,None,0.3
+CMAP-000923,ORG-021,CTRL-0311,RBI Cyber Security Framework,Governance,Governance,RBI -31,Non-Compliant,False,None,0.41
+CMAP-000924,ORG-021,CTRL-0312,NIST Cybersecurity Framework,Recover,Recover,NIST-9,Partially Compliant,False,None,0.87
+CMAP-000925,ORG-021,CTRL-0312,ISO/IEC 27001,A.5,A.5 Policies,ISO/-49,Non-Compliant,False,None,0.63
+CMAP-000926,ORG-021,CTRL-0312,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-14,Non-Compliant,False,None,0.88
+CMAP-000927,ORG-021,CTRL-0313,RBI Cyber Security Framework,Governance,Governance,RBI -6,Partially Compliant,False,None,0.61
+CMAP-000928,ORG-021,CTRL-0313,NIST Cybersecurity Framework,Identify,Identify,NIST-19,Partially Compliant,True,Strong,0.63
+CMAP-000929,ORG-021,CTRL-0313,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -22,Non-Compliant,False,None,0.34
+CMAP-000930,ORG-021,CTRL-0313,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-16,Non-Compliant,False,None,0.4
+CMAP-000931,ORG-021,CTRL-0314,ISO/IEC 27001,A.6,A.6 Organization,ISO/-11,Non-Compliant,False,None,0.34
+CMAP-000932,ORG-021,CTRL-0314,NIST Cybersecurity Framework,Identify,Identify,NIST-15,Non-Compliant,False,None,0.58
+CMAP-000933,ORG-021,CTRL-0314,CIS Controls,CIS,CIS 8 Audit Logs,CIS -27,Partially Compliant,False,None,0.6
+CMAP-000934,ORG-021,CTRL-0314,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-45,Partially Compliant,True,Weak,0.49
+CMAP-000935,ORG-021,CTRL-0315,NIST Cybersecurity Framework,Govern,Govern,NIST-7,Non-Compliant,False,None,0.56
+CMAP-000936,ORG-021,CTRL-0315,RBI Cyber Security Framework,Network,Network Security,RBI -27,Non-Compliant,False,None,0.83
+CMAP-000937,ORG-021,CTRL-0315,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-12,Partially Compliant,False,None,0.57
+CMAP-000938,ORG-021,CTRL-0316,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -29,Compliant,True,Moderate,0
+CMAP-000939,ORG-021,CTRL-0316,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-12,Compliant,True,Strong,0
+CMAP-000940,ORG-021,CTRL-0316,NIST Cybersecurity Framework,Govern,Govern,NIST-23,Compliant,True,Strong,0
+CMAP-000941,ORG-021,CTRL-0316,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-14,Compliant,True,Strong,0
+CMAP-000942,ORG-021,CTRL-0317,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-45,Partially Compliant,True,Moderate,0.41
+CMAP-000943,ORG-021,CTRL-0317,CIS Controls,CIS,CIS 6 Access Control,CIS -35,Non-Compliant,False,None,0.36
+CMAP-000944,ORG-021,CTRL-0318,NIST Cybersecurity Framework,Protect,Protect,NIST-14,Compliant,True,Moderate,0
+CMAP-000945,ORG-021,CTRL-0318,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-26,Compliant,True,Moderate,0
+CMAP-000946,ORG-021,CTRL-0318,SEBI Cybersecurity and Cyber Resilience Framework,Identify,Identify,SEBI-19,Compliant,True,Strong,0
+CMAP-000947,ORG-021,CTRL-0319,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-22,Partially Compliant,False,None,0.71
+CMAP-000948,ORG-021,CTRL-0319,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -34,Partially Compliant,True,Weak,0.46
+CMAP-000949,ORG-021,CTRL-0320,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-46,Compliant,True,Moderate,0
+CMAP-000950,ORG-021,CTRL-0320,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -28,Compliant,True,Moderate,0
+CMAP-000951,ORG-021,CTRL-0321,ISO/IEC 27001,A.6,A.6 Organization,ISO/-18,Compliant,True,Moderate,0
+CMAP-000952,ORG-021,CTRL-0321,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-34,Compliant,True,Moderate,0
+CMAP-000953,ORG-021,CTRL-0322,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-15,Partially Compliant,True,Moderate,0.24
+CMAP-000954,ORG-021,CTRL-0322,NIST Cybersecurity Framework,Detect,Detect,NIST-8,Partially Compliant,False,None,0.48
+CMAP-000955,ORG-021,CTRL-0322,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-45,Non-Compliant,False,None,0.89
+CMAP-000956,ORG-021,CTRL-0322,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -7,Partially Compliant,False,None,0.88
+CMAP-000957,ORG-021,CTRL-0323,RBI Cyber Security Framework,Governance,Governance,RBI -21,Partially Compliant,True,Moderate,0.88
+CMAP-000958,ORG-021,CTRL-0323,NIST Cybersecurity Framework,Detect,Detect,NIST-16,Partially Compliant,False,None,0.81
+CMAP-000959,ORG-021,CTRL-0323,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -22,Non-Compliant,False,None,0.77
+CMAP-000960,ORG-021,CTRL-0324,NIST Cybersecurity Framework,Protect,Protect,NIST-27,Compliant,True,Weak,0
+CMAP-000961,ORG-021,CTRL-0324,ISO/IEC 27001,A.5,A.5 Policies,ISO/-42,Compliant,True,Moderate,0
+CMAP-000962,ORG-021,CTRL-0324,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -39,Compliant,True,Strong,0
+CMAP-000963,ORG-021,CTRL-0325,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -1,Non-Compliant,False,None,0.69
+CMAP-000964,ORG-021,CTRL-0325,NIST Cybersecurity Framework,Recover,Recover,NIST-34,Non-Compliant,False,None,0.47
+CMAP-000965,ORG-021,CTRL-0326,CIS Controls,CIS,CIS 11 Data Recovery,CIS -34,Compliant,True,Moderate,0
+CMAP-000966,ORG-021,CTRL-0326,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-39,Compliant,True,Strong,0
+CMAP-000967,ORG-021,CTRL-0326,RBI Cyber Security Framework,Incident,Incident Response,RBI -19,Compliant,True,Strong,0
+CMAP-000968,ORG-021,CTRL-0326,NIST Cybersecurity Framework,Respond,Respond,NIST-6,Compliant,True,Strong,0
+CMAP-000969,ORG-022,CTRL-0327,RBI Cyber Security Framework,Network,Network Security,RBI -46,Non-Compliant,False,None,0.54
+CMAP-000970,ORG-022,CTRL-0327,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-40,Non-Compliant,False,None,0.26
+CMAP-000971,ORG-022,CTRL-0327,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-13,Partially Compliant,True,Strong,0.53
+CMAP-000972,ORG-022,CTRL-0327,NIST Cybersecurity Framework,Protect,Protect,NIST-29,Partially Compliant,False,None,0.48
+CMAP-000973,ORG-022,CTRL-0328,NIST Cybersecurity Framework,Protect,Protect,NIST-34,Compliant,True,Moderate,0
+CMAP-000974,ORG-022,CTRL-0328,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -47,Compliant,True,Moderate,0
+CMAP-000975,ORG-022,CTRL-0328,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-40,Compliant,True,Strong,0
+CMAP-000976,ORG-022,CTRL-0329,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-40,Non-Compliant,False,None,0.28
+CMAP-000977,ORG-022,CTRL-0329,RBI Cyber Security Framework,Governance,Governance,RBI -24,Non-Compliant,False,None,0.53
+CMAP-000978,ORG-022,CTRL-0329,CIS Controls,CIS,CIS 4 Secure Config,CIS -28,Non-Compliant,False,None,0.31
+CMAP-000979,ORG-022,CTRL-0329,NIST Cybersecurity Framework,Recover,Recover,NIST-41,Partially Compliant,False,None,0.57
+CMAP-000980,ORG-022,CTRL-0330,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -22,Compliant,True,Moderate,0
+CMAP-000981,ORG-022,CTRL-0330,RBI Cyber Security Framework,Governance,Governance,RBI -42,Compliant,True,Moderate,0
+CMAP-000982,ORG-022,CTRL-0330,NIST Cybersecurity Framework,Protect,Protect,NIST-5,Compliant,True,Weak,0
+CMAP-000983,ORG-022,CTRL-0331,CIS Controls,CIS,CIS 8 Audit Logs,CIS -23,Compliant,True,Strong,0
+CMAP-000984,ORG-022,CTRL-0331,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-23,Compliant,True,Moderate,0
+CMAP-000985,ORG-022,CTRL-0331,NIST Cybersecurity Framework,Detect,Detect,NIST-40,Compliant,True,Weak,0
+CMAP-000986,ORG-022,CTRL-0331,RBI Cyber Security Framework,Governance,Governance,RBI -23,Compliant,True,Weak,0
+CMAP-000987,ORG-022,CTRL-0332,ISO/IEC 27001,A.6,A.6 Organization,ISO/-38,Partially Compliant,True,Moderate,0.81
+CMAP-000988,ORG-022,CTRL-0332,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -36,Partially Compliant,True,Weak,0.82
+CMAP-000989,ORG-022,CTRL-0332,NIST Cybersecurity Framework,Protect,Protect,NIST-23,Partially Compliant,True,Weak,0.22
+CMAP-000990,ORG-022,CTRL-0332,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-23,Partially Compliant,True,Moderate,0.28
+CMAP-000991,ORG-022,CTRL-0333,ISO/IEC 27001,A.17,A.17 BCM,ISO/-9,Compliant,True,Weak,0
+CMAP-000992,ORG-022,CTRL-0333,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -33,Compliant,True,Moderate,0
+CMAP-000993,ORG-022,CTRL-0333,NIST Cybersecurity Framework,Respond,Respond,NIST-19,Compliant,True,Weak,0
+CMAP-000994,ORG-022,CTRL-0334,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -39,Compliant,True,Moderate,0
+CMAP-000995,ORG-022,CTRL-0334,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-41,Compliant,True,Strong,0
+CMAP-000996,ORG-022,CTRL-0334,RBI Cyber Security Framework,Access,Access Control,RBI -4,Compliant,True,Weak,0
+CMAP-000997,ORG-022,CTRL-0334,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-11,Compliant,True,Weak,0
+CMAP-000998,ORG-022,CTRL-0335,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-20,Non-Compliant,False,None,0.45
+CMAP-000999,ORG-022,CTRL-0335,NIST Cybersecurity Framework,Detect,Detect,NIST-38,Non-Compliant,False,None,0.45
+CMAP-001000,ORG-022,CTRL-0336,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-24,Compliant,True,Moderate,0
+CMAP-001001,ORG-022,CTRL-0336,CIS Controls,CIS,CIS 8 Audit Logs,CIS -10,Compliant,True,Weak,0
+CMAP-001002,ORG-022,CTRL-0336,NIST Cybersecurity Framework,Govern,Govern,NIST-30,Compliant,True,Strong,0
+CMAP-001003,ORG-022,CTRL-0336,RBI Cyber Security Framework,Access,Access Control,RBI -12,Compliant,True,Strong,0
+CMAP-001004,ORG-022,CTRL-0337,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-37,Compliant,True,Strong,0
+CMAP-001005,ORG-022,CTRL-0337,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-11,Compliant,True,Moderate,0
+CMAP-001006,ORG-022,CTRL-0338,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-50,Partially Compliant,True,Moderate,0.66
+CMAP-001007,ORG-022,CTRL-0338,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-27,Partially Compliant,True,Weak,0.84
+CMAP-001008,ORG-022,CTRL-0338,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -40,Non-Compliant,False,None,0.5
+CMAP-001009,ORG-022,CTRL-0338,CIS Controls,CIS,CIS 8 Audit Logs,CIS -44,Partially Compliant,True,Strong,0.56
+CMAP-001010,ORG-022,CTRL-0339,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -16,Partially Compliant,True,Moderate,0.85
+CMAP-001011,ORG-022,CTRL-0339,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-49,Non-Compliant,False,None,0.55
+CMAP-001012,ORG-022,CTRL-0339,CIS Controls,CIS,CIS 8 Audit Logs,CIS -9,Partially Compliant,True,Strong,0.87
+CMAP-001013,ORG-022,CTRL-0339,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-34,Partially Compliant,False,None,0.34
+CMAP-001014,ORG-022,CTRL-0340,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-50,Non-Compliant,False,None,0.68
+CMAP-001015,ORG-022,CTRL-0340,NIST Cybersecurity Framework,Recover,Recover,NIST-45,Non-Compliant,False,None,0.23
+CMAP-001016,ORG-022,CTRL-0340,CIS Controls,CIS,CIS 6 Access Control,CIS -46,Partially Compliant,True,Moderate,0.44
+CMAP-001017,ORG-022,CTRL-0341,RBI Cyber Security Framework,Governance,Governance,RBI -48,Compliant,True,Strong,0
+CMAP-001018,ORG-022,CTRL-0341,ISO/IEC 27001,A.6,A.6 Organization,ISO/-45,Compliant,True,Strong,0
+CMAP-001019,ORG-022,CTRL-0341,NIST Cybersecurity Framework,Recover,Recover,NIST-29,Compliant,True,Moderate,0
+CMAP-001020,ORG-022,CTRL-0341,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -7,Compliant,True,Moderate,0
+CMAP-001021,ORG-022,CTRL-0342,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-25,Non-Compliant,False,None,0.65
+CMAP-001022,ORG-022,CTRL-0342,RBI Cyber Security Framework,Network,Network Security,RBI -38,Non-Compliant,False,None,0.53
+CMAP-001023,ORG-022,CTRL-0342,CIS Controls,CIS,CIS 6 Access Control,CIS -45,Non-Compliant,False,None,0.49
+CMAP-001024,ORG-022,CTRL-0342,NIST Cybersecurity Framework,Detect,Detect,NIST-32,Partially Compliant,True,Moderate,0.74
+CMAP-001025,ORG-022,CTRL-0343,ISO/IEC 27001,A.12,A.12 Operations Security,ISO/-9,Partially Compliant,False,None,0.23
+CMAP-001026,ORG-022,CTRL-0343,NIST Cybersecurity Framework,Protect,Protect,NIST-43,Partially Compliant,False,None,0.76
+CMAP-001027,ORG-022,CTRL-0343,CIS Controls,CIS,CIS 11 Data Recovery,CIS -19,Non-Compliant,False,None,0.52
+CMAP-001028,ORG-023,CTRL-0344,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -10,Compliant,True,Weak,0
+CMAP-001029,ORG-023,CTRL-0344,RBI Cyber Security Framework,Governance,Governance,RBI -45,Compliant,True,Moderate,0
+CMAP-001030,ORG-023,CTRL-0344,NIST Cybersecurity Framework,Detect,Detect,NIST-24,Compliant,True,Strong,0
+CMAP-001031,ORG-023,CTRL-0344,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-40,Compliant,True,Weak,0
+CMAP-001032,ORG-023,CTRL-0345,ISO/IEC 27001,A.5,A.5 Policies,ISO/-23,Partially Compliant,False,None,0.86
+CMAP-001033,ORG-023,CTRL-0345,NIST Cybersecurity Framework,Protect,Protect,NIST-9,Partially Compliant,True,Weak,0.73
+CMAP-001034,ORG-023,CTRL-0345,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -14,Partially Compliant,False,None,0.58
+CMAP-001035,ORG-023,CTRL-0346,ISO/IEC 27001,A.5,A.5 Policies,ISO/-50,Non-Compliant,False,None,0.83
+CMAP-001036,ORG-023,CTRL-0346,RBI Cyber Security Framework,Access,Access Control,RBI -2,Partially Compliant,True,Weak,0.44
+CMAP-001037,ORG-023,CTRL-0347,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -14,Compliant,True,Weak,0
+CMAP-001038,ORG-023,CTRL-0347,NIST Cybersecurity Framework,Detect,Detect,NIST-36,Compliant,True,Weak,0
+CMAP-001039,ORG-023,CTRL-0348,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-38,Partially Compliant,True,Weak,0.86
+CMAP-001040,ORG-023,CTRL-0348,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-43,Partially Compliant,True,Weak,0.21
+CMAP-001041,ORG-023,CTRL-0349,RBI Cyber Security Framework,Access,Access Control,RBI -38,Compliant,True,Strong,0
+CMAP-001042,ORG-023,CTRL-0349,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -14,Compliant,True,Strong,0
+CMAP-001043,ORG-023,CTRL-0350,CIS Controls,CIS,CIS 4 Secure Config,CIS -24,Non-Compliant,False,None,0.31
+CMAP-001044,ORG-023,CTRL-0350,NIST Cybersecurity Framework,Respond,Respond,NIST-40,Partially Compliant,True,Strong,0.33
+CMAP-001045,ORG-023,CTRL-0351,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -27,Compliant,True,Strong,0
+CMAP-001046,ORG-023,CTRL-0351,ISO/IEC 27001,A.17,A.17 BCM,ISO/-6,Compliant,True,Weak,0
+CMAP-001047,ORG-023,CTRL-0351,NIST Cybersecurity Framework,Respond,Respond,NIST-30,Compliant,True,Weak,0
+CMAP-001048,ORG-024,CTRL-0352,RBI Cyber Security Framework,Access,Access Control,RBI -32,Partially Compliant,False,None,0.83
+CMAP-001049,ORG-024,CTRL-0352,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -49,Partially Compliant,False,None,0.73
+CMAP-001050,ORG-024,CTRL-0352,ISO/IEC 27001,A.6,A.6 Organization,ISO/-7,Partially Compliant,True,Moderate,0.7
+CMAP-001051,ORG-024,CTRL-0352,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-4,Partially Compliant,True,Weak,0.35
+CMAP-001052,ORG-024,CTRL-0353,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -44,Compliant,True,Weak,0
+CMAP-001053,ORG-024,CTRL-0353,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -9,Compliant,True,Weak,0
+CMAP-001054,ORG-024,CTRL-0353,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-30,Compliant,True,Weak,0
+CMAP-001055,ORG-024,CTRL-0353,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-27,Compliant,True,Moderate,0
+CMAP-001056,ORG-024,CTRL-0354,RBI Cyber Security Framework,Governance,Governance,RBI -31,Non-Compliant,False,None,0.51
+CMAP-001057,ORG-024,CTRL-0354,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-7,Partially Compliant,False,None,0.7
+CMAP-001058,ORG-024,CTRL-0355,NIST Cybersecurity Framework,Detect,Detect,NIST-29,Non-Compliant,False,None,0.44
+CMAP-001059,ORG-024,CTRL-0355,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -38,Non-Compliant,False,None,0.23
+CMAP-001060,ORG-024,CTRL-0355,CIS Controls,CIS,CIS 4 Secure Config,CIS -50,Non-Compliant,False,None,0.62
+CMAP-001061,ORG-024,CTRL-0356,NIST Cybersecurity Framework,Identify,Identify,NIST-3,Compliant,True,Weak,0
+CMAP-001062,ORG-024,CTRL-0356,ISO/IEC 27001,A.6,A.6 Organization,ISO/-37,Compliant,True,Strong,0
+CMAP-001063,ORG-024,CTRL-0356,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -3,Compliant,True,Strong,0
+CMAP-001064,ORG-024,CTRL-0356,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-41,Compliant,True,Weak,0
+CMAP-001065,ORG-024,CTRL-0357,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -41,Partially Compliant,True,Weak,0.65
+CMAP-001066,ORG-024,CTRL-0357,NIST Cybersecurity Framework,Protect,Protect,NIST-8,Partially Compliant,True,Weak,0.21
+CMAP-001067,ORG-024,CTRL-0357,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -11,Partially Compliant,False,None,0.21
+CMAP-001068,ORG-024,CTRL-0357,ISO/IEC 27001,A.6,A.6 Organization,ISO/-21,Non-Compliant,False,None,0.33
+CMAP-001069,ORG-024,CTRL-0358,RBI Cyber Security Framework,Access,Access Control,RBI -50,Non-Compliant,False,None,0.68
+CMAP-001070,ORG-024,CTRL-0358,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-19,Partially Compliant,True,Moderate,0.74
+CMAP-001071,ORG-024,CTRL-0358,CIS Controls,CIS,CIS 11 Data Recovery,CIS -9,Non-Compliant,False,None,0.41
+CMAP-001072,ORG-024,CTRL-0359,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-13,Partially Compliant,True,Strong,0.39
+CMAP-001073,ORG-024,CTRL-0359,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -3,Non-Compliant,False,None,0.56
+CMAP-001074,ORG-024,CTRL-0359,CIS Controls,CIS,CIS 11 Data Recovery,CIS -48,Partially Compliant,True,Weak,0.66
+CMAP-001075,ORG-024,CTRL-0360,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -8,Partially Compliant,True,Weak,0.39
+CMAP-001076,ORG-024,CTRL-0360,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-39,Partially Compliant,True,Moderate,0.52
+CMAP-001077,ORG-024,CTRL-0361,NIST Cybersecurity Framework,Identify,Identify,NIST-22,Compliant,True,Strong,0
+CMAP-001078,ORG-024,CTRL-0361,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-17,Compliant,True,Weak,0
+CMAP-001079,ORG-024,CTRL-0361,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-27,Compliant,True,Strong,0
+CMAP-001080,ORG-024,CTRL-0361,RBI Cyber Security Framework,Incident,Incident Response,RBI -44,Compliant,True,Strong,0
+CMAP-001081,ORG-024,CTRL-0362,NIST Cybersecurity Framework,Identify,Identify,NIST-1,Compliant,True,Weak,0
+CMAP-001082,ORG-024,CTRL-0362,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -11,Compliant,True,Moderate,0
+CMAP-001083,ORG-024,CTRL-0362,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-12,Compliant,True,Moderate,0
+CMAP-001084,ORG-024,CTRL-0362,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-12,Compliant,True,Moderate,0
+CMAP-001085,ORG-024,CTRL-0363,RBI Cyber Security Framework,Governance,Governance,RBI -4,Non-Compliant,False,None,0.87
+CMAP-001086,ORG-024,CTRL-0363,NIST Cybersecurity Framework,Protect,Protect,NIST-26,Partially Compliant,False,None,0.5
+CMAP-001087,ORG-024,CTRL-0363,CIS Controls,CIS,CIS 4 Secure Config,CIS -36,Non-Compliant,False,None,0.42
+CMAP-001088,ORG-024,CTRL-0364,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -17,Compliant,True,Weak,0
+CMAP-001089,ORG-024,CTRL-0364,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-17,Compliant,True,Strong,0
+CMAP-001090,ORG-024,CTRL-0364,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -21,Compliant,True,Strong,0
+CMAP-001091,ORG-024,CTRL-0364,NIST Cybersecurity Framework,Protect,Protect,NIST-47,Compliant,True,Moderate,0
+CMAP-001092,ORG-024,CTRL-0365,RBI Cyber Security Framework,Network,Network Security,RBI -21,Compliant,True,Moderate,0
+CMAP-001093,ORG-024,CTRL-0365,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-15,Compliant,True,Strong,0
+CMAP-001094,ORG-024,CTRL-0366,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-4,Compliant,True,Strong,0
+CMAP-001095,ORG-024,CTRL-0366,CIS Controls,CIS,CIS 11 Data Recovery,CIS -19,Compliant,True,Moderate,0
+CMAP-001096,ORG-024,CTRL-0367,RBI Cyber Security Framework,Access,Access Control,RBI -35,Non-Compliant,False,None,0.89
+CMAP-001097,ORG-024,CTRL-0367,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-8,Partially Compliant,True,Moderate,0.63
+CMAP-001098,ORG-024,CTRL-0367,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-40,Non-Compliant,False,None,0.23
+CMAP-001099,ORG-024,CTRL-0368,CIS Controls,CIS,CIS 11 Data Recovery,CIS -1,Compliant,True,Strong,0
+CMAP-001100,ORG-024,CTRL-0368,RBI Cyber Security Framework,Incident,Incident Response,RBI -20,Compliant,True,Weak,0
+CMAP-001101,ORG-024,CTRL-0368,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-27,Compliant,True,Strong,0
+CMAP-001102,ORG-024,CTRL-0369,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-29,Partially Compliant,False,None,0.43
+CMAP-001103,ORG-024,CTRL-0369,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -2,Partially Compliant,True,Weak,0.9
+CMAP-001104,ORG-024,CTRL-0369,SEBI Cybersecurity and Cyber Resilience Framework,Third-Party,Third-Party Risk,SEBI-40,Partially Compliant,True,Weak,0.31
+CMAP-001105,ORG-024,CTRL-0370,ISO/IEC 27001,A.17,A.17 BCM,ISO/-29,Compliant,True,Strong,0
+CMAP-001106,ORG-024,CTRL-0370,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -29,Compliant,True,Weak,0
+CMAP-001107,ORG-024,CTRL-0370,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-38,Compliant,True,Strong,0
+CMAP-001108,ORG-024,CTRL-0371,RBI Cyber Security Framework,Data,Data Leak Prevention,RBI -20,Compliant,True,Moderate,0
+CMAP-001109,ORG-024,CTRL-0371,NIST Cybersecurity Framework,Protect,Protect,NIST-28,Compliant,True,Weak,0
+CMAP-001110,ORG-024,CTRL-0371,ISO/IEC 27001,A.9,A.9 Access Control,ISO/-19,Compliant,True,Strong,0
+CMAP-001111,ORG-024,CTRL-0372,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-47,Compliant,True,Strong,0
+CMAP-001112,ORG-024,CTRL-0372,ISO/IEC 27001,A.6,A.6 Organization,ISO/-20,Compliant,True,Strong,0
+CMAP-001113,ORG-024,CTRL-0372,NIST Cybersecurity Framework,Identify,Identify,NIST-26,Compliant,True,Moderate,0
+CMAP-001114,ORG-024,CTRL-0373,CIS Controls,CIS,CIS 6 Access Control,CIS -49,Compliant,True,Strong,0
+CMAP-001115,ORG-024,CTRL-0373,ISO/IEC 27001,A.17,A.17 BCM,ISO/-43,Compliant,True,Weak,0
+CMAP-001116,ORG-024,CTRL-0373,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-47,Compliant,True,Moderate,0
+CMAP-001117,ORG-024,CTRL-0373,RBI Cyber Security Framework,Access,Access Control,RBI -3,Compliant,True,Moderate,0
+CMAP-001118,ORG-024,CTRL-0374,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-5,Compliant,True,Strong,0
+CMAP-001119,ORG-024,CTRL-0374,RBI Cyber Security Framework,Access,Access Control,RBI -37,Compliant,True,Strong,0
+CMAP-001120,ORG-024,CTRL-0374,CIS Controls,CIS,CIS 4 Secure Config,CIS -26,Compliant,True,Moderate,0
+CMAP-001121,ORG-024,CTRL-0374,NIST Cybersecurity Framework,Identify,Identify,NIST-37,Compliant,True,Weak,0
+CMAP-001122,ORG-024,CTRL-0375,ISO/IEC 27001,A.6,A.6 Organization,ISO/-13,Non-Compliant,False,None,0.28
+CMAP-001123,ORG-024,CTRL-0375,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-10,Partially Compliant,False,None,0.42
+CMAP-001124,ORG-024,CTRL-0375,CIS Controls,CIS,CIS 6 Access Control,CIS -41,Partially Compliant,True,Weak,0.3
+CMAP-001125,ORG-024,CTRL-0375,RBI Cyber Security Framework,Governance,Governance,RBI -32,Partially Compliant,True,Weak,0.45
+CMAP-001126,ORG-025,CTRL-0376,RBI Cyber Security Framework,Governance,Governance,RBI -47,Non-Compliant,False,None,0.41
+CMAP-001127,ORG-025,CTRL-0376,ISO/IEC 27001,A.17,A.17 BCM,ISO/-23,Partially Compliant,False,None,0.71
+CMAP-001128,ORG-025,CTRL-0377,ISO/IEC 27001,A.6,A.6 Organization,ISO/-3,Non-Compliant,False,None,0.39
+CMAP-001129,ORG-025,CTRL-0377,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -7,Non-Compliant,False,None,0.56
+CMAP-001130,ORG-025,CTRL-0377,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -41,Non-Compliant,False,None,0.81
+CMAP-001131,ORG-025,CTRL-0377,NIST Cybersecurity Framework,Protect,Protect,NIST-44,Partially Compliant,False,None,0.62
+CMAP-001132,ORG-025,CTRL-0378,RBI Cyber Security Framework,Governance,Governance,RBI -16,Non-Compliant,False,None,0.22
+CMAP-001133,ORG-025,CTRL-0378,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-8,Partially Compliant,False,None,0.75
+CMAP-001134,ORG-025,CTRL-0379,ISO/IEC 27001,A.10,A.10 Cryptography,ISO/-30,Compliant,True,Strong,0
+CMAP-001135,ORG-025,CTRL-0379,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -19,Compliant,True,Moderate,0
+CMAP-001136,ORG-025,CTRL-0379,NIST Cybersecurity Framework,Protect,Protect,NIST-38,Compliant,True,Weak,0
+CMAP-001137,ORG-025,CTRL-0379,SEBI Cybersecurity and Cyber Resilience Framework,Governance,Governance,SEBI-44,Compliant,True,Strong,0
+CMAP-001138,ORG-025,CTRL-0380,NIST Cybersecurity Framework,Respond,Respond,NIST-27,Non-Compliant,False,None,0.85
+CMAP-001139,ORG-025,CTRL-0380,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -9,Non-Compliant,False,None,0.85
+CMAP-001140,ORG-025,CTRL-0380,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-3,Partially Compliant,True,Moderate,0.81
+CMAP-001141,ORG-025,CTRL-0380,RBI Cyber Security Framework,Incident,Incident Response,RBI -36,Non-Compliant,False,None,0.46
+CMAP-001142,ORG-025,CTRL-0381,CIS Controls,CIS,CIS 6 Access Control,CIS -49,Partially Compliant,False,None,0.63
+CMAP-001143,ORG-025,CTRL-0381,ISO/IEC 27001,A.13,A.13 Comms Security,ISO/-40,Non-Compliant,False,None,0.79
+CMAP-001144,ORG-025,CTRL-0382,RBI Cyber Security Framework,Network,Network Security,RBI -33,Partially Compliant,False,None,0.23
+CMAP-001145,ORG-025,CTRL-0382,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-5,Partially Compliant,True,Strong,0.41
+CMAP-001146,ORG-025,CTRL-0382,NIST Cybersecurity Framework,Detect,Detect,NIST-16,Partially Compliant,True,Moderate,0.68
+CMAP-001147,ORG-025,CTRL-0382,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-4,Partially Compliant,False,None,0.7
+CMAP-001148,ORG-025,CTRL-0383,NIST Cybersecurity Framework,Identify,Identify,NIST-19,Compliant,True,Strong,0
+CMAP-001149,ORG-025,CTRL-0383,ISO/IEC 27001,A.18,A.18 Compliance,ISO/-37,Compliant,True,Moderate,0
+CMAP-001150,ORG-025,CTRL-0384,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -44,Compliant,True,Moderate,0
+CMAP-001151,ORG-025,CTRL-0384,NIST Cybersecurity Framework,Recover,Recover,NIST-11,Compliant,True,Weak,0
+CMAP-001152,ORG-025,CTRL-0385,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -43,Compliant,True,Weak,0
+CMAP-001153,ORG-025,CTRL-0385,NIST Cybersecurity Framework,Recover,Recover,NIST-5,Compliant,True,Moderate,0
+CMAP-001154,ORG-025,CTRL-0385,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-35,Compliant,True,Strong,0
+CMAP-001155,ORG-025,CTRL-0385,CIS Controls,CIS,CIS 11 Data Recovery,CIS -29,Compliant,True,Strong,0
+CMAP-001156,ORG-025,CTRL-0386,ISO/IEC 27001,A.5,A.5 Policies,ISO/-27,Compliant,True,Moderate,0
+CMAP-001157,ORG-025,CTRL-0386,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-6,Compliant,True,Strong,0
+CMAP-001158,ORG-025,CTRL-0387,RBI Cyber Security Framework,Access,Access Control,RBI -14,Compliant,True,Weak,0
+CMAP-001159,ORG-025,CTRL-0387,CIS Controls,CIS,CIS 13 Network Monitoring,CIS -22,Compliant,True,Moderate,0
+CMAP-001160,ORG-025,CTRL-0388,NIST Cybersecurity Framework,Detect,Detect,NIST-14,Compliant,True,Strong,0
+CMAP-001161,ORG-025,CTRL-0388,ISO/IEC 27001,A.17,A.17 BCM,ISO/-48,Compliant,True,Moderate,0
+CMAP-001162,ORG-025,CTRL-0388,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -43,Compliant,True,Weak,0
+CMAP-001163,ORG-025,CTRL-0389,CIS Controls,CIS,CIS 5 Account Mgmt,CIS -49,Compliant,True,Strong,0
+CMAP-001164,ORG-025,CTRL-0389,NIST Cybersecurity Framework,Govern,Govern,NIST-20,Compliant,True,Moderate,0
+CMAP-001165,ORG-025,CTRL-0389,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-11,Compliant,True,Strong,0
+CMAP-001166,ORG-025,CTRL-0390,SEBI Cybersecurity and Cyber Resilience Framework,Protect,Protect,SEBI-48,Partially Compliant,False,None,0.48
+CMAP-001167,ORG-025,CTRL-0390,RBI Cyber Security Framework,Vendor,Vendor Risk Mgmt,RBI -47,Non-Compliant,False,None,0.45
+CMAP-001168,ORG-025,CTRL-0390,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-39,Non-Compliant,False,None,0.61
+CMAP-001169,ORG-025,CTRL-0390,NIST Cybersecurity Framework,Identify,Identify,NIST-25,Partially Compliant,False,None,0.4
+CMAP-001170,ORG-025,CTRL-0391,SEBI Cybersecurity and Cyber Resilience Framework,Detect,Detect,SEBI-39,Compliant,True,Strong,0
+CMAP-001171,ORG-025,CTRL-0391,ISO/IEC 27001,A.8,A.8 Asset Mgmt,ISO/-32,Compliant,True,Strong,0
+CMAP-001172,ORG-025,CTRL-0391,CIS Controls,CIS,CIS 4 Secure Config,CIS -28,Compliant,True,Moderate,0
+CMAP-001173,ORG-025,CTRL-0392,CIS Controls,CIS,CIS 1 Asset Inventory,CIS -4,Non-Compliant,False,None,0.33
+CMAP-001174,ORG-025,CTRL-0392,SEBI Cybersecurity and Cyber Resilience Framework,Respond,Respond & Recover,SEBI-23,Non-Compliant,False,None,0.59
+CMAP-001175,ORG-025,CTRL-0392,ISO/IEC 27001,A.16,A.16 Incident Mgmt,ISO/-31,Partially Compliant,True,Strong,0.38
+CMAP-001176,ORG-025,CTRL-0392,NIST Cybersecurity Framework,Respond,Respond,NIST-15,Partially Compliant,False,None,0.21

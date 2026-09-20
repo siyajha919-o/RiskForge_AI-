@@ -1,0 +1,42 @@
+{
+    "data_path": "./data/",
+    "output_path": "./outputs/",
+    "models_path": "./models/",
+    
+    "ml_models": {
+        "classification": {
+            "epochs": 100,
+            "batch_size": 256,
+            "validation_split": 0.2,
+            "learning_rate": 0.001
+        },
+        "regression": {
+            "epochs": 100,
+            "batch_size": 256,
+            "validation_split": 0.2,
+            "learning_rate": 0.001
+        },
+        "risk_quantification": {
+            "epochs": 150,
+            "batch_size": 256,
+            "validation_split": 0.2,
+            "learning_rate": 0.0005
+        }
+    },
+    
+    "simulation": {
+        "iterations": 10000,
+        "confidence_levels": [0.90, 0.95, 0.99]
+    },
+    
+    "optimization": {
+        "budget_percentage": 0.10,
+        "gordon_loeb_factor": 0.37,
+        "max_risk_reduction_pct": 85.0,
+        "control_overlap_decay": 0.9
+    },
+    
+    "compliance": {
+        "frameworks": ["ISO27001", "NIST_CSF", "CIS_v8", "RBI_CSF", "SEBI_CSCRF"]
+    }
+}

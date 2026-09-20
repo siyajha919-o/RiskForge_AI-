@@ -1,0 +1,17 @@
+# Changes to apply to backend/Dockerfile
+#
+# Finding from the review: "no USER directive; container runs as the
+# image default, typically root."
+#
+# Add a non-root user and switch to it before running the jar. Adjust
+# the paths below (JAR name, WORKDIR) to match your existing Dockerfile —
+# this is just the delta to add, not a full replacement.
+
+# ... existing FROM / COPY / build steps stay the same ...
+
+# --- add near the end, before ENTRYPOINT/CMD ---
+RUN addgroup --system appgroup && adduser --system --ingroup appgroup appuser
+USER appuser
+
+# EXPOSE 8080 (unchanged)
+# ENTRYPOINT ["java", "-jar", "app.jar"] (unchanged)

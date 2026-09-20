@@ -1,0 +1,26 @@
+organization_id,organization_name,industry,organization_size,annual_revenue,employee_count,country,regulatory_category,security_budget,annual_IT_budget,cyber_maturity_score,overall_risk_tolerance
+ORG-001,Insurance Corp 1,Insurance,Large,2302400000,21049,UK,IRDAI,94768020,233815592,4.2,Low
+ORG-002,Education Corp 2,Education,Medium,76000000,744,UK,UGC/AICTE,1733625,4100933,3.1,Low
+ORG-003,Energy Corp 3,Energy,Medium,230500000,4179,India,CEA/CERT-IN,8684772,20414423,2.0,High
+ORG-004,Telecom Corp 4,Telecom,Medium,277600000,1773,India,TRAI/DoT,7345133,23820758,2.2,Low
+ORG-005,E-commerce Corp 5,E-commerce,Medium,266600000,855,India,CERT-IN/RBI,11168394,19241504,3.8,Low
+ORG-006,Energy Corp 6,Energy,Medium,346200000,2075,India,CEA/CERT-IN,14241683,14799864,2.4,Low
+ORG-007,Manufacturing Corp 7,Manufacturing,Large,2991100000,23217,India,BIS,157542777,324198538,3.3,Low
+ORG-008,IT Services Corp 8,IT Services,Small,39900000,381,India,CERT-IN,455979,2463781,2.0,Low
+ORG-009,Government Corp 9,Government,Medium,271100000,2299,India,NIC/CERT-IN,10989967,24553829,3.4,Low
+ORG-010,E-commerce Corp 10,E-commerce,Medium,269300000,1042,India,CERT-IN/RBI,7090530,26007535,3.6,Low
+ORG-011,Government Corp 11,Government,Medium,425800000,1670,India,NIC/CERT-IN,11899579,23332839,3.0,High
+ORG-012,Education Corp 12,Education,Medium,377100000,3465,India,UGC/AICTE,10023175,37654285,2.9,Low
+ORG-013,Insurance Corp 13,Insurance,Large,4612000000,15484,India,IRDAI,321013501,366890123,3.1,High
+ORG-014,Government Corp 14,Government,Small,17800000,333,UK,NIC/CERT-IN,484437,544218,2.3,Medium
+ORG-015,E-commerce Corp 15,E-commerce,Large,2423400000,33492,India,CERT-IN/RBI,91865975,121720528,4.3,High
+ORG-016,Healthcare Corp 16,Healthcare,Small,10400000,495,India,HIPAA/NHA,234062,749668,1.9,Low
+ORG-017,E-commerce Corp 17,E-commerce,Large,4034800000,39757,India,CERT-IN/RBI,306340877,370903512,3.9,Medium
+ORG-018,IT Services Corp 18,IT Services,Large,879600000,20785,India,CERT-IN,65002862,102285571,3.2,Low
+ORG-019,Energy Corp 19,Energy,Large,1341400000,48237,UAE,CEA/CERT-IN,72119189,118695457,3.5,Medium
+ORG-020,Manufacturing Corp 20,Manufacturing,Small,43600000,423,India,BIS,1037564,2862228,1.7,Medium
+ORG-021,Energy Corp 21,Energy,Medium,149100000,2530,India,CEA/CERT-IN,3987071,8988513,3.1,High
+ORG-022,Manufacturing Corp 22,Manufacturing,Large,965200000,46359,India,BIS,31797247,52813835,3.1,Low
+ORG-023,Energy Corp 23,Energy,Large,2325000000,48842,Singapore,CEA/CERT-IN,126179435,204010322,4.3,High
+ORG-024,Government Corp 24,Government,Large,3599600000,31677,India,NIC/CERT-IN,142257976,204403851,3.8,Medium
+ORG-025,Government Corp 25,Government,Small,7700000,394,India,NIC/CERT-IN,177632,479779,1.1,Low

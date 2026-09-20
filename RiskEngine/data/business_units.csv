@@ -1,0 +1,153 @@
+business_unit_id,organization_id,business_unit_name,business_function,annual_revenue_contribution,employee_count,criticality_score,maximum_tolerable_downtime_hours,data_sensitivity,regulatory_importance
+BU-0001,ORG-001,Digital Banking,Revenue,357955072,2301,9,1,Highly Confidential,Critical
+BU-0002,ORG-001,Executive Office,Leadership,618474115,637,9,5,Highly Confidential,Critical
+BU-0003,ORG-001,Sales & Marketing,Revenue,171476264,5362,7,11,Internal,Low
+BU-0004,ORG-001,Supply Chain,Logistics,672874246,6193,4,8,Internal,Low
+BU-0005,ORG-001,Customer Operations,Operations,349051932,3963,7,4,Confidential,High
+BU-0006,ORG-002,Customer Operations,Operations,8838858,220,9,3,Confidential,High
+BU-0007,ORG-002,Security Operations,Security,11837142,207,10,6,Highly Confidential,High
+BU-0008,ORG-002,Finance & Accounting,Finance,17449757,59,7,5,Confidential,High
+BU-0009,ORG-002,Legal & Compliance,Governance,7936317,34,10,12,Highly Confidential,High
+BU-0010,ORG-003,Finance & Accounting,Finance,14802686,1060,6,4,Confidential,High
+BU-0011,ORG-003,IT Infrastructure,IT,15473542,159,7,8,Internal,Medium
+BU-0012,ORG-003,Executive Office,Leadership,18433466,1186,7,5,Highly Confidential,Critical
+BU-0013,ORG-003,Research & Development,Innovation,45784166,1288,3,26,Confidential,Medium
+BU-0014,ORG-003,Supply Chain,Logistics,49406129,1177,7,9,Internal,Low
+BU-0015,ORG-003,Manufacturing Operations,Production,65387448,438,8,4,Internal,Medium
+BU-0016,ORG-003,Security Operations,Security,26831036,288,8,4,Highly Confidential,High
+BU-0017,ORG-003,Human Resources,HR,29744711,168,3,14,Sensitive,Medium
+BU-0018,ORG-004,Research & Development,Innovation,78648201,90,4,25,Confidential,Medium
+BU-0019,ORG-004,Human Resources,HR,33658125,468,7,16,Sensitive,Medium
+BU-0020,ORG-004,Legal & Compliance,Governance,34874690,561,6,12,Highly Confidential,High
+BU-0021,ORG-004,Sales & Marketing,Revenue,70587027,326,3,12,Internal,Low
+BU-0022,ORG-004,Digital Banking,Revenue,32233935,129,10,1,Highly Confidential,Critical
+BU-0023,ORG-004,Manufacturing Operations,Production,32780966,235,8,4,Internal,Medium
+BU-0024,ORG-004,Customer Operations,Operations,61592301,290,10,4,Confidential,High
+BU-0025,ORG-004,Executive Office,Leadership,31307815,72,6,6,Highly Confidential,Critical
+BU-0026,ORG-005,Manufacturing Operations,Production,24099439,246,10,8,Internal,Medium
+BU-0027,ORG-005,Finance & Accounting,Finance,41835333,24,6,3,Confidential,High
+BU-0028,ORG-005,Legal & Compliance,Governance,76317645,96,10,7,Highly Confidential,High
+BU-0029,ORG-005,IT Infrastructure,IT,68955758,95,9,6,Internal,Medium
+BU-0030,ORG-005,Customer Operations,Operations,16117893,206,6,3,Confidential,High
+BU-0031,ORG-005,Sales & Marketing,Revenue,27331601,147,3,13,Internal,Low
+BU-0032,ORG-005,Supply Chain,Logistics,65324748,228,7,12,Internal,Low
+BU-0033,ORG-006,Digital Banking,Revenue,32833665,360,9,5,Highly Confidential,Critical
+BU-0034,ORG-006,Customer Operations,Operations,92094742,274,8,2,Confidential,High
+BU-0035,ORG-006,Legal & Compliance,Governance,85457264,130,9,7,Highly Confidential,High
+BU-0036,ORG-006,Security Operations,Security,91621246,247,7,4,Highly Confidential,High
+BU-0037,ORG-006,Finance & Accounting,Finance,47572937,253,7,3,Confidential,High
+BU-0038,ORG-007,Security Operations,Security,412133297,4193,9,6,Highly Confidential,High
+BU-0039,ORG-007,IT Infrastructure,IT,883234207,4412,8,5,Internal,Medium
+BU-0040,ORG-007,Manufacturing Operations,Production,235804678,2159,7,7,Internal,Medium
+BU-0041,ORG-007,Human Resources,HR,869314098,2194,3,11,Sensitive,Medium
+BU-0042,ORG-007,Research & Development,Innovation,595656070,2851,5,26,Confidential,Medium
+BU-0043,ORG-008,Sales & Marketing,Revenue,2011871,123,7,16,Internal,Low
+BU-0044,ORG-008,Human Resources,HR,9171314,114,4,13,Sensitive,Medium
+BU-0045,ORG-008,Security Operations,Security,6297192,105,8,5,Highly Confidential,High
+BU-0046,ORG-008,Digital Banking,Revenue,5126309,128,6,5,Highly Confidential,Critical
+BU-0047,ORG-008,Manufacturing Operations,Production,10972967,84,8,8,Internal,Medium
+BU-0048,ORG-008,Finance & Accounting,Finance,6068719,71,8,7,Confidential,High
+BU-0049,ORG-008,IT Infrastructure,IT,3264696,73,9,10,Internal,Medium
+BU-0050,ORG-008,Executive Office,Leadership,9457642,42,10,5,Highly Confidential,Critical
+BU-0051,ORG-009,Security Operations,Security,42690669,613,10,6,Highly Confidential,High
+BU-0052,ORG-009,Sales & Marketing,Revenue,35395442,472,6,16,Internal,Low
+BU-0053,ORG-009,Finance & Accounting,Finance,28038612,504,7,8,Confidential,High
+BU-0054,ORG-009,Manufacturing Operations,Production,19302018,547,10,5,Internal,Medium
+BU-0055,ORG-009,Legal & Compliance,Governance,19884317,260,8,8,Highly Confidential,High
+BU-0056,ORG-009,Human Resources,HR,68219800,170,3,11,Sensitive,Medium
+BU-0057,ORG-010,Supply Chain,Logistics,73124167,314,4,12,Internal,Low
+BU-0058,ORG-010,Research & Development,Innovation,60347050,273,6,24,Confidential,Medium
+BU-0059,ORG-010,Human Resources,HR,23400241,22,3,14,Sensitive,Medium
+BU-0060,ORG-010,Executive Office,Leadership,28198480,285,9,1,Highly Confidential,Critical
+BU-0061,ORG-010,Security Operations,Security,50992345,82,9,2,Highly Confidential,High
+BU-0062,ORG-011,Legal & Compliance,Governance,116245561,456,10,10,Highly Confidential,High
+BU-0063,ORG-011,Sales & Marketing,Revenue,116797803,506,6,13,Internal,Low
+BU-0064,ORG-011,Executive Office,Leadership,101316639,303,10,4,Highly Confidential,Critical
+BU-0065,ORG-011,IT Infrastructure,IT,88007371,301,9,5,Internal,Medium
+BU-0066,ORG-011,Supply Chain,Logistics,97246851,260,5,9,Internal,Low
+BU-0067,ORG-011,Manufacturing Operations,Production,55323084,102,7,4,Internal,Medium
+BU-0068,ORG-011,Research & Development,Innovation,45907785,176,4,23,Confidential,Medium
+BU-0069,ORG-012,Security Operations,Security,97375815,817,10,6,Highly Confidential,High
+BU-0070,ORG-012,IT Infrastructure,IT,20696375,799,9,5,Internal,Medium
+BU-0071,ORG-012,Sales & Marketing,Revenue,107731970,631,6,14,Internal,Low
+BU-0072,ORG-012,Supply Chain,Logistics,69595744,1138,7,8,Internal,Low
+BU-0073,ORG-012,Executive Office,Leadership,64882834,578,9,4,Highly Confidential,Critical
+BU-0074,ORG-012,Finance & Accounting,Finance,21591315,708,9,8,Confidential,High
+BU-0075,ORG-012,Human Resources,HR,34414592,977,4,15,Sensitive,Medium
+BU-0076,ORG-013,Finance & Accounting,Finance,1230079613,1508,6,5,Confidential,High
+BU-0077,ORG-013,Security Operations,Security,667706755,1753,9,3,Highly Confidential,High
+BU-0078,ORG-013,Research & Development,Innovation,619738132,3125,5,26,Confidential,Medium
+BU-0079,ORG-013,Executive Office,Leadership,521469076,690,9,1,Highly Confidential,Critical
+BU-0080,ORG-013,Human Resources,HR,1094224973,446,5,12,Sensitive,Medium
+BU-0081,ORG-013,IT Infrastructure,IT,980216140,349,6,6,Internal,Medium
+BU-0082,ORG-013,Digital Banking,Revenue,460462867,186,10,1,Highly Confidential,Critical
+BU-0083,ORG-013,Supply Chain,Logistics,505642318,3899,3,11,Internal,Low
+BU-0084,ORG-014,Supply Chain,Logistics,4351174,40,5,7,Internal,Low
+BU-0085,ORG-014,Manufacturing Operations,Production,3465147,59,10,8,Internal,Medium
+BU-0086,ORG-014,IT Infrastructure,IT,4930716,68,9,10,Internal,Medium
+BU-0087,ORG-014,Customer Operations,Operations,1772568,95,7,1,Confidential,High
+BU-0088,ORG-014,Human Resources,HR,3992509,58,7,11,Sensitive,Medium
+BU-0089,ORG-015,Finance & Accounting,Finance,128835305,6902,9,3,Confidential,High
+BU-0090,ORG-015,IT Infrastructure,IT,383820153,5954,9,10,Internal,Medium
+BU-0091,ORG-015,Sales & Marketing,Revenue,213859688,2905,7,16,Internal,Low
+BU-0092,ORG-015,Security Operations,Security,284799420,8837,9,4,Highly Confidential,High
+BU-0093,ORG-015,Legal & Compliance,Governance,385062807,9727,8,9,Highly Confidential,High
+BU-0094,ORG-015,Executive Office,Leadership,637180418,1439,8,4,Highly Confidential,Critical
+BU-0095,ORG-015,Manufacturing Operations,Production,268914665,7633,10,7,Internal,Medium
+BU-0096,ORG-015,Customer Operations,Operations,525991985,5531,6,4,Confidential,High
+BU-0097,ORG-016,Customer Operations,Operations,1247112,90,10,1,Confidential,High
+BU-0098,ORG-016,Supply Chain,Logistics,1863231,68,3,8,Internal,Low
+BU-0099,ORG-016,Digital Banking,Revenue,2392194,145,10,1,Highly Confidential,Critical
+BU-0100,ORG-016,IT Infrastructure,IT,2315584,145,9,5,Internal,Medium
+BU-0101,ORG-016,Manufacturing Operations,Production,761939,76,9,8,Internal,Medium
+BU-0102,ORG-016,Executive Office,Leadership,1152593,114,9,5,Highly Confidential,Critical
+BU-0103,ORG-017,IT Infrastructure,IT,511030611,3797,6,10,Internal,Medium
+BU-0104,ORG-017,Security Operations,Security,395999777,1978,10,6,Highly Confidential,High
+BU-0105,ORG-017,Sales & Marketing,Revenue,388500646,3565,6,13,Internal,Low
+BU-0106,ORG-017,Executive Office,Leadership,932628891,12475,10,5,Highly Confidential,Critical
+BU-0107,ORG-017,Research & Development,Innovation,487200792,1667,4,25,Confidential,Medium
+BU-0108,ORG-017,Supply Chain,Logistics,431202267,2959,5,7,Internal,Low
+BU-0109,ORG-017,Digital Banking,Revenue,915918247,2093,8,0,Highly Confidential,Critical
+BU-0110,ORG-017,Customer Operations,Operations,1184511297,9086,8,6,Confidential,High
+BU-0111,ORG-018,Legal & Compliance,Governance,147200388,3628,8,8,Highly Confidential,High
+BU-0112,ORG-018,Supply Chain,Logistics,256292932,2088,6,7,Internal,Low
+BU-0113,ORG-018,Human Resources,HR,224763230,3302,6,11,Sensitive,Medium
+BU-0114,ORG-018,Finance & Accounting,Finance,170866952,5643,6,4,Confidential,High
+BU-0115,ORG-018,Manufacturing Operations,Production,76788549,4630,8,3,Internal,Medium
+BU-0116,ORG-019,Human Resources,HR,218150026,7273,5,15,Sensitive,Medium
+BU-0117,ORG-019,Sales & Marketing,Revenue,399076983,5023,7,15,Internal,Low
+BU-0118,ORG-019,Security Operations,Security,87268233,15750,6,2,Highly Confidential,High
+BU-0119,ORG-019,Digital Banking,Revenue,276836465,4355,6,1,Highly Confidential,Critical
+BU-0120,ORG-019,Research & Development,Innovation,147508787,9063,3,24,Confidential,Medium
+BU-0121,ORG-020,Security Operations,Security,5354726,49,8,6,Highly Confidential,High
+BU-0122,ORG-020,Supply Chain,Logistics,5261630,130,6,7,Internal,Low
+BU-0123,ORG-020,Research & Development,Innovation,9672496,138,5,28,Confidential,Medium
+BU-0124,ORG-020,Legal & Compliance,Governance,8608707,122,7,10,Highly Confidential,High
+BU-0125,ORG-021,Sales & Marketing,Revenue,38267676,93,3,12,Internal,Low
+BU-0126,ORG-021,Digital Banking,Revenue,37000230,629,10,2,Highly Confidential,Critical
+BU-0127,ORG-021,Customer Operations,Operations,23824445,499,8,6,Confidential,High
+BU-0128,ORG-021,Manufacturing Operations,Production,22458505,298,10,7,Internal,Medium
+BU-0129,ORG-022,Supply Chain,Logistics,193936102,443,3,8,Internal,Low
+BU-0130,ORG-022,Human Resources,HR,280369149,13716,7,15,Sensitive,Medium
+BU-0131,ORG-022,Research & Development,Innovation,277684729,12549,5,27,Confidential,Medium
+BU-0132,ORG-022,Finance & Accounting,Finance,57967903,12410,7,6,Confidential,High
+BU-0133,ORG-022,Security Operations,Security,173485975,7265,8,2,Highly Confidential,High
+BU-0134,ORG-022,IT Infrastructure,IT,288822943,7161,9,5,Internal,Medium
+BU-0135,ORG-022,Customer Operations,Operations,161673508,6710,8,3,Confidential,High
+BU-0136,ORG-023,Customer Operations,Operations,283776594,15506,9,5,Confidential,High
+BU-0137,ORG-023,IT Infrastructure,IT,137580207,1462,8,7,Internal,Medium
+BU-0138,ORG-023,Security Operations,Security,304152888,15915,9,5,Highly Confidential,High
+BU-0139,ORG-023,Supply Chain,Logistics,595738937,38,7,10,Internal,Low
+BU-0140,ORG-024,Finance & Accounting,Finance,863895483,3355,8,7,Confidential,High
+BU-0141,ORG-024,Digital Banking,Revenue,297878805,4739,9,5,Highly Confidential,Critical
+BU-0142,ORG-024,Sales & Marketing,Revenue,616172146,492,7,12,Internal,Low
+BU-0143,ORG-024,IT Infrastructure,IT,818713564,5111,10,5,Internal,Medium
+BU-0144,ORG-024,Supply Chain,Logistics,676951043,1547,4,7,Internal,Low
+BU-0145,ORG-024,Research & Development,Innovation,595236960,1944,4,26,Confidential,Medium
+BU-0146,ORG-024,Legal & Compliance,Governance,1019274489,4801,10,12,Highly Confidential,High
+BU-0147,ORG-025,Security Operations,Security,663436,44,10,5,Highly Confidential,High
+BU-0148,ORG-025,Supply Chain,Logistics,1821613,37,3,9,Internal,Low
+BU-0149,ORG-025,Legal & Compliance,Governance,1872400,129,9,9,Highly Confidential,High
+BU-0150,ORG-025,Digital Banking,Revenue,2183428,84,8,0,Highly Confidential,Critical
+BU-0151,ORG-025,Research & Development,Innovation,929465,58,7,27,Confidential,Medium
+BU-0152,ORG-025,Manufacturing Operations,Production,2307887,82,7,6,Internal,Medium

@@ -1,0 +1,32 @@
+# Python environments and caches
+RiskEngine/.venv/
+RiskEngine/venv/
+RiskEngine/env/
+**/__pycache__/
+**/*.py[cod]
+**/*.egg-info/
+
+# Secrets and local runtime state
+**/.env
+**/*.env
+.run/
+
+# Generated ML artifacts and pipeline output
+RiskEngine/models/
+RiskEngine/outputs/
+RiskEngine/logs/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Java/Gradle build output
+**/.gradle/
+**/build/
+**/out/
+**/.idea/
+**/*.iml
+
+# OS/editor files
+.DS_Store
+.vscode/*.log

@@ -1,0 +1,393 @@
+control_id,organization_id,control_name,control_category,implementation_status,coverage_percentage,effectiveness_score,maturity_level,annual_cost,implementation_cost,maintenance_cost,deployment_time_days,risk_reduction_percentage,compliance_status,last_assessment_date
+CTRL-0001,ORG-001,Data Loss Prevention (DLP),Data Protection,Partially Implemented,30,0.38,Defined,225000,750000,112500,60,22,Non-Compliant,2026-04-10
+CTRL-0002,ORG-001,Backup & Recovery,Resilience,Planned,0,0.0,Initial,175000,500000,87500,31,0,Non-Compliant,2026-06-03
+CTRL-0003,ORG-001,Incident Response Plan,Governance,Planned,0,0.0,Initial,75000,200000,37500,35,0,Non-Compliant,2026-07-22
+CTRL-0004,ORG-001,Threat Intelligence Platform,Threat Intel,Fully Implemented,88,0.64,Defined,187500,500000,93750,49,15,Compliant,2026-04-20
+CTRL-0005,ORG-001,Mobile Device Management (MDM),Endpoint Security,Partially Implemented,49,0.3,Developing,87500,200000,43750,14,12,Non-Compliant,2026-07-11
+CTRL-0006,ORG-001,Next-Gen Firewall,Network Security,Not Implemented,0,0.0,Initial,0,750000,125000,35,0,Non-Compliant,2026-07-25
+CTRL-0007,ORG-001,Patch Management,Vulnerability,Fully Implemented,97,0.63,Managed,100000,250000,50000,13,25,Compliant,2026-07-18
+CTRL-0008,ORG-001,Web Application Firewall (WAF),Network Security,Fully Implemented,89,0.84,Optimized,125000,375000,62500,15,18,Compliant,2026-06-23
+CTRL-0009,ORG-001,Data Encryption (in transit),Data Protection,Not Implemented,0,0.0,Initial,0,200000,31250,9,0,Non-Compliant,2026-03-10
+CTRL-0010,ORG-001,Data Encryption (at rest),Data Protection,Not Implemented,0,0.0,Initial,0,250000,37500,19,0,Non-Compliant,2026-03-29
+CTRL-0011,ORG-001,Security Awareness Training,People,Planned,0,0.0,Initial,75000,125000,37500,15,0,Non-Compliant,2026-04-19
+CTRL-0012,ORG-001,Email Security Gateway,Email Security,Fully Implemented,85,0.69,Optimized,100000,250000,50000,12,15,Compliant,2026-03-17
+CTRL-0013,ORG-002,Zero Trust Architecture,Architecture,Planned,0,0.0,Initial,200000,800000,100000,186,0,Non-Compliant,2026-08-28
+CTRL-0014,ORG-002,Web Application Firewall (WAF),Network Security,Fully Implemented,92,0.69,Managed,50000,150000,25000,12,18,Compliant,2026-07-07
+CTRL-0015,ORG-002,Identity Governance (IGA),Identity & Access,Fully Implemented,86,0.75,Defined,65000,180000,32500,65,20,Compliant,2026-04-30
+CTRL-0016,ORG-002,Intrusion Detection/Prevention (IDS/IPS),Network Security,Partially Implemented,33,0.33,Defined,70000,200000,35000,30,20,Non-Compliant,2026-05-03
+CTRL-0017,ORG-002,SIEM,Monitoring,Fully Implemented,90,0.64,Managed,150000,500000,75000,42,15,Compliant,2026-07-04
+CTRL-0018,ORG-002,API Security,Application Security,Planned,0,0.0,Initial,45000,120000,22500,36,0,Non-Compliant,2026-06-17
+CTRL-0019,ORG-002,Cloud Security Posture Mgmt (CSPM),Cloud Security,Fully Implemented,82,0.72,Managed,60000,180000,30000,26,18,Compliant,2026-08-20
+CTRL-0020,ORG-002,Mobile Device Management (MDM),Endpoint Security,Fully Implemented,90,0.64,Managed,35000,80000,17500,17,12,Compliant,2026-07-20
+CTRL-0021,ORG-002,Threat Intelligence Platform,Threat Intel,Partially Implemented,70,0.57,Defined,75000,200000,37500,43,15,Non-Compliant,2026-06-13
+CTRL-0022,ORG-002,Vulnerability Management,Risk Management,Partially Implemented,53,0.57,Developing,60000,150000,30000,40,20,Non-Compliant,2026-03-13
+CTRL-0023,ORG-002,Data Loss Prevention (DLP),Data Protection,Not Implemented,0,0.0,Initial,0,300000,45000,63,0,Non-Compliant,2026-05-04
+CTRL-0024,ORG-002,Email Security Gateway,Email Security,Partially Implemented,42,0.62,Developing,40000,100000,20000,14,15,Non-Compliant,2026-08-12
+CTRL-0025,ORG-002,Incident Response Plan,Governance,Not Implemented,0,0.0,Initial,0,80000,15000,44,0,Non-Compliant,2026-06-28
+CTRL-0026,ORG-002,Backup & Recovery,Resilience,Fully Implemented,99,0.94,Optimized,70000,200000,35000,19,35,Compliant,2026-04-21
+CTRL-0027,ORG-002,Security Awareness Training,People,Partially Implemented,51,0.6,Defined,30000,50000,15000,21,12,Non-Compliant,2026-08-04
+CTRL-0028,ORG-002,Patch Management,Vulnerability,Planned,0,0.0,Initial,40000,100000,20000,27,0,Non-Compliant,2026-03-08
+CTRL-0029,ORG-003,Incident Response Plan,Governance,Partially Implemented,34,0.49,Developing,30000,80000,15000,41,10,Non-Compliant,2026-06-26
+CTRL-0030,ORG-003,Container Security,Cloud Security,Partially Implemented,54,0.46,Developing,55000,150000,27500,43,18,Non-Compliant,2026-06-15
+CTRL-0031,ORG-003,Endpoint Detection & Response (EDR),Endpoint Security,Planned,0,0.0,Initial,80000,200000,40000,31,0,Non-Compliant,2026-04-14
+CTRL-0032,ORG-003,Email Security Gateway,Email Security,Partially Implemented,67,0.53,Defined,40000,100000,20000,13,15,Non-Compliant,2026-05-07
+CTRL-0033,ORG-003,Mobile Device Management (MDM),Endpoint Security,Fully Implemented,92,0.8,Optimized,35000,80000,17500,9,12,Compliant,2026-06-09
+CTRL-0034,ORG-003,Identity Governance (IGA),Identity & Access,Fully Implemented,87,0.94,Defined,65000,180000,32500,74,20,Compliant,2026-04-20
+CTRL-0035,ORG-003,Data Encryption (at rest),Data Protection,Fully Implemented,91,0.74,Optimized,30000,100000,15000,30,20,Compliant,2026-04-01
+CTRL-0036,ORG-003,Patch Management,Vulnerability,Planned,0,0.0,Initial,40000,100000,20000,16,0,Non-Compliant,2026-08-02
+CTRL-0037,ORG-003,Backup & Recovery,Resilience,Fully Implemented,96,0.93,Defined,70000,200000,35000,28,35,Compliant,2026-08-13
+CTRL-0038,ORG-003,Vulnerability Management,Risk Management,Partially Implemented,71,0.38,Defined,60000,150000,30000,34,20,Non-Compliant,2026-07-30
+CTRL-0039,ORG-003,Next-Gen Firewall,Network Security,Fully Implemented,100,0.76,Defined,100000,300000,50000,45,22,Compliant,2026-07-21
+CTRL-0040,ORG-004,Incident Response Plan,Governance,Fully Implemented,99,0.7,Optimized,30000,80000,15000,45,10,Compliant,2026-09-02
+CTRL-0041,ORG-004,Data Encryption (at rest),Data Protection,Fully Implemented,93,0.66,Defined,30000,100000,15000,34,20,Compliant,2026-08-19
+CTRL-0042,ORG-004,API Security,Application Security,Fully Implemented,92,0.94,Defined,45000,120000,22500,31,15,Compliant,2026-05-11
+CTRL-0043,ORG-004,Privileged Access Management (PAM),Identity & Access,Fully Implemented,85,0.75,Optimized,80000,250000,40000,57,28,Compliant,2026-03-31
+CTRL-0044,ORG-004,SIEM,Monitoring,Fully Implemented,99,0.86,Managed,150000,500000,75000,46,15,Compliant,2026-09-01
+CTRL-0045,ORG-004,Vulnerability Management,Risk Management,Partially Implemented,47,0.32,Defined,60000,150000,30000,45,20,Non-Compliant,2026-08-14
+CTRL-0046,ORG-004,Container Security,Cloud Security,Partially Implemented,41,0.54,Developing,55000,150000,27500,37,18,Non-Compliant,2026-03-11
+CTRL-0047,ORG-004,Security Awareness Training,People,Fully Implemented,100,0.74,Optimized,30000,50000,15000,8,12,Compliant,2026-07-16
+CTRL-0048,ORG-004,Next-Gen Firewall,Network Security,Partially Implemented,66,0.42,Defined,100000,300000,50000,25,22,Non-Compliant,2026-08-25
+CTRL-0049,ORG-004,Data Loss Prevention (DLP),Data Protection,Partially Implemented,32,0.47,Defined,90000,300000,45000,63,22,Non-Compliant,2026-06-10
+CTRL-0050,ORG-005,API Security,Application Security,Partially Implemented,54,0.63,Developing,45000,120000,22500,25,15,Non-Compliant,2026-07-22
+CTRL-0051,ORG-005,Email Security Gateway,Email Security,Partially Implemented,73,0.49,Developing,40000,100000,20000,15,15,Non-Compliant,2026-09-03
+CTRL-0052,ORG-005,Threat Intelligence Platform,Threat Intel,Not Implemented,0,0.0,Initial,0,200000,37500,45,0,Non-Compliant,2026-05-12
+CTRL-0053,ORG-005,Network Segmentation,Network Security,Partially Implemented,75,0.6,Developing,60000,400000,30000,61,30,Non-Compliant,2026-04-20
+CTRL-0054,ORG-005,Data Loss Prevention (DLP),Data Protection,Not Implemented,0,0.0,Initial,0,300000,45000,71,0,Non-Compliant,2026-03-18
+CTRL-0055,ORG-005,Security Awareness Training,People,Fully Implemented,100,0.82,Optimized,30000,50000,15000,5,12,Compliant,2026-05-20
+CTRL-0056,ORG-005,Backup & Recovery,Resilience,Partially Implemented,44,0.61,Defined,70000,200000,35000,36,35,Non-Compliant,2026-08-29
+CTRL-0057,ORG-005,Mobile Device Management (MDM),Endpoint Security,Fully Implemented,81,0.7,Managed,35000,80000,17500,25,12,Compliant,2026-04-28
+CTRL-0058,ORG-005,SIEM,Monitoring,Partially Implemented,59,0.57,Developing,150000,500000,75000,46,15,Non-Compliant,2026-05-27
+CTRL-0059,ORG-005,Container Security,Cloud Security,Partially Implemented,51,0.58,Defined,55000,150000,27500,45,18,Non-Compliant,2026-07-13
+CTRL-0060,ORG-005,Data Encryption (in transit),Data Protection,Planned,0,0.0,Initial,25000,80000,12500,9,0,Non-Compliant,2026-08-21
+CTRL-0061,ORG-005,Incident Response Plan,Governance,Planned,0,0.0,Initial,30000,80000,15000,35,0,Non-Compliant,2026-06-22
+CTRL-0062,ORG-005,Identity Governance (IGA),Identity & Access,Fully Implemented,83,0.73,Defined,65000,180000,32500,74,20,Compliant,2026-08-13
+CTRL-0063,ORG-005,Zero Trust Architecture,Architecture,Fully Implemented,82,0.87,Defined,200000,800000,100000,181,35,Compliant,2026-08-18
+CTRL-0064,ORG-005,Patch Management,Vulnerability,Partially Implemented,69,0.37,Developing,40000,100000,20000,20,25,Non-Compliant,2026-03-13
+CTRL-0065,ORG-005,Next-Gen Firewall,Network Security,Partially Implemented,70,0.34,Developing,100000,300000,50000,26,22,Non-Compliant,2026-08-18
+CTRL-0066,ORG-006,Threat Intelligence Platform,Threat Intel,Partially Implemented,40,0.43,Defined,75000,200000,37500,50,15,Non-Compliant,2026-06-15
+CTRL-0067,ORG-006,Patch Management,Vulnerability,Partially Implemented,47,0.42,Developing,40000,100000,20000,10,25,Non-Compliant,2026-04-06
+CTRL-0068,ORG-006,Vulnerability Management,Risk Management,Not Implemented,0,0.0,Initial,0,150000,30000,30,0,Non-Compliant,2026-04-14
+CTRL-0069,ORG-006,Cloud Security Posture Mgmt (CSPM),Cloud Security,Partially Implemented,65,0.57,Defined,60000,180000,30000,31,18,Non-Compliant,2026-07-23
+CTRL-0070,ORG-006,Zero Trust Architecture,Architecture,Fully Implemented,95,0.95,Optimized,200000,800000,100000,177,35,Compliant,2026-08-02
+CTRL-0071,ORG-006,Mobile Device Management (MDM),Endpoint Security,Partially Implemented,40,0.58,Defined,35000,80000,17500,14,12,Non-Compliant,2026-04-14
+CTRL-0072,ORG-006,Next-Gen Firewall,Network Security,Not Implemented,0,0.0,Initial,0,300000,50000,40,0,Non-Compliant,2026-04-17
+CTRL-0073,ORG-006,Privileged Access Management (PAM),Identity & Access,Partially Implemented,45,0.54,Defined,80000,250000,40000,46,28,Non-Compliant,2026-08-25
+CTRL-0074,ORG-006,Multi-Factor Authentication (MFA),Identity & Access,Fully Implemented,89,0.87,Defined,20000,50000,10000,26,25,Compliant,2026-08-19
+CTRL-0075,ORG-006,SIEM,Monitoring,Not Implemented,0,0.0,Initial,0,500000,75000,52,0,Non-Compliant,2026-04-04
+CTRL-0076,ORG-006,Data Encryption (at rest),Data Protection,Fully Implemented,98,0.88,Optimized,30000,100000,15000,32,20,Compliant,2026-04-22
+CTRL-0077,ORG-006,Backup & Recovery,Resilience,Planned,0,0.0,Initial,70000,200000,35000,32,0,Non-Compliant,2026-08-08
+CTRL-0078,ORG-006,Endpoint Detection & Response (EDR),Endpoint Security,Fully Implemented,96,0.67,Managed,80000,200000,40000,44,20,Compliant,2026-05-03
+CTRL-0079,ORG-006,Data Loss Prevention (DLP),Data Protection,Planned,0,0.0,Initial,90000,300000,45000,62,0,Non-Compliant,2026-06-06
+CTRL-0080,ORG-006,API Security,Application Security,Partially Implemented,37,0.58,Developing,45000,120000,22500,18,15,Non-Compliant,2026-08-29
+CTRL-0081,ORG-006,Database Activity Monitoring,Data Protection,Partially Implemented,70,0.46,Defined,45000,120000,22500,31,15,Non-Compliant,2026-07-23
+CTRL-0082,ORG-006,Security Awareness Training,People,Not Implemented,0,0.0,Initial,0,50000,15000,12,0,Non-Compliant,2026-07-20
+CTRL-0083,ORG-007,Email Security Gateway,Email Security,Planned,0,0.0,Initial,100000,250000,50000,26,0,Non-Compliant,2026-08-14
+CTRL-0084,ORG-007,Vulnerability Management,Risk Management,Not Implemented,0,0.0,Initial,0,375000,75000,30,0,Non-Compliant,2026-08-22
+CTRL-0085,ORG-007,Multi-Factor Authentication (MFA),Identity & Access,Fully Implemented,97,0.62,Defined,50000,125000,25000,19,25,Compliant,2026-04-01
+CTRL-0086,ORG-007,Web Application Firewall (WAF),Network Security,Fully Implemented,99,0.92,Defined,125000,375000,62500,15,18,Compliant,2026-04-21
+CTRL-0087,ORG-007,Privileged Access Management (PAM),Identity & Access,Planned,0,0.0,Initial,200000,625000,100000,50,0,Non-Compliant,2026-05-03
+CTRL-0088,ORG-007,SIEM,Monitoring,Not Implemented,0,0.0,Initial,0,1250000,187500,44,0,Non-Compliant,2026-04-04
+CTRL-0089,ORG-007,Next-Gen Firewall,Network Security,Planned,0,0.0,Initial,250000,750000,125000,43,0,Non-Compliant,2026-03-18
+CTRL-0090,ORG-007,Security Awareness Training,People,Fully Implemented,82,0.64,Managed,75000,125000,37500,7,12,Compliant,2026-08-12
+CTRL-0091,ORG-007,API Security,Application Security,Partially Implemented,54,0.34,Developing,112500,300000,56250,29,15,Non-Compliant,2026-06-19
+CTRL-0092,ORG-007,Container Security,Cloud Security,Partially Implemented,72,0.36,Developing,137500,375000,68750,36,18,Non-Compliant,2026-07-02
+CTRL-0093,ORG-007,Endpoint Detection & Response (EDR),Endpoint Security,Fully Implemented,84,0.84,Optimized,200000,500000,100000,44,20,Compliant,2026-07-20
+CTRL-0094,ORG-007,Backup & Recovery,Resilience,Partially Implemented,46,0.4,Defined,175000,500000,87500,24,35,Non-Compliant,2026-07-19
+CTRL-0095,ORG-008,Database Activity Monitoring,Data Protection,Partially Implemented,60,0.63,Developing,18000,48000,9000,22,15,Non-Compliant,2026-07-31
+CTRL-0096,ORG-008,Backup & Recovery,Resilience,Fully Implemented,99,0.95,Defined,28000,80000,14000,32,35,Compliant,2026-04-02
+CTRL-0097,ORG-008,SIEM,Monitoring,Partially Implemented,63,0.38,Defined,60000,200000,30000,41,15,Non-Compliant,2026-07-16
+CTRL-0098,ORG-008,Intrusion Detection/Prevention (IDS/IPS),Network Security,Fully Implemented,94,0.79,Managed,28000,80000,14000,27,20,Compliant,2026-07-16
+CTRL-0099,ORG-008,Email Security Gateway,Email Security,Partially Implemented,35,0.5,Developing,16000,40000,8000,20,15,Non-Compliant,2026-06-01
+CTRL-0100,ORG-008,Vulnerability Management,Risk Management,Partially Implemented,74,0.34,Defined,24000,60000,12000,39,20,Non-Compliant,2026-08-10
+CTRL-0101,ORG-008,Container Security,Cloud Security,Not Implemented,0,0.0,Initial,0,60000,11000,45,0,Non-Compliant,2026-04-29
+CTRL-0102,ORG-008,Patch Management,Vulnerability,Not Implemented,0,0.0,Initial,0,40000,8000,21,0,Non-Compliant,2026-08-31
+CTRL-0103,ORG-008,Network Segmentation,Network Security,Fully Implemented,100,0.76,Defined,24000,160000,12000,74,30,Compliant,2026-08-22
+CTRL-0104,ORG-008,Identity Governance (IGA),Identity & Access,Fully Implemented,88,0.71,Defined,26000,72000,13000,67,20,Compliant,2026-03-27
+CTRL-0105,ORG-008,Threat Intelligence Platform,Threat Intel,Partially Implemented,38,0.33,Developing,30000,80000,15000,56,15,Non-Compliant,2026-04-07
+CTRL-0106,ORG-008,Data Loss Prevention (DLP),Data Protection,Partially Implemented,44,0.64,Developing,36000,120000,18000,59,22,Non-Compliant,2026-09-02
+CTRL-0107,ORG-008,Cloud Security Posture Mgmt (CSPM),Cloud Security,Partially Implemented,58,0.32,Defined,24000,72000,12000,29,18,Non-Compliant,2026-05-01
+CTRL-0108,ORG-008,Incident Response Plan,Governance,Partially Implemented,51,0.45,Defined,12000,32000,6000,42,10,Non-Compliant,2026-03-21
+CTRL-0109,ORG-008,Data Encryption (in transit),Data Protection,Fully Implemented,83,0.91,Defined,10000,32000,5000,23,18,Compliant,2026-05-12
+CTRL-0110,ORG-008,Mobile Device Management (MDM),Endpoint Security,Fully Implemented,93,0.69,Defined,14000,32000,7000,24,12,Compliant,2026-03-13
+CTRL-0111,ORG-008,Privileged Access Management (PAM),Identity & Access,Fully Implemented,96,0.77,Defined,32000,100000,16000,58,28,Compliant,2026-06-24
+CTRL-0112,ORG-008,Security Awareness Training,People,Planned,0,0.0,Initial,12000,20000,6000,11,0,Non-Compliant,2026-03-18
+CTRL-0113,ORG-008,Zero Trust Architecture,Architecture,Not Implemented,0,0.0,Initial,0,320000,40000,182,0,Non-Compliant,2026-05-30
+CTRL-0114,ORG-008,Endpoint Detection & Response (EDR),Endpoint Security,Partially Implemented,58,0.41,Defined,32000,80000,16000,45,20,Non-Compliant,2026-05-06
+CTRL-0115,ORG-008,Multi-Factor Authentication (MFA),Identity & Access,Not Implemented,0,0.0,Initial,0,20000,4000,25,0,Non-Compliant,2026-08-26
+CTRL-0116,ORG-008,API Security,Application Security,Not Implemented,0,0.0,Initial,0,48000,9000,29,0,Non-Compliant,2026-08-05
+CTRL-0117,ORG-009,Incident Response Plan,Governance,Planned,0,0.0,Initial,30000,80000,15000,44,0,Non-Compliant,2026-08-11
+CTRL-0118,ORG-009,API Security,Application Security,Not Implemented,0,0.0,Initial,0,120000,22500,24,0,Non-Compliant,2026-06-11
+CTRL-0119,ORG-009,Intrusion Detection/Prevention (IDS/IPS),Network Security,Planned,0,0.0,Initial,70000,200000,35000,29,0,Non-Compliant,2026-06-28
+CTRL-0120,ORG-009,Network Segmentation,Network Security,Not Implemented,0,0.0,Initial,0,400000,30000,73,0,Non-Compliant,2026-05-02
+CTRL-0121,ORG-009,Data Loss Prevention (DLP),Data Protection,Fully Implemented,98,0.83,Optimized,90000,300000,45000,62,22,Compliant,2026-06-04
+CTRL-0122,ORG-009,Container Security,Cloud Security,Not Implemented,0,0.0,Initial,0,150000,27500,39,0,Non-Compliant,2026-09-02
+CTRL-0123,ORG-009,Vulnerability Management,Risk Management,Not Implemented,0,0.0,Initial,0,150000,30000,39,0,Non-Compliant,2026-06-19
+CTRL-0124,ORG-009,Multi-Factor Authentication (MFA),Identity & Access,Planned,0,0.0,Initial,20000,50000,10000,10,0,Non-Compliant,2026-04-08
+CTRL-0125,ORG-009,Data Encryption (at rest),Data Protection,Planned,0,0.0,Initial,30000,100000,15000,34,0,Non-Compliant,2026-07-26
+CTRL-0126,ORG-009,Identity Governance (IGA),Identity & Access,Partially Implemented,66,0.38,Defined,65000,180000,32500,59,20,Non-Compliant,2026-05-13
+CTRL-0127,ORG-009,Cloud Security Posture Mgmt (CSPM),Cloud Security,Fully Implemented,81,0.67,Optimized,60000,180000,30000,40,18,Compliant,2026-06-18
+CTRL-0128,ORG-009,Mobile Device Management (MDM),Endpoint Security,Not Implemented,0,0.0,Initial,0,80000,17500,28,0,Non-Compliant,2026-08-06
+CTRL-0129,ORG-009,Patch Management,Vulnerability,Partially Implemented,46,0.39,Developing,40000,100000,20000,24,25,Non-Compliant,2026-08-19
+CTRL-0130,ORG-010,Database Activity Monitoring,Data Protection,Planned,0,0.0,Initial,45000,120000,22500,19,0,Non-Compliant,2026-05-07
+CTRL-0131,ORG-010,Identity Governance (IGA),Identity & Access,Partially Implemented,56,0.38,Developing,65000,180000,32500,66,20,Non-Compliant,2026-08-13
+CTRL-0132,ORG-010,Incident Response Plan,Governance,Planned,0,0.0,Initial,30000,80000,15000,39,0,Non-Compliant,2026-03-16
+CTRL-0133,ORG-010,Security Awareness Training,People,Fully Implemented,98,0.62,Defined,30000,50000,15000,10,12,Compliant,2026-05-24
+CTRL-0134,ORG-010,Intrusion Detection/Prevention (IDS/IPS),Network Security,Not Implemented,0,0.0,Initial,0,200000,35000,30,0,Non-Compliant,2026-03-08
+CTRL-0135,ORG-010,API Security,Application Security,Planned,0,0.0,Initial,45000,120000,22500,33,0,Non-Compliant,2026-07-06
+CTRL-0136,ORG-010,Data Encryption (in transit),Data Protection,Partially Implemented,74,0.51,Developing,25000,80000,12500,11,18,Non-Compliant,2026-05-02
+CTRL-0137,ORG-010,Data Loss Prevention (DLP),Data Protection,Planned,0,0.0,Initial,90000,300000,45000,72,0,Non-Compliant,2026-03-13
+CTRL-0138,ORG-010,Vulnerability Management,Risk Management,Fully Implemented,85,0.75,Defined,60000,150000,30000,34,20,Compliant,2026-08-14
+CTRL-0139,ORG-010,SIEM,Monitoring,Fully Implemented,100,0.79,Optimized,150000,500000,75000,53,15,Compliant,2026-03-08
+CTRL-0140,ORG-010,Mobile Device Management (MDM),Endpoint Security,Fully Implemented,87,0.72,Defined,35000,80000,17500,11,12,Compliant,2026-05-10
+CTRL-0141,ORG-010,Endpoint Detection & Response (EDR),Endpoint Security,Fully Implemented,95,0.76,Optimized,80000,200000,40000,40,20,Compliant,2026-08-31
+CTRL-0142,ORG-010,Zero Trust Architecture,Architecture,Fully Implemented,88,0.6,Managed,200000,800000,100000,176,35,Compliant,2026-08-15
+CTRL-0143,ORG-010,Backup & Recovery,Resilience,Planned,0,0.0,Initial,70000,200000,35000,20,0,Non-Compliant,2026-06-28
+CTRL-0144,ORG-010,Threat Intelligence Platform,Threat Intel,Planned,0,0.0,Initial,75000,200000,37500,51,0,Non-Compliant,2026-05-02
+CTRL-0145,ORG-010,Container Security,Cloud Security,Fully Implemented,90,0.68,Defined,55000,150000,27500,35,18,Compliant,2026-05-07
+CTRL-0146,ORG-011,Data Loss Prevention (DLP),Data Protection,Not Implemented,0,0.0,Initial,0,300000,45000,65,0,Non-Compliant,2026-03-28
+CTRL-0147,ORG-011,Email Security Gateway,Email Security,Fully Implemented,89,0.86,Defined,40000,100000,20000,11,15,Compliant,2026-08-28
+CTRL-0148,ORG-011,Database Activity Monitoring,Data Protection,Fully Implemented,92,0.92,Managed,45000,120000,22500,23,15,Compliant,2026-07-11
+CTRL-0149,ORG-011,Mobile Device Management (MDM),Endpoint Security,Partially Implemented,41,0.35,Defined,35000,80000,17500,24,12,Non-Compliant,2026-09-03
+CTRL-0150,ORG-011,Network Segmentation,Network Security,Partially Implemented,52,0.4,Developing,60000,400000,30000,65,30,Non-Compliant,2026-09-02
+CTRL-0151,ORG-011,Endpoint Detection & Response (EDR),Endpoint Security,Planned,0,0.0,Initial,80000,200000,40000,42,0,Non-Compliant,2026-08-26
+CTRL-0152,ORG-011,Zero Trust Architecture,Architecture,Planned,0,0.0,Initial,200000,800000,100000,182,0,Non-Compliant,2026-05-07
+CTRL-0153,ORG-011,Privileged Access Management (PAM),Identity & Access,Fully Implemented,88,0.94,Defined,80000,250000,40000,50,28,Compliant,2026-07-06
+CTRL-0154,ORG-011,Patch Management,Vulnerability,Planned,0,0.0,Initial,40000,100000,20000,14,0,Non-Compliant,2026-07-27
+CTRL-0155,ORG-011,Container Security,Cloud Security,Fully Implemented,86,0.69,Managed,55000,150000,27500,39,18,Compliant,2026-08-01
+CTRL-0156,ORG-011,Data Encryption (at rest),Data Protection,Partially Implemented,66,0.55,Defined,30000,100000,15000,24,20,Non-Compliant,2026-07-15
+CTRL-0157,ORG-011,Incident Response Plan,Governance,Not Implemented,0,0.0,Initial,0,80000,15000,25,0,Non-Compliant,2026-03-26
+CTRL-0158,ORG-011,SIEM,Monitoring,Partially Implemented,53,0.48,Defined,150000,500000,75000,52,15,Non-Compliant,2026-03-27
+CTRL-0159,ORG-011,Security Awareness Training,People,Not Implemented,0,0.0,Initial,0,50000,15000,5,0,Non-Compliant,2026-08-25
+CTRL-0160,ORG-011,Intrusion Detection/Prevention (IDS/IPS),Network Security,Not Implemented,0,0.0,Initial,0,200000,35000,24,0,Non-Compliant,2026-04-23
+CTRL-0161,ORG-011,Threat Intelligence Platform,Threat Intel,Planned,0,0.0,Initial,75000,200000,37500,60,0,Non-Compliant,2026-08-29
+CTRL-0162,ORG-011,Multi-Factor Authentication (MFA),Identity & Access,Fully Implemented,87,0.63,Optimized,20000,50000,10000,23,25,Compliant,2026-05-31
+CTRL-0163,ORG-012,Threat Intelligence Platform,Threat Intel,Partially Implemented,77,0.59,Defined,75000,200000,37500,52,15,Non-Compliant,2026-05-22
+CTRL-0164,ORG-012,Vulnerability Management,Risk Management,Partially Implemented,54,0.47,Developing,60000,150000,30000,25,20,Non-Compliant,2026-03-24
+CTRL-0165,ORG-012,Container Security,Cloud Security,Partially Implemented,45,0.42,Developing,55000,150000,27500,44,18,Non-Compliant,2026-03-11
+CTRL-0166,ORG-012,Patch Management,Vulnerability,Fully Implemented,86,0.84,Optimized,40000,100000,20000,25,25,Compliant,2026-06-12
+CTRL-0167,ORG-012,Multi-Factor Authentication (MFA),Identity & Access,Planned,0,0.0,Initial,20000,50000,10000,28,0,Non-Compliant,2026-06-23
+CTRL-0168,ORG-012,SIEM,Monitoring,Planned,0,0.0,Initial,150000,500000,75000,50,0,Non-Compliant,2026-08-07
+CTRL-0169,ORG-012,Data Loss Prevention (DLP),Data Protection,Fully Implemented,82,0.68,Managed,90000,300000,45000,72,22,Compliant,2026-03-21
+CTRL-0170,ORG-012,Incident Response Plan,Governance,Not Implemented,0,0.0,Initial,0,80000,15000,37,0,Non-Compliant,2026-05-22
+CTRL-0171,ORG-012,Network Segmentation,Network Security,Not Implemented,0,0.0,Initial,0,400000,30000,69,0,Non-Compliant,2026-04-09
+CTRL-0172,ORG-012,Privileged Access Management (PAM),Identity & Access,Fully Implemented,86,0.63,Defined,80000,250000,40000,58,28,Compliant,2026-03-08
+CTRL-0173,ORG-012,API Security,Application Security,Fully Implemented,86,0.61,Optimized,45000,120000,22500,29,15,Compliant,2026-08-22
+CTRL-0174,ORG-012,Cloud Security Posture Mgmt (CSPM),Cloud Security,Fully Implemented,100,0.79,Optimized,60000,180000,30000,42,18,Compliant,2026-03-08
+CTRL-0175,ORG-012,Data Encryption (at rest),Data Protection,Planned,0,0.0,Initial,30000,100000,15000,27,0,Non-Compliant,2026-06-03
+CTRL-0176,ORG-012,Backup & Recovery,Resilience,Partially Implemented,58,0.64,Defined,70000,200000,35000,24,35,Non-Compliant,2026-05-30
+CTRL-0177,ORG-012,Next-Gen Firewall,Network Security,Fully Implemented,87,0.83,Optimized,100000,300000,50000,31,22,Compliant,2026-04-08
+CTRL-0178,ORG-012,Identity Governance (IGA),Identity & Access,Planned,0,0.0,Initial,65000,180000,32500,66,0,Non-Compliant,2026-08-12
+CTRL-0179,ORG-013,API Security,Application Security,Fully Implemented,86,0.82,Optimized,112500,300000,56250,30,15,Compliant,2026-05-20
+CTRL-0180,ORG-013,Container Security,Cloud Security,Partially Implemented,60,0.5,Defined,137500,375000,68750,26,18,Non-Compliant,2026-06-24
+CTRL-0181,ORG-013,Security Awareness Training,People,Partially Implemented,71,0.33,Defined,75000,125000,37500,5,12,Non-Compliant,2026-03-13
+CTRL-0182,ORG-013,Email Security Gateway,Email Security,Partially Implemented,66,0.62,Defined,100000,250000,50000,28,15,Non-Compliant,2026-08-02
+CTRL-0183,ORG-013,Multi-Factor Authentication (MFA),Identity & Access,Partially Implemented,51,0.3,Developing,50000,125000,25000,24,25,Non-Compliant,2026-08-22
+CTRL-0184,ORG-013,Data Encryption (in transit),Data Protection,Planned,0,0.0,Initial,62500,200000,31250,27,0,Non-Compliant,2026-06-07
+CTRL-0185,ORG-013,Vulnerability Management,Risk Management,Partially Implemented,67,0.37,Defined,150000,375000,75000,31,20,Non-Compliant,2026-08-05
+CTRL-0186,ORG-013,Zero Trust Architecture,Architecture,Fully Implemented,97,0.86,Defined,500000,2000000,250000,190,35,Compliant,2026-08-18
+CTRL-0187,ORG-014,Zero Trust Architecture,Architecture,Planned,0,0.0,Initial,80000,320000,40000,190,0,Non-Compliant,2026-07-07
+CTRL-0188,ORG-014,Patch Management,Vulnerability,Fully Implemented,85,0.77,Defined,16000,40000,8000,11,25,Compliant,2026-04-06
+CTRL-0189,ORG-014,Endpoint Detection & Response (EDR),Endpoint Security,Fully Implemented,97,0.69,Defined,32000,80000,16000,34,20,Compliant,2026-07-18
+CTRL-0190,ORG-014,Intrusion Detection/Prevention (IDS/IPS),Network Security,Fully Implemented,98,0.88,Optimized,28000,80000,14000,30,20,Compliant,2026-06-17
+CTRL-0191,ORG-014,Container Security,Cloud Security,Fully Implemented,86,0.75,Managed,22000,60000,11000,33,18,Compliant,2026-04-26
+CTRL-0192,ORG-014,Vulnerability Management,Risk Management,Partially Implemented,65,0.38,Defined,24000,60000,12000,45,20,Non-Compliant,2026-07-06
+CTRL-0193,ORG-014,Threat Intelligence Platform,Threat Intel,Not Implemented,0,0.0,Initial,0,80000,15000,46,0,Non-Compliant,2026-05-18
+CTRL-0194,ORG-014,API Security,Application Security,Fully Implemented,86,0.74,Managed,18000,48000,9000,18,15,Compliant,2026-07-01
+CTRL-0195,ORG-014,Database Activity Monitoring,Data Protection,Partially Implemented,33,0.64,Defined,18000,48000,9000,30,15,Non-Compliant,2026-07-31
+CTRL-0196,ORG-014,Email Security Gateway,Email Security,Partially Implemented,47,0.38,Defined,16000,40000,8000,27,15,Non-Compliant,2026-06-06
+CTRL-0197,ORG-014,Network Segmentation,Network Security,Partially Implemented,49,0.48,Developing,24000,160000,12000,56,30,Non-Compliant,2026-08-24
+CTRL-0198,ORG-014,Data Loss Prevention (DLP),Data Protection,Partially Implemented,33,0.55,Developing,36000,120000,18000,59,22,Non-Compliant,2026-06-22
+CTRL-0199,ORG-014,Multi-Factor Authentication (MFA),Identity & Access,Fully Implemented,85,0.64,Optimized,8000,20000,4000,29,25,Compliant,2026-04-29
+CTRL-0200,ORG-014,Security Awareness Training,People,Fully Implemented,100,0.81,Defined,12000,20000,6000,22,12,Compliant,2026-08-27
+CTRL-0201,ORG-014,SIEM,Monitoring,Not Implemented,0,0.0,Initial,0,200000,30000,50,0,Non-Compliant,2026-05-01
+CTRL-0202,ORG-014,Incident Response Plan,Governance,Fully Implemented,80,0.82,Optimized,12000,32000,6000,29,10,Compliant,2026-08-18
+CTRL-0203,ORG-014,Mobile Device Management (MDM),Endpoint Security,Fully Implemented,82,0.74,Defined,14000,32000,7000,15,12,Compliant,2026-03-13
+CTRL-0204,ORG-014,Data Encryption (at rest),Data Protection,Partially Implemented,59,0.41,Developing,12000,40000,6000,34,20,Non-Compliant,2026-08-11
+CTRL-0205,ORG-014,Cloud Security Posture Mgmt (CSPM),Cloud Security,Fully Implemented,82,0.77,Managed,24000,72000,12000,44,18,Compliant,2026-07-13
+CTRL-0206,ORG-014,Next-Gen Firewall,Network Security,Fully Implemented,95,0.76,Managed,40000,120000,20000,40,22,Compliant,2026-08-04
+CTRL-0207,ORG-015,Container Security,Cloud Security,Fully Implemented,98,0.76,Optimized,137500,375000,68750,36,18,Compliant,2026-08-09
+CTRL-0208,ORG-015,Zero Trust Architecture,Architecture,Partially Implemented,34,0.48,Developing,500000,2000000,250000,186,35,Non-Compliant,2026-05-05
+CTRL-0209,ORG-015,Email Security Gateway,Email Security,Partially Implemented,36,0.48,Developing,100000,250000,50000,12,15,Non-Compliant,2026-03-24
+CTRL-0210,ORG-015,Network Segmentation,Network Security,Fully Implemented,96,0.83,Managed,150000,1000000,75000,62,30,Compliant,2026-03-17
+CTRL-0211,ORG-015,Data Encryption (in transit),Data Protection,Planned,0,0.0,Initial,62500,200000,31250,9,0,Non-Compliant,2026-06-05
+CTRL-0212,ORG-015,Database Activity Monitoring,Data Protection,Partially Implemented,58,0.42,Developing,112500,300000,56250,26,15,Non-Compliant,2026-08-27
+CTRL-0213,ORG-015,Patch Management,Vulnerability,Partially Implemented,55,0.54,Developing,100000,250000,50000,28,25,Non-Compliant,2026-05-23
+CTRL-0214,ORG-015,Privileged Access Management (PAM),Identity & Access,Planned,0,0.0,Initial,200000,625000,100000,45,0,Non-Compliant,2026-08-29
+CTRL-0215,ORG-015,API Security,Application Security,Planned,0,0.0,Initial,112500,300000,56250,30,0,Non-Compliant,2026-06-29
+CTRL-0216,ORG-015,Cloud Security Posture Mgmt (CSPM),Cloud Security,Partially Implemented,57,0.31,Developing,150000,450000,75000,31,18,Non-Compliant,2026-05-31
+CTRL-0217,ORG-015,Data Encryption (at rest),Data Protection,Partially Implemented,64,0.38,Developing,75000,250000,37500,21,20,Non-Compliant,2026-03-14
+CTRL-0218,ORG-015,Vulnerability Management,Risk Management,Not Implemented,0,0.0,Initial,0,375000,75000,36,0,Non-Compliant,2026-04-26
+CTRL-0219,ORG-015,Endpoint Detection & Response (EDR),Endpoint Security,Partially Implemented,54,0.48,Defined,200000,500000,100000,43,20,Non-Compliant,2026-03-27
+CTRL-0220,ORG-015,Threat Intelligence Platform,Threat Intel,Fully Implemented,98,0.62,Optimized,187500,500000,93750,53,15,Compliant,2026-05-17
+CTRL-0221,ORG-016,Backup & Recovery,Resilience,Planned,0,0.0,Initial,28000,80000,14000,24,0,Non-Compliant,2026-06-23
+CTRL-0222,ORG-016,Vulnerability Management,Risk Management,Partially Implemented,44,0.59,Developing,24000,60000,12000,37,20,Non-Compliant,2026-04-22
+CTRL-0223,ORG-016,Data Loss Prevention (DLP),Data Protection,Not Implemented,0,0.0,Initial,0,120000,18000,58,0,Non-Compliant,2026-08-31
+CTRL-0224,ORG-016,Container Security,Cloud Security,Planned,0,0.0,Initial,22000,60000,11000,30,0,Non-Compliant,2026-04-02
+CTRL-0225,ORG-016,Cloud Security Posture Mgmt (CSPM),Cloud Security,Partially Implemented,47,0.63,Defined,24000,72000,12000,38,18,Non-Compliant,2026-07-11
+CTRL-0226,ORG-016,API Security,Application Security,Fully Implemented,93,0.79,Defined,18000,48000,9000,16,15,Compliant,2026-04-04
+CTRL-0227,ORG-016,Next-Gen Firewall,Network Security,Fully Implemented,94,0.89,Managed,40000,120000,20000,25,22,Compliant,2026-07-19
+CTRL-0228,ORG-016,Multi-Factor Authentication (MFA),Identity & Access,Planned,0,0.0,Initial,8000,20000,4000,17,0,Non-Compliant,2026-03-28
+CTRL-0229,ORG-016,Email Security Gateway,Email Security,Partially Implemented,65,0.35,Developing,16000,40000,8000,29,15,Non-Compliant,2026-03-16
+CTRL-0230,ORG-016,Threat Intelligence Platform,Threat Intel,Planned,0,0.0,Initial,30000,80000,15000,45,0,Non-Compliant,2026-07-16
+CTRL-0231,ORG-016,Intrusion Detection/Prevention (IDS/IPS),Network Security,Planned,0,0.0,Initial,28000,80000,14000,31,0,Non-Compliant,2026-07-24
+CTRL-0232,ORG-016,Mobile Device Management (MDM),Endpoint Security,Planned,0,0.0,Initial,14000,32000,7000,17,0,Non-Compliant,2026-05-21
+CTRL-0233,ORG-016,Data Encryption (at rest),Data Protection,Partially Implemented,33,0.49,Developing,12000,40000,6000,16,20,Non-Compliant,2026-07-11
+CTRL-0234,ORG-016,Security Awareness Training,People,Fully Implemented,87,0.69,Defined,12000,20000,6000,21,12,Compliant,2026-07-01
+CTRL-0235,ORG-016,Identity Governance (IGA),Identity & Access,Fully Implemented,99,0.76,Defined,26000,72000,13000,68,20,Compliant,2026-08-19
+CTRL-0236,ORG-016,Privileged Access Management (PAM),Identity & Access,Partially Implemented,49,0.52,Developing,32000,100000,16000,44,28,Non-Compliant,2026-04-13
+CTRL-0237,ORG-016,Endpoint Detection & Response (EDR),Endpoint Security,Not Implemented,0,0.0,Initial,0,80000,16000,40,0,Non-Compliant,2026-03-18
+CTRL-0238,ORG-017,Endpoint Detection & Response (EDR),Endpoint Security,Fully Implemented,85,0.77,Defined,200000,500000,100000,41,20,Compliant,2026-07-28
+CTRL-0239,ORG-017,Data Encryption (at rest),Data Protection,Fully Implemented,98,0.89,Managed,75000,250000,37500,21,20,Compliant,2026-06-17
+CTRL-0240,ORG-017,Next-Gen Firewall,Network Security,Fully Implemented,87,0.8,Managed,250000,750000,125000,36,22,Compliant,2026-07-08
+CTRL-0241,ORG-017,Incident Response Plan,Governance,Partially Implemented,59,0.6,Developing,75000,200000,37500,37,10,Non-Compliant,2026-08-05
+CTRL-0242,ORG-017,Container Security,Cloud Security,Not Implemented,0,0.0,Initial,0,375000,68750,25,0,Non-Compliant,2026-04-21
+CTRL-0243,ORG-017,Backup & Recovery,Resilience,Partially Implemented,65,0.33,Defined,175000,500000,87500,17,35,Non-Compliant,2026-04-28
+CTRL-0244,ORG-017,Email Security Gateway,Email Security,Planned,0,0.0,Initial,100000,250000,50000,9,0,Non-Compliant,2026-04-15
+CTRL-0245,ORG-017,Database Activity Monitoring,Data Protection,Fully Implemented,80,0.78,Defined,112500,300000,56250,33,15,Compliant,2026-06-28
+CTRL-0246,ORG-017,Security Awareness Training,People,Partially Implemented,51,0.45,Defined,75000,125000,37500,22,12,Non-Compliant,2026-03-08
+CTRL-0247,ORG-017,Multi-Factor Authentication (MFA),Identity & Access,Partially Implemented,42,0.56,Developing,50000,125000,25000,20,25,Non-Compliant,2026-07-14
+CTRL-0248,ORG-017,Identity Governance (IGA),Identity & Access,Not Implemented,0,0.0,Initial,0,450000,81250,73,0,Non-Compliant,2026-04-09
+CTRL-0249,ORG-017,Mobile Device Management (MDM),Endpoint Security,Partially Implemented,54,0.64,Defined,87500,200000,43750,14,12,Non-Compliant,2026-07-07
+CTRL-0250,ORG-017,SIEM,Monitoring,Fully Implemented,88,0.79,Defined,375000,1250000,187500,57,15,Compliant,2026-08-09
+CTRL-0251,ORG-017,API Security,Application Security,Fully Implemented,94,0.8,Defined,112500,300000,56250,21,15,Compliant,2026-07-14
+CTRL-0252,ORG-017,Web Application Firewall (WAF),Network Security,Fully Implemented,98,0.72,Managed,125000,375000,62500,13,18,Compliant,2026-05-06
+CTRL-0253,ORG-017,Cloud Security Posture Mgmt (CSPM),Cloud Security,Planned,0,0.0,Initial,150000,450000,75000,43,0,Non-Compliant,2026-05-17
+CTRL-0254,ORG-017,Intrusion Detection/Prevention (IDS/IPS),Network Security,Not Implemented,0,0.0,Initial,0,500000,87500,26,0,Non-Compliant,2026-06-28
+CTRL-0255,ORG-017,Privileged Access Management (PAM),Identity & Access,Not Implemented,0,0.0,Initial,0,625000,100000,53,0,Non-Compliant,2026-08-26
+CTRL-0256,ORG-017,Threat Intelligence Platform,Threat Intel,Partially Implemented,30,0.38,Defined,187500,500000,93750,40,15,Non-Compliant,2026-08-23
+CTRL-0257,ORG-017,Vulnerability Management,Risk Management,Fully Implemented,82,0.71,Managed,150000,375000,75000,30,20,Compliant,2026-05-30
+CTRL-0258,ORG-017,Data Encryption (in transit),Data Protection,Not Implemented,0,0.0,Initial,0,200000,31250,19,0,Non-Compliant,2026-08-03
+CTRL-0259,ORG-017,Patch Management,Vulnerability,Fully Implemented,85,0.74,Optimized,100000,250000,50000,27,25,Compliant,2026-06-13
+CTRL-0260,ORG-017,Data Loss Prevention (DLP),Data Protection,Fully Implemented,82,0.85,Defined,225000,750000,112500,58,22,Compliant,2026-05-13
+CTRL-0261,ORG-017,Zero Trust Architecture,Architecture,Partially Implemented,36,0.64,Developing,500000,2000000,250000,186,35,Non-Compliant,2026-08-18
+CTRL-0262,ORG-017,Network Segmentation,Network Security,Planned,0,0.0,Initial,150000,1000000,75000,64,0,Non-Compliant,2026-07-06
+CTRL-0263,ORG-018,Database Activity Monitoring,Data Protection,Planned,0,0.0,Initial,112500,300000,56250,16,0,Non-Compliant,2026-05-23
+CTRL-0264,ORG-018,Multi-Factor Authentication (MFA),Identity & Access,Planned,0,0.0,Initial,50000,125000,25000,15,0,Non-Compliant,2026-05-02
+CTRL-0265,ORG-018,Identity Governance (IGA),Identity & Access,Fully Implemented,91,0.89,Defined,162500,450000,81250,70,20,Compliant,2026-05-10
+CTRL-0266,ORG-018,Endpoint Detection & Response (EDR),Endpoint Security,Partially Implemented,34,0.61,Developing,200000,500000,100000,33,20,Non-Compliant,2026-05-19
+CTRL-0267,ORG-018,Intrusion Detection/Prevention (IDS/IPS),Network Security,Partially Implemented,73,0.38,Developing,175000,500000,87500,30,20,Non-Compliant,2026-06-06
+CTRL-0268,ORG-018,Data Encryption (at rest),Data Protection,Fully Implemented,88,0.82,Optimized,75000,250000,37500,28,20,Compliant,2026-08-04
+CTRL-0269,ORG-018,Incident Response Plan,Governance,Not Implemented,0,0.0,Initial,0,200000,37500,44,0,Non-Compliant,2026-07-04
+CTRL-0270,ORG-018,Cloud Security Posture Mgmt (CSPM),Cloud Security,Fully Implemented,92,0.93,Defined,150000,450000,75000,38,18,Compliant,2026-08-27
+CTRL-0271,ORG-018,Vulnerability Management,Risk Management,Fully Implemented,100,0.62,Optimized,150000,375000,75000,30,20,Compliant,2026-06-06
+CTRL-0272,ORG-019,Incident Response Plan,Governance,Partially Implemented,71,0.64,Developing,75000,200000,37500,28,10,Non-Compliant,2026-05-09
+CTRL-0273,ORG-019,Web Application Firewall (WAF),Network Security,Fully Implemented,87,0.85,Managed,125000,375000,62500,15,18,Compliant,2026-08-18
+CTRL-0274,ORG-019,Endpoint Detection & Response (EDR),Endpoint Security,Planned,0,0.0,Initial,200000,500000,100000,32,0,Non-Compliant,2026-03-27
+CTRL-0275,ORG-019,Data Loss Prevention (DLP),Data Protection,Fully Implemented,97,0.73,Optimized,225000,750000,112500,58,22,Compliant,2026-05-04
+CTRL-0276,ORG-019,SIEM,Monitoring,Fully Implemented,90,0.69,Optimized,375000,1250000,187500,50,15,Compliant,2026-07-26
+CTRL-0277,ORG-019,Mobile Device Management (MDM),Endpoint Security,Partially Implemented,31,0.43,Defined,87500,200000,43750,11,12,Non-Compliant,2026-05-29
+CTRL-0278,ORG-019,Multi-Factor Authentication (MFA),Identity & Access,Partially Implemented,50,0.52,Developing,50000,125000,25000,19,25,Non-Compliant,2026-04-25
+CTRL-0279,ORG-019,Zero Trust Architecture,Architecture,Planned,0,0.0,Initial,500000,2000000,250000,189,0,Non-Compliant,2026-06-21
+CTRL-0280,ORG-019,Container Security,Cloud Security,Fully Implemented,85,0.86,Defined,137500,375000,68750,37,18,Compliant,2026-06-27
+CTRL-0281,ORG-019,Cloud Security Posture Mgmt (CSPM),Cloud Security,Planned,0,0.0,Initial,150000,450000,75000,44,0,Non-Compliant,2026-05-08
+CTRL-0282,ORG-019,Privileged Access Management (PAM),Identity & Access,Not Implemented,0,0.0,Initial,0,625000,100000,49,0,Non-Compliant,2026-06-06
+CTRL-0283,ORG-019,Email Security Gateway,Email Security,Partially Implemented,79,0.32,Developing,100000,250000,50000,13,15,Non-Compliant,2026-04-10
+CTRL-0284,ORG-019,Vulnerability Management,Risk Management,Not Implemented,0,0.0,Initial,0,375000,75000,40,0,Non-Compliant,2026-05-16
+CTRL-0285,ORG-019,Intrusion Detection/Prevention (IDS/IPS),Network Security,Partially Implemented,43,0.43,Developing,175000,500000,87500,24,20,Non-Compliant,2026-05-11
+CTRL-0286,ORG-019,Patch Management,Vulnerability,Partially Implemented,73,0.41,Developing,100000,250000,50000,12,25,Non-Compliant,2026-08-21
+CTRL-0287,ORG-019,Data Encryption (in transit),Data Protection,Fully Implemented,90,0.74,Optimized,62500,200000,31250,14,18,Compliant,2026-05-09
+CTRL-0288,ORG-019,API Security,Application Security,Fully Implemented,85,0.66,Optimized,112500,300000,56250,17,15,Compliant,2026-03-13
+CTRL-0289,ORG-019,Next-Gen Firewall,Network Security,Fully Implemented,100,0.77,Defined,250000,750000,125000,25,22,Compliant,2026-07-27
+CTRL-0290,ORG-019,Network Segmentation,Network Security,Planned,0,0.0,Initial,150000,1000000,75000,61,0,Non-Compliant,2026-03-11
+CTRL-0291,ORG-019,Threat Intelligence Platform,Threat Intel,Partially Implemented,63,0.63,Defined,187500,500000,93750,51,15,Non-Compliant,2026-04-19
+CTRL-0292,ORG-019,Identity Governance (IGA),Identity & Access,Fully Implemented,83,0.91,Optimized,162500,450000,81250,56,20,Compliant,2026-03-09
+CTRL-0293,ORG-019,Database Activity Monitoring,Data Protection,Fully Implemented,87,0.8,Managed,112500,300000,56250,35,15,Compliant,2026-07-29
+CTRL-0294,ORG-020,Intrusion Detection/Prevention (IDS/IPS),Network Security,Partially Implemented,34,0.63,Developing,28000,80000,14000,35,20,Non-Compliant,2026-07-08
+CTRL-0295,ORG-020,Vulnerability Management,Risk Management,Not Implemented,0,0.0,Initial,0,60000,12000,30,0,Non-Compliant,2026-04-28
+CTRL-0296,ORG-020,Identity Governance (IGA),Identity & Access,Fully Implemented,82,0.65,Optimized,26000,72000,13000,75,20,Compliant,2026-06-23
+CTRL-0297,ORG-020,Data Encryption (at rest),Data Protection,Fully Implemented,81,0.91,Defined,12000,40000,6000,24,20,Compliant,2026-03-31
+CTRL-0298,ORG-020,Threat Intelligence Platform,Threat Intel,Not Implemented,0,0.0,Initial,0,80000,15000,49,0,Non-Compliant,2026-08-04
+CTRL-0299,ORG-020,Multi-Factor Authentication (MFA),Identity & Access,Partially Implemented,36,0.39,Defined,8000,20000,4000,15,25,Non-Compliant,2026-06-26
+CTRL-0300,ORG-020,Container Security,Cloud Security,Fully Implemented,91,0.66,Managed,22000,60000,11000,27,18,Compliant,2026-07-21
+CTRL-0301,ORG-020,Next-Gen Firewall,Network Security,Planned,0,0.0,Initial,40000,120000,20000,30,0,Non-Compliant,2026-03-14
+CTRL-0302,ORG-021,Database Activity Monitoring,Data Protection,Fully Implemented,81,0.92,Defined,45000,120000,22500,31,15,Compliant,2026-06-27
+CTRL-0303,ORG-021,Data Encryption (in transit),Data Protection,Fully Implemented,87,0.89,Optimized,25000,80000,12500,17,18,Compliant,2026-06-30
+CTRL-0304,ORG-021,Intrusion Detection/Prevention (IDS/IPS),Network Security,Partially Implemented,42,0.48,Developing,70000,200000,35000,24,20,Non-Compliant,2026-07-06
+CTRL-0305,ORG-021,Patch Management,Vulnerability,Planned,0,0.0,Initial,40000,100000,20000,10,0,Non-Compliant,2026-08-23
+CTRL-0306,ORG-021,API Security,Application Security,Not Implemented,0,0.0,Initial,0,120000,22500,31,0,Non-Compliant,2026-05-05
+CTRL-0307,ORG-021,Next-Gen Firewall,Network Security,Not Implemented,0,0.0,Initial,0,300000,50000,31,0,Non-Compliant,2026-07-24
+CTRL-0308,ORG-021,Data Loss Prevention (DLP),Data Protection,Partially Implemented,30,0.61,Developing,90000,300000,45000,60,22,Non-Compliant,2026-04-19
+CTRL-0309,ORG-021,Identity Governance (IGA),Identity & Access,Planned,0,0.0,Initial,65000,180000,32500,60,0,Non-Compliant,2026-04-02
+CTRL-0310,ORG-021,Data Encryption (at rest),Data Protection,Fully Implemented,100,0.89,Managed,30000,100000,15000,25,20,Compliant,2026-05-09
+CTRL-0311,ORG-021,Zero Trust Architecture,Architecture,Not Implemented,0,0.0,Initial,0,800000,100000,192,0,Non-Compliant,2026-08-15
+CTRL-0312,ORG-021,Backup & Recovery,Resilience,Not Implemented,0,0.0,Initial,0,200000,35000,17,0,Non-Compliant,2026-08-18
+CTRL-0313,ORG-021,Endpoint Detection & Response (EDR),Endpoint Security,Partially Implemented,33,0.42,Defined,80000,200000,40000,36,20,Non-Compliant,2026-07-30
+CTRL-0314,ORG-021,SIEM,Monitoring,Partially Implemented,50,0.55,Developing,150000,500000,75000,56,15,Non-Compliant,2026-07-31
+CTRL-0315,ORG-021,Incident Response Plan,Governance,Partially Implemented,70,0.61,Developing,30000,80000,15000,37,10,Non-Compliant,2026-08-12
+CTRL-0316,ORG-021,Email Security Gateway,Email Security,Fully Implemented,83,0.66,Optimized,40000,100000,20000,20,15,Compliant,2026-04-03
+CTRL-0317,ORG-021,Security Awareness Training,People,Planned,0,0.0,Initial,30000,50000,15000,15,0,Non-Compliant,2026-05-22
+CTRL-0318,ORG-021,Container Security,Cloud Security,Fully Implemented,80,0.72,Optimized,55000,150000,27500,38,18,Compliant,2026-07-28
+CTRL-0319,ORG-021,Network Segmentation,Network Security,Partially Implemented,51,0.6,Defined,60000,400000,30000,72,30,Non-Compliant,2026-03-16
+CTRL-0320,ORG-021,Cloud Security Posture Mgmt (CSPM),Cloud Security,Fully Implemented,96,0.87,Defined,60000,180000,30000,43,18,Compliant,2026-07-20
+CTRL-0321,ORG-021,Mobile Device Management (MDM),Endpoint Security,Fully Implemented,82,0.81,Optimized,35000,80000,17500,16,12,Compliant,2026-03-16
+CTRL-0322,ORG-021,Multi-Factor Authentication (MFA),Identity & Access,Planned,0,0.0,Initial,20000,50000,10000,20,0,Non-Compliant,2026-05-18
+CTRL-0323,ORG-021,Web Application Firewall (WAF),Network Security,Partially Implemented,31,0.42,Developing,50000,150000,25000,9,18,Non-Compliant,2026-05-11
+CTRL-0324,ORG-021,Threat Intelligence Platform,Threat Intel,Fully Implemented,93,0.79,Managed,75000,200000,37500,42,15,Compliant,2026-07-09
+CTRL-0325,ORG-021,Privileged Access Management (PAM),Identity & Access,Planned,0,0.0,Initial,80000,250000,40000,44,0,Non-Compliant,2026-03-17
+CTRL-0326,ORG-021,Vulnerability Management,Risk Management,Fully Implemented,85,0.76,Optimized,60000,150000,30000,28,20,Compliant,2026-04-12
+CTRL-0327,ORG-022,Zero Trust Architecture,Architecture,Partially Implemented,50,0.65,Developing,500000,2000000,250000,188,35,Non-Compliant,2026-06-25
+CTRL-0328,ORG-022,Patch Management,Vulnerability,Fully Implemented,89,0.94,Optimized,100000,250000,50000,27,25,Compliant,2026-07-03
+CTRL-0329,ORG-022,SIEM,Monitoring,Not Implemented,0,0.0,Initial,0,1250000,187500,42,0,Non-Compliant,2026-06-30
+CTRL-0330,ORG-022,Endpoint Detection & Response (EDR),Endpoint Security,Fully Implemented,92,0.93,Optimized,200000,500000,100000,29,20,Compliant,2026-08-13
+CTRL-0331,ORG-022,API Security,Application Security,Fully Implemented,87,0.94,Optimized,112500,300000,56250,18,15,Compliant,2026-04-07
+CTRL-0332,ORG-022,Database Activity Monitoring,Data Protection,Partially Implemented,41,0.57,Developing,112500,300000,56250,25,15,Non-Compliant,2026-07-27
+CTRL-0333,ORG-022,Multi-Factor Authentication (MFA),Identity & Access,Fully Implemented,88,0.94,Defined,50000,125000,25000,23,25,Compliant,2026-05-29
+CTRL-0334,ORG-022,Privileged Access Management (PAM),Identity & Access,Fully Implemented,99,0.65,Defined,200000,625000,100000,41,28,Compliant,2026-04-20
+CTRL-0335,ORG-022,Data Encryption (at rest),Data Protection,Planned,0,0.0,Initial,75000,250000,37500,29,0,Non-Compliant,2026-04-28
+CTRL-0336,ORG-022,Identity Governance (IGA),Identity & Access,Fully Implemented,95,0.84,Optimized,162500,450000,81250,58,20,Compliant,2026-06-20
+CTRL-0337,ORG-022,Backup & Recovery,Resilience,Fully Implemented,83,0.66,Defined,175000,500000,87500,28,35,Compliant,2026-06-10
+CTRL-0338,ORG-022,Data Loss Prevention (DLP),Data Protection,Not Implemented,0,0.0,Initial,0,750000,112500,74,0,Non-Compliant,2026-08-01
+CTRL-0339,ORG-022,Web Application Firewall (WAF),Network Security,Not Implemented,0,0.0,Initial,0,375000,62500,13,0,Non-Compliant,2026-04-16
+CTRL-0340,ORG-022,Email Security Gateway,Email Security,Partially Implemented,69,0.48,Developing,100000,250000,50000,16,15,Non-Compliant,2026-07-28
+CTRL-0341,ORG-022,Container Security,Cloud Security,Fully Implemented,98,0.81,Managed,137500,375000,68750,30,18,Compliant,2026-03-14
+CTRL-0342,ORG-022,Threat Intelligence Platform,Threat Intel,Not Implemented,0,0.0,Initial,0,500000,93750,48,0,Non-Compliant,2026-07-31
+CTRL-0343,ORG-022,Security Awareness Training,People,Not Implemented,0,0.0,Initial,0,125000,37500,3,0,Non-Compliant,2026-03-26
+CTRL-0344,ORG-023,Patch Management,Vulnerability,Fully Implemented,100,0.61,Managed,100000,250000,50000,15,25,Compliant,2026-03-08
+CTRL-0345,ORG-023,Mobile Device Management (MDM),Endpoint Security,Not Implemented,0,0.0,Initial,0,200000,43750,26,0,Non-Compliant,2026-04-19
+CTRL-0346,ORG-023,Zero Trust Architecture,Architecture,Partially Implemented,36,0.34,Defined,500000,2000000,250000,177,35,Non-Compliant,2026-07-14
+CTRL-0347,ORG-023,API Security,Application Security,Fully Implemented,86,0.9,Optimized,112500,300000,56250,34,15,Compliant,2026-05-03
+CTRL-0348,ORG-023,Backup & Recovery,Resilience,Partially Implemented,47,0.57,Defined,175000,500000,87500,27,35,Non-Compliant,2026-03-15
+CTRL-0349,ORG-023,Privileged Access Management (PAM),Identity & Access,Fully Implemented,83,0.91,Optimized,200000,625000,100000,53,28,Compliant,2026-08-09
+CTRL-0350,ORG-023,Cloud Security Posture Mgmt (CSPM),Cloud Security,Not Implemented,0,0.0,Initial,0,450000,75000,40,0,Non-Compliant,2026-08-18
+CTRL-0351,ORG-023,Data Encryption (at rest),Data Protection,Fully Implemented,99,0.89,Managed,75000,250000,37500,16,20,Compliant,2026-03-21
+CTRL-0352,ORG-024,Data Encryption (at rest),Data Protection,Planned,0,0.0,Initial,75000,250000,37500,26,0,Non-Compliant,2026-08-09
+CTRL-0353,ORG-024,Data Loss Prevention (DLP),Data Protection,Fully Implemented,85,0.69,Optimized,225000,750000,112500,64,22,Compliant,2026-04-08
+CTRL-0354,ORG-024,Backup & Recovery,Resilience,Not Implemented,0,0.0,Initial,0,500000,87500,26,0,Non-Compliant,2026-04-29
+CTRL-0355,ORG-024,Security Awareness Training,People,Not Implemented,0,0.0,Initial,0,125000,37500,22,0,Non-Compliant,2026-05-17
+CTRL-0356,ORG-024,Container Security,Cloud Security,Fully Implemented,89,0.81,Defined,137500,375000,68750,36,18,Compliant,2026-03-14
+CTRL-0357,ORG-024,Patch Management,Vulnerability,Partially Implemented,60,0.37,Developing,100000,250000,50000,25,25,Non-Compliant,2026-08-03
+CTRL-0358,ORG-024,SIEM,Monitoring,Partially Implemented,75,0.48,Defined,375000,1250000,187500,53,15,Non-Compliant,2026-06-01
+CTRL-0359,ORG-024,Incident Response Plan,Governance,Partially Implemented,36,0.33,Developing,75000,200000,37500,37,10,Non-Compliant,2026-06-08
+CTRL-0360,ORG-024,Data Encryption (in transit),Data Protection,Planned,0,0.0,Initial,62500,200000,31250,17,0,Non-Compliant,2026-05-20
+CTRL-0361,ORG-024,Privileged Access Management (PAM),Identity & Access,Fully Implemented,96,0.84,Defined,200000,625000,100000,50,28,Compliant,2026-06-04
+CTRL-0362,ORG-024,Zero Trust Architecture,Architecture,Fully Implemented,97,0.68,Defined,500000,2000000,250000,180,35,Compliant,2026-08-31
+CTRL-0363,ORG-024,Threat Intelligence Platform,Threat Intel,Not Implemented,0,0.0,Initial,0,500000,93750,43,0,Non-Compliant,2026-09-02
+CTRL-0364,ORG-024,Vulnerability Management,Risk Management,Fully Implemented,89,0.72,Managed,150000,375000,75000,44,20,Compliant,2026-04-08
+CTRL-0365,ORG-024,Identity Governance (IGA),Identity & Access,Fully Implemented,96,0.92,Managed,162500,450000,81250,65,20,Compliant,2026-04-02
+CTRL-0366,ORG-024,API Security,Application Security,Fully Implemented,87,0.69,Managed,112500,300000,56250,18,15,Compliant,2026-06-13
+CTRL-0367,ORG-024,Next-Gen Firewall,Network Security,Partially Implemented,30,0.39,Defined,250000,750000,125000,30,22,Non-Compliant,2026-06-28
+CTRL-0368,ORG-024,Cloud Security Posture Mgmt (CSPM),Cloud Security,Fully Implemented,90,0.91,Defined,150000,450000,75000,40,18,Compliant,2026-03-25
+CTRL-0369,ORG-024,Web Application Firewall (WAF),Network Security,Partially Implemented,30,0.43,Developing,125000,375000,62500,20,18,Non-Compliant,2026-08-05
+CTRL-0370,ORG-024,Intrusion Detection/Prevention (IDS/IPS),Network Security,Fully Implemented,85,0.68,Optimized,175000,500000,87500,18,20,Compliant,2026-08-29
+CTRL-0371,ORG-024,Multi-Factor Authentication (MFA),Identity & Access,Fully Implemented,81,0.93,Managed,50000,125000,25000,23,25,Compliant,2026-03-09
+CTRL-0372,ORG-024,Mobile Device Management (MDM),Endpoint Security,Fully Implemented,89,0.75,Managed,87500,200000,43750,11,12,Compliant,2026-03-24
+CTRL-0373,ORG-024,Endpoint Detection & Response (EDR),Endpoint Security,Fully Implemented,86,0.72,Optimized,200000,500000,100000,41,20,Compliant,2026-06-13
+CTRL-0374,ORG-024,Database Activity Monitoring,Data Protection,Fully Implemented,98,0.9,Managed,112500,300000,56250,25,15,Compliant,2026-05-17
+CTRL-0375,ORG-024,Network Segmentation,Network Security,Not Implemented,0,0.0,Initial,0,1000000,75000,72,0,Non-Compliant,2026-04-15
+CTRL-0376,ORG-025,SIEM,Monitoring,Planned,0,0.0,Initial,60000,200000,30000,40,0,Non-Compliant,2026-06-28
+CTRL-0377,ORG-025,Zero Trust Architecture,Architecture,Partially Implemented,79,0.59,Defined,80000,320000,40000,177,35,Non-Compliant,2026-06-26
+CTRL-0378,ORG-025,Web Application Firewall (WAF),Network Security,Partially Implemented,61,0.35,Developing,20000,60000,10000,28,18,Non-Compliant,2026-07-15
+CTRL-0379,ORG-025,Email Security Gateway,Email Security,Fully Implemented,82,0.93,Managed,16000,40000,8000,29,15,Compliant,2026-05-29
+CTRL-0380,ORG-025,Intrusion Detection/Prevention (IDS/IPS),Network Security,Not Implemented,0,0.0,Initial,0,80000,14000,34,0,Non-Compliant,2026-08-23
+CTRL-0381,ORG-025,Multi-Factor Authentication (MFA),Identity & Access,Partially Implemented,45,0.62,Defined,8000,20000,4000,26,25,Non-Compliant,2026-07-31
+CTRL-0382,ORG-025,API Security,Application Security,Partially Implemented,57,0.42,Developing,18000,48000,9000,24,15,Non-Compliant,2026-07-19
+CTRL-0383,ORG-025,Container Security,Cloud Security,Fully Implemented,100,0.86,Managed,22000,60000,11000,44,18,Compliant,2026-08-07
+CTRL-0384,ORG-025,Data Loss Prevention (DLP),Data Protection,Fully Implemented,97,0.71,Defined,36000,120000,18000,57,22,Compliant,2026-08-20
+CTRL-0385,ORG-025,Incident Response Plan,Governance,Fully Implemented,94,0.94,Optimized,12000,32000,6000,26,10,Compliant,2026-06-23
+CTRL-0386,ORG-025,Security Awareness Training,People,Fully Implemented,82,0.68,Optimized,12000,20000,6000,14,12,Compliant,2026-04-16
+CTRL-0387,ORG-025,Network Segmentation,Network Security,Fully Implemented,99,0.83,Managed,24000,160000,12000,69,30,Compliant,2026-05-15
+CTRL-0388,ORG-025,Endpoint Detection & Response (EDR),Endpoint Security,Fully Implemented,81,0.84,Defined,32000,80000,16000,35,20,Compliant,2026-09-01
+CTRL-0389,ORG-025,Identity Governance (IGA),Identity & Access,Fully Implemented,93,0.67,Defined,26000,72000,13000,66,20,Compliant,2026-04-16
+CTRL-0390,ORG-025,Mobile Device Management (MDM),Endpoint Security,Planned,0,0.0,Initial,14000,32000,7000,21,0,Non-Compliant,2026-05-01
+CTRL-0391,ORG-025,Data Encryption (in transit),Data Protection,Fully Implemented,89,0.89,Defined,10000,32000,5000,28,18,Compliant,2026-05-06
+CTRL-0392,ORG-025,Vulnerability Management,Risk Management,Partially Implemented,44,0.31,Defined,24000,60000,12000,35,20,Non-Compliant,2026-04-15

@@ -1,0 +1,21 @@
+// ============================================================
+// Add these lines inside the `dependencies { ... }` block of
+// backend/build.gradle. These replace the Maven pom.xml
+// instructions from the original README (this project uses
+// Gradle, not Maven, so pom-dependencies-to-add.xml doesn't apply).
+// ============================================================
+
+dependencies {
+    // --- Spring Security core ---
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+
+    // --- JWT (JJWT) ---
+    implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
+    runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.11.5'
+    runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.11.5'
+
+    // --- Rate limiting (Bucket4j) ---
+    implementation 'com.bucket4j:bucket4j_jdk17-core:8.10.1'
+
+    // (Lombok / package already correct per review — no changes needed there)
+}
